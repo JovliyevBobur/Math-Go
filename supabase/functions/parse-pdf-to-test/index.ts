@@ -462,97 +462,133 @@ async function processImportJob(params: {
       }
 
       // Filter questions by topic_order range
-      const topicStart = Number(job.topic_start || 0)
-      const topicEnd = Number(job.topic_end || 999)
+      const numGroups = Number(job.num_groups || 3)
       const maxQuestions = Number(job.max_questions || 9999)
 
-      let filteredQuestions = parsedQuestions.filter((q) => {
-        const order = q.topic_order ?? 0
-        return order >= topicStart && order <= topicEnd
-      })
+      // Auto-group questions by topics
+      const uniqueTopics = Array.from(new Set(parsedQuestions.map(q => q.topic_order ?? 0).filter(t => t > 0)))
+        .sort((a, b) => a - b)
 
-      // Limit to max_questions
-      if (filteredQuestions.length > maxQuestions) {
-        filteredQuestions = filteredQuestions.slice(0, maxQuestions)
+      if (uniqueTopics.length === 0) {
+        throw new HttpError(422, "Savollardan mavzular aniqlanmadi. AI'dan mavzu raqamini chiqarish kerak.", "no-topics", { parsedCount: parsedQuestions.length })
       }
 
-      if (filteredQuestions.length === 0) {
-        throw new HttpError(422, 
-          `Mahsulot: ${topicStart}-${topicEnd} oraligida savol topilmadi. Iltimos, topic_start va topic_end qaytadan tekshiring.`,
-          "topic-filter-empty",
-          { parsedCount: parsedQuestions.length, topicStart, topicEnd }
-        )
+      // Divide topics into groups
+      const topicsPerGroup = Math.ceil(uniqueTopics.length / numGroups)
+      const topicGroups: number[][] = []
+
+      for (let i = 0; i < numGroups; i++) {
+        const start = i * topicsPerGroup
+        const end = Math.min(start + topicsPerGroup, uniqueTopics.length)
+        topicGroups.push(uniqueTopics.slice(start, end))
       }
 
-      // Group remaining questions by topic so related (sequential) topics stay together.
-      const topicOrder: string[] = []
-      for (const q of filteredQuestions) {
-        const t = (q.topic || "Boshqa").trim() || "Boshqa"
-        if (!topicOrder.includes(t)) topicOrder.push(t)
-      }
-      filteredQuestions.sort((a, b) => {
-        const ta = topicOrder.indexOf((a.topic || "Boshqa").trim() || "Boshqa")
-        const tb = topicOrder.indexOf((b.topic || "Boshqa").trim() || "Boshqa")
-        return ta - tb
-      })
+      log("grouping", `Topics: ${uniqueTopics.length}, Groups: ${numGroups}, Distribution:`, topicGroups)
 
-      await updateJob(adminClient, jobId, { stage: "db-test", progress: 68, questions_count: filteredQuestions.length, debug: { topicStart, topicEnd, maxQuestions, originalCount: parsedQuestions.length } })
-      const { data: testData, error: testError } = await adminClient
-        .from("tests")
-        .insert({
-          title: String(job.title).trim(),
-          description: `PDF dan import - ${filteredQuestions.length} ta savol (Mavzu: ${topicStart}-${topicEnd})`,
-          subject: job.subject,
-          duration_minutes: job.duration_minutes,
-          created_by: job.user_id,
+      const createdTestIds: string[] = []
+
+      // Process each group as separate test
+      for (let groupIdx = 0; groupIdx < topicGroups.length; groupIdx++) {
+        const topicRange = topicGroups[groupIdx]
+        if (topicRange.length === 0) continue
+
+        // Filter questions for this group
+        let groupQuestions = parsedQuestions
+          .filter((q) => {
+            const order = q.topic_order ?? 0
+            return topicRange.includes(order)
+          })
+          .slice(0, maxQuestions)
+
+        if (groupQuestions.length === 0) continue
+
+        // Group remaining questions by topic so related (sequential) topics stay together.
+        const topicOrder: string[] = []
+        for (const q of groupQuestions) {
+          const t = (q.topic || "Boshqa").trim() || "Boshqa"
+          if (!topicOrder.includes(t)) topicOrder.push(t)
+        }
+        groupQuestions.sort((a, b) => {
+          const ta = topicOrder.indexOf((a.topic || "Boshqa").trim() || "Boshqa")
+          const tb = topicOrder.indexOf((b.topic || "Boshqa").trim() || "Boshqa")
+          return ta - tb
+        })
+
+        await updateJob(adminClient, jobId, { 
+          stage: `db-test-${groupIdx + 1}`, 
+          progress: Math.min(68, 50 + (groupIdx * 5)), 
+          questions_count: groupQuestions.length 
+        })
+
+        const testTitle = topicRange.length === 1
+          ? `${job.title} - Mavzu ${topicRange[0]}`
+          : `${job.title} - Mavzular ${topicRange[0]}-${topicRange[topicRange.length - 1]}`
+
+        const { data: testData, error: testError } = await adminClient
+          .from("tests")
+          .insert({
+            title: testTitle,
+            description: `PDF dan import - ${groupQuestions.length} ta savol (Mavzular: ${topicRange.join(", ")})`,
+            subject: job.subject,
+            duration_minutes: job.duration_minutes,
+            created_by: job.user_id,
           is_published: false,
           access_code: job.access_code?.trim() || null,
         })
         .select("id")
         .single()
 
-      if (testError || !testData) throw new HttpError(500, `Test yaratishda DB xatolik: ${testError?.message ?? "noma'lum"}`, "db-test", testError)
+        if (testError || !testData) throw new HttpError(500, `Test yaratishda DB xatolik: ${testError?.message ?? "noma'lum"}`, "db-test", testError)
 
-      const insertedQuestions: Array<{ id: string; order_index: number }> = []
-      for (let i = 0; i < filteredQuestions.length; i += 500) {
-        const chunk = filteredQuestions.slice(i, i + 500).map((q, offset) => ({
-          test_id: testData.id,
-          question_text: q.question_text,
-          topic: q.topic || null,
-          topic_order: q.topic_order || null,
-          solution_text: q.solution_text || q.explanation || null,
-          intermediate_steps: q.intermediate_steps || [],
-          order_index: i + offset,
-        }))
-        const { data, error } = await adminClient.from("questions").insert(chunk).select("id, order_index")
-        if (error || !data?.length) throw new HttpError(500, `Savollarni saqlashda xatolik: ${error?.message ?? "noma'lum"}`, "db-questions", error)
-        insertedQuestions.push(...data)
-        await updateJob(adminClient, jobId, { stage: "db-questions", progress: Math.min(82, 70 + Math.round((insertedQuestions.length / filteredQuestions.length) * 12)) })
+        createdTestIds.push(testData.id)
+
+        const insertedQuestions: Array<{ id: string; order_index: number }> = []
+        for (let i = 0; i < groupQuestions.length; i += 500) {
+          const chunk = groupQuestions.slice(i, i + 500).map((q, offset) => ({
+            test_id: testData.id,
+            question_text: q.question_text,
+            topic: q.topic || null,
+            topic_order: q.topic_order || null,
+            solution_text: q.solution_text || q.explanation || null,
+            intermediate_steps: q.intermediate_steps || [],
+            order_index: i + offset,
+          }))
+          const { data, error } = await adminClient.from("questions").insert(chunk).select("id, order_index")
+          if (error || !data?.length) throw new HttpError(500, `Savollarni saqlashda xatolik: ${error?.message ?? "noma'lum"}`, "db-questions", error)
+          insertedQuestions.push(...data)
+          await updateJob(adminClient, jobId, { stage: `db-questions-${groupIdx + 1}`, progress: Math.min(82, 60 + (groupIdx * 5) + Math.round((insertedQuestions.length / groupQuestions.length) * 8)) })
+        }
+
+        const questionIdByOrder = new Map<number, string>(insertedQuestions.map((q) => [q.order_index, q.id]))
+        const choicesPayload = groupQuestions.flatMap((q, qi) => {
+          const questionId = questionIdByOrder.get(qi)
+          if (!questionId) return []
+          return q.choices.map((c, ci) => ({ question_id: questionId, choice_text: c.choice_text, is_correct: c.is_correct, order_index: ci }))
+        })
+
+        for (let i = 0; i < choicesPayload.length; i += 500) {
+          const { error } = await adminClient.from("choices").insert(choicesPayload.slice(i, i + 500))
+          if (error) throw new HttpError(500, `Javob variantlarini saqlashda xatolik: ${error.message}`, "db-choices", error)
+          await updateJob(adminClient, jobId, { stage: `db-choices-${groupIdx + 1}`, progress: Math.min(96, 84 + (groupIdx * 5) + Math.round(((i + 500) / Math.max(choicesPayload.length, 1)) * 8)) })
+        }
+
+        log("group-done", `Group ${groupIdx + 1}/${numGroups} test=${testData.id} questions=${insertedQuestions.length} topics=${topicRange.join(",")}`)
       }
 
-      const questionIdByOrder = new Map<number, string>(insertedQuestions.map((q) => [q.order_index, q.id]))
-      const choicesPayload = filteredQuestions.flatMap((q, qi) => {
-        const questionId = questionIdByOrder.get(qi)
-        if (!questionId) return []
-        return q.choices.map((c, ci) => ({ question_id: questionId, choice_text: c.choice_text, is_correct: c.is_correct, order_index: ci }))
-      })
-
-      for (let i = 0; i < choicesPayload.length; i += 500) {
-        const { error } = await adminClient.from("choices").insert(choicesPayload.slice(i, i + 500))
-        if (error) throw new HttpError(500, `Javob variantlarini saqlashda xatolik: ${error.message}`, "db-choices", error)
-        await updateJob(adminClient, jobId, { stage: "db-choices", progress: Math.min(96, 84 + Math.round(((i + 500) / Math.max(choicesPayload.length, 1)) * 12)) })
+      if (createdTestIds.length === 0) {
+        throw new HttpError(422, "Savollar mavzular bo'yicha guruhlanmadi", "no-groups", { uniqueTopics, numGroups })
       }
 
       await updateJob(adminClient, jobId, {
         status: "done",
         stage: "done",
         progress: 100,
-        result_test_id: testData.id,
-        questions_count: insertedQuestions.length,
+        result_test_id: createdTestIds[0], // Return first group's test ID
+        questions_count: parsedQuestions.length,
         completed_at: new Date().toISOString(),
-        debug: { attempts: attempt, pageCount, elapsedMs: Date.now() - startedAt, topicStart, topicEnd, maxQuestions, filteredCount: filteredQuestions.length },
+        debug: { attempts: attempt, pageCount, elapsedMs: Date.now() - startedAt, numGroups, topicGroups: topicGroups.map((tg) => ({ topics: tg.join(",") })), uniqueTopics: uniqueTopics.length, createdTests: createdTestIds.length },
       })
-      log("done", `job=${jobId} test=${testData.id} questions=${insertedQuestions.length} (filtered: ${topicStart}-${topicEnd})`)
+      log("done", `job=${jobId} groups=${createdTestIds.length} totalQuestions=${parsedQuestions.length} topics=${uniqueTopics.length}`)
       return
     } catch (error) {
       lastError = error
@@ -614,16 +650,13 @@ Deno.serve(async (req) => {
     const access_code = formData.get("access_code") as string | null
     const answer_keys = formData.get("answer_keys") as string | null
     const answer_key_image = formData.get("answer_key_image") as File | null
-    const topic_start = parseInt((formData.get("topic_start") as string) || "0")
-    const topic_end = parseInt((formData.get("topic_end") as string) || "999")
-    const max_questions = parseInt((formData.get("max_questions") as string) || "9999")
+    const num_groups = parseInt((formData.get("num_groups") as string) || "3")
+    const max_questions = parseInt((formData.get("max_questions") as string) || "15")
 
     if (!file || !subject || !title) return jsonResponse({ error: "Fayl, fan va sarlavha majburiy", stage: "validate-input" }, 400)
     if (title.length < 3 || title.length > 200) return jsonResponse({ error: "Test nomi 3-200 belgi orasida bo'lishi kerak", stage: "validate-input" }, 400)
     if (isNaN(duration_minutes) || duration_minutes < 5 || duration_minutes > 240) return jsonResponse({ error: "Davomiyligi 5-240 daqiqa orasida bo'lishi kerak", stage: "validate-input" }, 400)
     if (access_code && (access_code.length < 4 || access_code.length > 20)) return jsonResponse({ error: "Kirish kodi 4-20 belgi orasida bo'lishi kerak", stage: "validate-input" }, 400)
-    if (isNaN(topic_start) || topic_start < 0) return jsonResponse({ error: "Mavzu boshlang'ich raqami 0 yoki undan katta bo'lishi kerak", stage: "validate-input" }, 400)
-    if (isNaN(topic_end) || topic_end < topic_start) return jsonResponse({ error: "Mavzu tugallanish raqami boshlang'ichdan katta yoki teng bo'lishi kerak", stage: "validate-input" }, 400)
     if (isNaN(max_questions) || max_questions < 1 || max_questions > 500) return jsonResponse({ error: "Savollar soni 1-500 orasida bo'lishi kerak", stage: "validate-input" }, 400)
     if (!file.name.toLowerCase().endsWith(".pdf") || file.type && !["application/pdf", "application/x-pdf"].includes(file.type)) return jsonResponse({ error: "Faqat PDF formatdagi fayl yuklash mumkin", stage: "validate-format" }, 400)
     if (file.size > MAX_FILE_SIZE) return jsonResponse({ error: `Fayl juda katta (${(file.size / 1024 / 1024).toFixed(1)}MB). Maksimal hajm: ${MAX_FILE_SIZE / 1024 / 1024}MB`, stage: "validate-size" }, 400)
@@ -659,8 +692,7 @@ Deno.serve(async (req) => {
       file_size_bytes: file.size,
       page_count: pageCount || null,
       answer_keys: answer_keys?.trim() || null,
-      topic_start,
-      topic_end,
+      num_groups,
       max_questions,
       status: "queued",
       stage: "queued",

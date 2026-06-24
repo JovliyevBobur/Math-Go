@@ -35,6 +35,7 @@ export function PDFImportForm() {
   const [topicStart, setTopicStart] = useState('0');
   const [topicEnd, setTopicEnd] = useState('999');
   const [maxQuestions, setMaxQuestions] = useState('9999');
+  const [numGroups, setNumGroups] = useState('3');
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [job, setJob] = useState<ImportJob | null>(null);
@@ -146,6 +147,7 @@ export function PDFImportForm() {
     const tStart = parseInt(topicStart);
     const tEnd = parseInt(topicEnd);
     const maxQ = parseInt(maxQuestions);
+    const nGroups = parseInt(numGroups);
 
     if (isNaN(tStart) || tStart < 0) {
       toast.error('Mavzu boshlang\'ichi 0 yoki undan katta bo\'lishi kerak');
@@ -162,6 +164,11 @@ export function PDFImportForm() {
       return;
     }
 
+    if (isNaN(nGroups) || (nGroups !== 3 && nGroups !== 4)) {
+      toast.error('Guruhlar soni 3 yoki 4 bo\'lishi kerak');
+      return;
+    }
+
     setIsSubmitting(true);
     setImportStage(1);
 
@@ -172,8 +179,7 @@ export function PDFImportForm() {
       formData.append('subject', subject);
       formData.append('duration_minutes', durationMinutes);
       if (accessCode) formData.append('access_code', accessCode);
-      formData.append('topic_start', topicStart);
-      formData.append('topic_end', topicEnd);
+      formData.append('num_groups', numGroups);
       formData.append('max_questions', maxQuestions);
 
       const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
@@ -331,53 +337,40 @@ export function PDFImportForm() {
               {/* Topic Range */}
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <Label htmlFor="topic-start">Mavzu Boshlang'ichi</Label>
-                  <Input
-                    id="topic-start"
-                    type="number"
-                    min="0"
-                    value={topicStart}
-                    onChange={(e) => setTopicStart(e.target.value)}
-                    disabled={isSubmitting}
-                    placeholder="0"
-                  />
+                  <Label htmlFor="num-groups">Kitobni Nechta Guruhga Bo'lish</Label>
+                  <Select value={numGroups} onValueChange={setNumGroups} disabled={isSubmitting}>
+                    <SelectTrigger id="num-groups">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      <SelectItem value="3">
+                        3 Guruh
+                      </SelectItem>
+                      <SelectItem value="4">
+                        4 Guruh
+                      </SelectItem>
+                    </SelectContent>
+                  </Select>
                   <p className="text-xs text-muted-foreground mt-1">
-                    Masalan: 1, 2, 3...
+                    Kitob mavzularini nechta qismga bo'lib chiqsa kerak
                   </p>
                 </div>
                 <div>
-                  <Label htmlFor="topic-end">Mavzu Tugallanishi</Label>
+                  <Label htmlFor="max-questions">Har Guruhdan Savollar Soni</Label>
                   <Input
-                    id="topic-end"
+                    id="max-questions"
                     type="number"
-                    min="0"
-                    value={topicEnd}
-                    onChange={(e) => setTopicEnd(e.target.value)}
+                    min="1"
+                    max="500"
+                    value={maxQuestions}
+                    onChange={(e) => setMaxQuestions(e.target.value)}
                     disabled={isSubmitting}
-                    placeholder="999"
+                    placeholder="15"
                   />
                   <p className="text-xs text-muted-foreground mt-1">
-                    Masalan: 4, 5, 10...
+                    1-500 orasida
                   </p>
                 </div>
-              </div>
-
-              {/* Max Questions */}
-              <div>
-                <Label htmlFor="max-questions">Savollar Soni (Maksimal)</Label>
-                <Input
-                  id="max-questions"
-                  type="number"
-                  min="1"
-                  max="500"
-                  value={maxQuestions}
-                  onChange={(e) => setMaxQuestions(e.target.value)}
-                  disabled={isSubmitting}
-                  placeholder="9999"
-                />
-                <p className="text-xs text-muted-foreground mt-1">
-                  1-500 orasida
-                </p>
               </div>
 
               {/* Duration */}
