@@ -15,6 +15,7 @@ interface ParsedQuestion {
   choices: ParsedChoice[]
   explanation?: string
   topic?: string
+  topic_order?: number
   solution_text?: string
   intermediate_steps?: string[]
 }
@@ -122,6 +123,7 @@ function normalizeQuestions(rawQuestions: ParsedQuestion[], answerKeyMap: Map<nu
       choices: normalizedChoices,
       explanation: typeof raw?.explanation === "string" ? raw.explanation.trim().slice(0, 500) : undefined,
       topic: typeof raw?.topic === "string" ? raw.topic.trim().slice(0, 80) : undefined,
+      topic_order: typeof raw?.topic_order === "number" ? raw.topic_order : undefined,
       solution_text: typeof raw?.solution_text === "string" ? raw.solution_text.trim().slice(0, 2000) : undefined,
       intermediate_steps: Array.isArray(raw?.intermediate_steps)
         ? raw.intermediate_steps.map((step) => String(step || "").trim()).filter(Boolean).slice(0, 12)
@@ -274,12 +276,14 @@ MUHIM QOIDALAR:
 4. Har bir savolda 2-4 ta javob varianti bo'lsin, faqat 1 ta TO'G'RI javob
 5. Javob variantlarini ham TO'LIQ va ANIQ yoz - formulalar, sonlar bilan
 6. Savollar va javoblar asl tilda saqlansin (o'zbek, rus, ingliz - qaysi tilda bo'lsa)
-7. Har bir savol uchun topic, intermediate_steps va solution_text maydonlarini to'ldir
+7. Har bir savol uchun topic, topic_order, intermediate_steps va solution_text maydonlarini to'ldir
 8. Formulalarni LaTeX formatida yoz: inline \\(...\\), alohida formula $$...$$
 9. Explanation (tushuntirish) qisqa - 1-2 jumla
 10. Keraksiz sarlavha, izoh, sahifa raqamlari va boshqa shovqinni olib tashla
 11. Agar savol rasmi/chizmasi bo'lsa - uni matn shaklida tasvirlab yoz (masalan: "Chizmada ABC uchburchak berilgan, AB=5, BC=3")
-12. MUHIM TARTIB: Savollarni MAVZULAR bo'yicha ketma-ket guruhlab joylashtir. Bir xil yoki yaqin mavzudagi (2-3 ta o'zaro bog'liq mavzu) savollarni yonma-yon qo'y. Har bir savolda "topic" maydonini ANIQ to'ldir.
+12. MUHIM TARTIB: Savollarni MAVZULAR bo'yicha ketma-ket guruhlab joylashtir. Bir xil yoki yaqin mavzudagi (2-3 ta o'zaro bog'liq mavzu) savollarni yonma-yon qo'y. 
+    - Har bir savolda "topic" maydonini ANIQ to'ldir (mavzu nomi: "Algebra", "Geometriya", vb.)
+    - Har bir savol uchun "topic_order" maydoniga mavzunning RAQAMLI TARTIB NOMINI yoz (1, 2, 3, 4...)
 13. Sertifikat darajasi yoki rasmiy daraja belgilash SHART EMAS — faqat mavzu nomini yoz.${answerKeyInstruction}`,
           },
           {
@@ -314,14 +318,15 @@ MUHIM QOIDALAR:
                       type: "object",
                       properties: {
                         question_text: { type: "string", description: "Savolning TO'LIQ matni - formulalar, sonlar, tenglamalar bilan" },
-                         explanation: { type: "string", description: "Qisqa tushuntirish - 1-2 jumla" },
-                         topic: { type: "string", description: "Savol mavzusi: Trigonometriya, Hosila, Integral, Tenglama va hokazo" },
-                         solution_text: { type: "string", description: "Bosqichma-bosqich yechim. Matematik formulalarni LaTeX bilan yoz" },
-                         intermediate_steps: {
-                           type: "array",
-                           description: "Oraliq hisoblar ketma-ketligi",
-                           items: { type: "string" },
-                         },
+                        topic: { type: "string", description: "Savol mavzusi: Trigonometriya, Hosila, Integral, Tenglama va hokazo" },
+                        topic_order: { type: "integer", description: "Mavzunning RAQAMLI TARTIB NOMI (1, 2, 3, 4...)" },
+                        explanation: { type: "string", description: "Qisqa tushuntirish - 1-2 jumla" },
+                        solution_text: { type: "string", description: "Bosqichma-bosqich yechim. Matematik formulalarni LaTeX bilan yoz" },
+                        intermediate_steps: {
+                          type: "array",
+                          description: "Oraliq hisoblar ketma-ketligi",
+                          items: { type: "string" },
+                        },
                         choices: {
                           type: "array",
                           minItems: 2,
@@ -337,7 +342,7 @@ MUHIM QOIDALAR:
                           },
                         },
                       },
-                      required: ["question_text", "choices"],
+                      required: ["question_text", "topic_order", "choices"],
                       additionalProperties: false,
                     },
                   },
@@ -456,25 +461,47 @@ async function processImportJob(params: {
         throw new HttpError(422, "AI savollarni ajrata olmadi. PDF matnli bo‘lishi va savollarda javob variantlari bo‘lishi kerak.", "ai-empty", { rawQuestions: aiQuestions.length, pageCount })
       }
 
-      // Group questions by topic so related (sequential) topics stay together.
+      // Filter questions by topic_order range
+      const topicStart = Number(job.topic_start || 0)
+      const topicEnd = Number(job.topic_end || 999)
+      const maxQuestions = Number(job.max_questions || 9999)
+
+      let filteredQuestions = parsedQuestions.filter((q) => {
+        const order = q.topic_order ?? 0
+        return order >= topicStart && order <= topicEnd
+      })
+
+      // Limit to max_questions
+      if (filteredQuestions.length > maxQuestions) {
+        filteredQuestions = filteredQuestions.slice(0, maxQuestions)
+      }
+
+      if (filteredQuestions.length === 0) {
+        throw new HttpError(422, 
+          `Mahsulot: ${topicStart}-${topicEnd} oraligida savol topilmadi. Iltimos, topic_start va topic_end qaytadan tekshiring.`,
+          "topic-filter-empty",
+          { parsedCount: parsedQuestions.length, topicStart, topicEnd }
+        )
+      }
+
+      // Group remaining questions by topic so related (sequential) topics stay together.
       const topicOrder: string[] = []
-      for (const q of parsedQuestions) {
+      for (const q of filteredQuestions) {
         const t = (q.topic || "Boshqa").trim() || "Boshqa"
         if (!topicOrder.includes(t)) topicOrder.push(t)
       }
-      parsedQuestions.sort((a, b) => {
+      filteredQuestions.sort((a, b) => {
         const ta = topicOrder.indexOf((a.topic || "Boshqa").trim() || "Boshqa")
         const tb = topicOrder.indexOf((b.topic || "Boshqa").trim() || "Boshqa")
         return ta - tb
       })
 
-
-      await updateJob(adminClient, jobId, { stage: "db-test", progress: 68, questions_count: parsedQuestions.length })
+      await updateJob(adminClient, jobId, { stage: "db-test", progress: 68, questions_count: filteredQuestions.length, debug: { topicStart, topicEnd, maxQuestions, originalCount: parsedQuestions.length } })
       const { data: testData, error: testError } = await adminClient
         .from("tests")
         .insert({
           title: String(job.title).trim(),
-          description: `PDF dan import - ${parsedQuestions.length} ta savol`,
+          description: `PDF dan import - ${filteredQuestions.length} ta savol (Mavzu: ${topicStart}-${topicEnd})`,
           subject: job.subject,
           duration_minutes: job.duration_minutes,
           created_by: job.user_id,
@@ -487,11 +514,12 @@ async function processImportJob(params: {
       if (testError || !testData) throw new HttpError(500, `Test yaratishda DB xatolik: ${testError?.message ?? "noma'lum"}`, "db-test", testError)
 
       const insertedQuestions: Array<{ id: string; order_index: number }> = []
-      for (let i = 0; i < parsedQuestions.length; i += 500) {
-        const chunk = parsedQuestions.slice(i, i + 500).map((q, offset) => ({
+      for (let i = 0; i < filteredQuestions.length; i += 500) {
+        const chunk = filteredQuestions.slice(i, i + 500).map((q, offset) => ({
           test_id: testData.id,
           question_text: q.question_text,
           topic: q.topic || null,
+          topic_order: q.topic_order || null,
           solution_text: q.solution_text || q.explanation || null,
           intermediate_steps: q.intermediate_steps || [],
           order_index: i + offset,
@@ -499,11 +527,11 @@ async function processImportJob(params: {
         const { data, error } = await adminClient.from("questions").insert(chunk).select("id, order_index")
         if (error || !data?.length) throw new HttpError(500, `Savollarni saqlashda xatolik: ${error?.message ?? "noma'lum"}`, "db-questions", error)
         insertedQuestions.push(...data)
-        await updateJob(adminClient, jobId, { stage: "db-questions", progress: Math.min(82, 70 + Math.round((insertedQuestions.length / parsedQuestions.length) * 12)) })
+        await updateJob(adminClient, jobId, { stage: "db-questions", progress: Math.min(82, 70 + Math.round((insertedQuestions.length / filteredQuestions.length) * 12)) })
       }
 
       const questionIdByOrder = new Map<number, string>(insertedQuestions.map((q) => [q.order_index, q.id]))
-      const choicesPayload = parsedQuestions.flatMap((q, qi) => {
+      const choicesPayload = filteredQuestions.flatMap((q, qi) => {
         const questionId = questionIdByOrder.get(qi)
         if (!questionId) return []
         return q.choices.map((c, ci) => ({ question_id: questionId, choice_text: c.choice_text, is_correct: c.is_correct, order_index: ci }))
@@ -522,9 +550,9 @@ async function processImportJob(params: {
         result_test_id: testData.id,
         questions_count: insertedQuestions.length,
         completed_at: new Date().toISOString(),
-        debug: { attempts: attempt, pageCount, elapsedMs: Date.now() - startedAt },
+        debug: { attempts: attempt, pageCount, elapsedMs: Date.now() - startedAt, topicStart, topicEnd, maxQuestions, filteredCount: filteredQuestions.length },
       })
-      log("done", `job=${jobId} test=${testData.id} questions=${insertedQuestions.length}`)
+      log("done", `job=${jobId} test=${testData.id} questions=${insertedQuestions.length} (filtered: ${topicStart}-${topicEnd})`)
       return
     } catch (error) {
       lastError = error
@@ -586,11 +614,17 @@ Deno.serve(async (req) => {
     const access_code = formData.get("access_code") as string | null
     const answer_keys = formData.get("answer_keys") as string | null
     const answer_key_image = formData.get("answer_key_image") as File | null
+    const topic_start = parseInt((formData.get("topic_start") as string) || "0")
+    const topic_end = parseInt((formData.get("topic_end") as string) || "999")
+    const max_questions = parseInt((formData.get("max_questions") as string) || "9999")
 
     if (!file || !subject || !title) return jsonResponse({ error: "Fayl, fan va sarlavha majburiy", stage: "validate-input" }, 400)
     if (title.length < 3 || title.length > 200) return jsonResponse({ error: "Test nomi 3-200 belgi orasida bo'lishi kerak", stage: "validate-input" }, 400)
     if (isNaN(duration_minutes) || duration_minutes < 5 || duration_minutes > 240) return jsonResponse({ error: "Davomiyligi 5-240 daqiqa orasida bo'lishi kerak", stage: "validate-input" }, 400)
     if (access_code && (access_code.length < 4 || access_code.length > 20)) return jsonResponse({ error: "Kirish kodi 4-20 belgi orasida bo'lishi kerak", stage: "validate-input" }, 400)
+    if (isNaN(topic_start) || topic_start < 0) return jsonResponse({ error: "Mavzu boshlang'ich raqami 0 yoki undan katta bo'lishi kerak", stage: "validate-input" }, 400)
+    if (isNaN(topic_end) || topic_end < topic_start) return jsonResponse({ error: "Mavzu tugallanish raqami boshlang'ichdan katta yoki teng bo'lishi kerak", stage: "validate-input" }, 400)
+    if (isNaN(max_questions) || max_questions < 1 || max_questions > 500) return jsonResponse({ error: "Savollar soni 1-500 orasida bo'lishi kerak", stage: "validate-input" }, 400)
     if (!file.name.toLowerCase().endsWith(".pdf") || file.type && !["application/pdf", "application/x-pdf"].includes(file.type)) return jsonResponse({ error: "Faqat PDF formatdagi fayl yuklash mumkin", stage: "validate-format" }, 400)
     if (file.size > MAX_FILE_SIZE) return jsonResponse({ error: `Fayl juda katta (${(file.size / 1024 / 1024).toFixed(1)}MB). Maksimal hajm: ${MAX_FILE_SIZE / 1024 / 1024}MB`, stage: "validate-size" }, 400)
     if (file.size < 1024) return jsonResponse({ error: "PDF juda kichik yoki bo'sh ko'rinadi", stage: "validate-size" }, 400)
@@ -625,6 +659,9 @@ Deno.serve(async (req) => {
       file_size_bytes: file.size,
       page_count: pageCount || null,
       answer_keys: answer_keys?.trim() || null,
+      topic_start,
+      topic_end,
+      max_questions,
       status: "queued",
       stage: "queued",
       progress: 8,
