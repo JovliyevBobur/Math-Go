@@ -461,9 +461,9 @@ async function processImportJob(params: {
         throw new HttpError(422, "AI savollarni ajrata olmadi. PDF matnli bo‘lishi va savollarda javob variantlari bo‘lishi kerak.", "ai-empty", { rawQuestions: aiQuestions.length, pageCount })
       }
 
-      // Filter questions by topic_order range
-      const numGroups = Number(job.num_groups || 3)
-      const maxQuestions = Number(job.max_questions || 9999)
+      // Build collections (toplam) by slicing topics into chunks of N topics each
+      const topicsPerCollection = Number(job.topics_per_collection || 4)
+      const questionsPerCollection = Number(job.max_questions || 15)
 
       // Auto-group questions by topics
       const uniqueTopics = Array.from(new Set(parsedQuestions.map(q => q.topic_order ?? 0).filter(t => t > 0)))
@@ -473,62 +473,59 @@ async function processImportJob(params: {
         throw new HttpError(422, "Savollardan mavzular aniqlanmadi. AI'dan mavzu raqamini chiqarish kerak.", "no-topics", { parsedCount: parsedQuestions.length })
       }
 
-      // Divide topics into groups
-      const topicsPerGroup = Math.ceil(uniqueTopics.length / numGroups)
+      // Slice topics into collections of `topicsPerCollection`
       const topicGroups: number[][] = []
-
-      for (let i = 0; i < numGroups; i++) {
-        const start = i * topicsPerGroup
-        const end = Math.min(start + topicsPerGroup, uniqueTopics.length)
-        topicGroups.push(uniqueTopics.slice(start, end))
+      for (let i = 0; i < uniqueTopics.length; i += topicsPerCollection) {
+        topicGroups.push(uniqueTopics.slice(i, i + topicsPerCollection))
       }
+      const numCollections = topicGroups.length
 
-      log("grouping", `Topics: ${uniqueTopics.length}, Groups: ${numGroups}, Distribution:`, topicGroups)
+      log("grouping", `Topics: ${uniqueTopics.length}, Collections: ${numCollections}, PerCollection: ${topicsPerCollection}, Distribution:`, topicGroups)
 
       const createdTestIds: string[] = []
 
-      // Process each group as separate test
-      for (let groupIdx = 0; groupIdx < topicGroups.length; groupIdx++) {
-        const topicRange = topicGroups[groupIdx]
+      // Process each collection (toplam) as separate test
+      for (let collectionIdx = 0; collectionIdx < topicGroups.length; collectionIdx++) {
+        const topicRange = topicGroups[collectionIdx]
         if (topicRange.length === 0) continue
 
-        // Filter questions for this group
-        let groupQuestions = parsedQuestions
+        // Filter questions for this collection
+        let collectionQuestions = parsedQuestions
           .filter((q) => {
             const order = q.topic_order ?? 0
             return topicRange.includes(order)
           })
-          .slice(0, maxQuestions)
+          .slice(0, questionsPerCollection)
 
-        if (groupQuestions.length === 0) continue
+        if (collectionQuestions.length === 0) continue
 
         // Group remaining questions by topic so related (sequential) topics stay together.
         const topicOrder: string[] = []
-        for (const q of groupQuestions) {
+        for (const q of collectionQuestions) {
           const t = (q.topic || "Boshqa").trim() || "Boshqa"
           if (!topicOrder.includes(t)) topicOrder.push(t)
         }
-        groupQuestions.sort((a, b) => {
+        collectionQuestions.sort((a, b) => {
           const ta = topicOrder.indexOf((a.topic || "Boshqa").trim() || "Boshqa")
           const tb = topicOrder.indexOf((b.topic || "Boshqa").trim() || "Boshqa")
           return ta - tb
         })
 
         await updateJob(adminClient, jobId, { 
-          stage: `db-test-${groupIdx + 1}`, 
-          progress: Math.min(68, 50 + (groupIdx * 5)), 
-          questions_count: groupQuestions.length 
+          stage: `db-test-${collectionIdx + 1}`, 
+          progress: Math.min(68, 50 + (collectionIdx * 5)), 
+          questions_count: collectionQuestions.length 
         })
 
         const testTitle = topicRange.length === 1
-          ? `${job.title} - Mavzu ${topicRange[0]}`
-          : `${job.title} - Mavzular ${topicRange[0]}-${topicRange[topicRange.length - 1]}`
+          ? `${job.title} - Toplam ${topicRange[0]}`
+          : `${job.title} - Toplam ${topicRange[0]}-${topicRange[topicRange.length - 1]}`
 
         const { data: testData, error: testError } = await adminClient
           .from("tests")
           .insert({
             title: testTitle,
-            description: `PDF dan import - ${groupQuestions.length} ta savol (Mavzular: ${topicRange.join(", ")})`,
+            description: `PDF dan import - ${collectionQuestions.length} ta savol (Toplam: ${topicRange.join(", ")})`,
             subject: job.subject,
             duration_minutes: job.duration_minutes,
             created_by: job.user_id,
@@ -543,8 +540,8 @@ async function processImportJob(params: {
         createdTestIds.push(testData.id)
 
         const insertedQuestions: Array<{ id: string; order_index: number }> = []
-        for (let i = 0; i < groupQuestions.length; i += 500) {
-          const chunk = groupQuestions.slice(i, i + 500).map((q, offset) => ({
+        for (let i = 0; i < collectionQuestions.length; i += 500) {
+          const chunk = collectionQuestions.slice(i, i + 500).map((q, offset) => ({
             test_id: testData.id,
             question_text: q.question_text,
             topic: q.topic || null,
@@ -552,15 +549,16 @@ async function processImportJob(params: {
             solution_text: q.solution_text || q.explanation || null,
             intermediate_steps: q.intermediate_steps || [],
             order_index: i + offset,
+            source: 'book',
           }))
           const { data, error } = await adminClient.from("questions").insert(chunk).select("id, order_index")
           if (error || !data?.length) throw new HttpError(500, `Savollarni saqlashda xatolik: ${error?.message ?? "noma'lum"}`, "db-questions", error)
           insertedQuestions.push(...data)
-          await updateJob(adminClient, jobId, { stage: `db-questions-${groupIdx + 1}`, progress: Math.min(82, 60 + (groupIdx * 5) + Math.round((insertedQuestions.length / groupQuestions.length) * 8)) })
+          await updateJob(adminClient, jobId, { stage: `db-questions-${collectionIdx + 1}`, progress: Math.min(82, 60 + (collectionIdx * 5) + Math.round((insertedQuestions.length / collectionQuestions.length) * 8)) })
         }
 
         const questionIdByOrder = new Map<number, string>(insertedQuestions.map((q) => [q.order_index, q.id]))
-        const choicesPayload = groupQuestions.flatMap((q, qi) => {
+        const choicesPayload = collectionQuestions.flatMap((q, qi) => {
           const questionId = questionIdByOrder.get(qi)
           if (!questionId) return []
           return q.choices.map((c, ci) => ({ question_id: questionId, choice_text: c.choice_text, is_correct: c.is_correct, order_index: ci }))
@@ -569,26 +567,26 @@ async function processImportJob(params: {
         for (let i = 0; i < choicesPayload.length; i += 500) {
           const { error } = await adminClient.from("choices").insert(choicesPayload.slice(i, i + 500))
           if (error) throw new HttpError(500, `Javob variantlarini saqlashda xatolik: ${error.message}`, "db-choices", error)
-          await updateJob(adminClient, jobId, { stage: `db-choices-${groupIdx + 1}`, progress: Math.min(96, 84 + (groupIdx * 5) + Math.round(((i + 500) / Math.max(choicesPayload.length, 1)) * 8)) })
+          await updateJob(adminClient, jobId, { stage: `db-choices-${collectionIdx + 1}`, progress: Math.min(96, 84 + (collectionIdx * 5) + Math.round(((i + 500) / Math.max(choicesPayload.length, 1)) * 8)) })
         }
 
-        log("group-done", `Group ${groupIdx + 1}/${numGroups} test=${testData.id} questions=${insertedQuestions.length} topics=${topicRange.join(",")}`)
+        log("collection-done", `Toplam ${collectionIdx + 1}/${numCollections} test=${testData.id} questions=${insertedQuestions.length} topics=${topicRange.join(",")}`)
       }
 
       if (createdTestIds.length === 0) {
-        throw new HttpError(422, "Savollar mavzular bo'yicha guruhlanmadi", "no-groups", { uniqueTopics, numGroups })
+        throw new HttpError(422, "Savollar mavzular bo'yicha toplamga ajralmadi", "no-collections", { uniqueTopics })
       }
 
       await updateJob(adminClient, jobId, {
         status: "done",
         stage: "done",
         progress: 100,
-        result_test_id: createdTestIds[0], // Return first group's test ID
+        result_test_id: createdTestIds[0], // Return first collection's test ID
         questions_count: parsedQuestions.length,
         completed_at: new Date().toISOString(),
-        debug: { attempts: attempt, pageCount, elapsedMs: Date.now() - startedAt, numGroups, topicGroups: topicGroups.map((tg) => ({ topics: tg.join(",") })), uniqueTopics: uniqueTopics.length, createdTests: createdTestIds.length },
+        debug: { attempts: attempt, pageCount, elapsedMs: Date.now() - startedAt, topicsPerCollection, numCollections, topicGroups: topicGroups.map((tg) => ({ topics: tg.join(",") })), uniqueTopics: uniqueTopics.length, createdTests: createdTestIds.length },
       })
-      log("done", `job=${jobId} groups=${createdTestIds.length} totalQuestions=${parsedQuestions.length} topics=${uniqueTopics.length}`)
+      log("done", `job=${jobId} toplams=${createdTestIds.length} totalQuestions=${parsedQuestions.length} topics=${uniqueTopics.length}`)
       return
     } catch (error) {
       lastError = error
