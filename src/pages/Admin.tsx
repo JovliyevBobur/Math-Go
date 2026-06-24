@@ -1009,6 +1009,11 @@ export default function Admin() {
               </Card>
             </TabsContent>
 
+            {/* PDF Import Tab */}
+            <TabsContent value="pdf-import" className="space-y-6">
+              <PDFImportForm />
+            </TabsContent>
+
             {/* Books Tab */}
             <TabsContent value="books">
               <BooksAdmin />
