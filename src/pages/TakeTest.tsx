@@ -163,92 +163,26 @@ export default function TakeTest() {
 
     const timeSpent = Math.floor((new Date().getTime() - startTimeRef.current.getTime()) / 1000);
 
-    try {
-      // Get correct answers for scoring
-      const { data: choicesData, error: choicesError } = await supabase
-        .from('choices')
-        .select('id, question_id, is_correct')
-        .in('question_id', questions.map((q) => q.id))
-        .eq('is_correct', true);
+    // Score the attempt securely on the server (correct answers stay server-side)
+    const answersPayload: Record<string, string> = {};
+    questions.forEach((q) => {
+      if (answers[q.id]) answersPayload[q.id] = answers[q.id];
+    });
 
-      if (choicesError) throw choicesError;
+    const { error: submitError } = await supabase.rpc('submit_test_attempt', {
+      p_attempt_id: attemptId,
+      p_answers: answersPayload,
+      p_time_spent: timeSpent,
+    });
 
-      const { data: questionsData, error: questionsError } = await supabase
-        .from('questions')
-        .select('id, correct_answer')
-        .in('id', questions.map(q => q.id));
-
-      if (questionsError) throw questionsError;
-
-      const correctChoiceMap = new Map(choicesData?.map((c) => [c.question_id, c.id]) || []);
-      const correctTextMap = new Map(questionsData?.map((q) => [q.id, q.correct_answer]) || []);
-
-      let score = 0;
-      const userAnswersData: any[] = [];
-
-      questions.forEach((q) => {
-        const answer = answers[q.id];
-        if (!answer) return; // skipped
-
-        const isInput = q.is_input || q.choices.length === 0;
-        let isCorrect = false;
-
-        if (isInput) {
-          const expected = correctTextMap.get(q.id);
-          if (expected) {
-            const normalize = (s: string) => s.toLowerCase().replace(/\s+/g, '');
-            isCorrect = normalize(answer) === normalize(expected);
-          }
-        } else {
-          isCorrect = answer === correctChoiceMap.get(q.id);
-        }
-
-        if (isCorrect) score++;
-
-        userAnswersData.push({
-          attempt_id: attemptId,
-          question_id: q.id,
-          selected_choice_id: isInput ? null : answer,
-          text_answer: isInput ? answer : null,
-          is_correct: isCorrect,
-        });
-      });
-
-      if (userAnswersData.length > 0) {
-        const { error: answersError } = await supabase.from('user_answers').insert(userAnswersData);
-        if (answersError) throw answersError;
-      }
-
-      const total = questions.length;
-      const pct = Math.round((score / total) * 1000) / 10;
-      let grade = 'C';
-      if (pct >= 95) grade = 'A+';
-      else if (pct >= 85) grade = 'A';
-      else if (pct >= 75) grade = 'B+';
-      else if (pct >= 65) grade = 'B';
-      else if (pct >= 50) grade = 'C+';
-
-      const { error: updateError } = await supabase
-        .from('test_attempts')
-        .update({
-          completed_at: new Date().toISOString(),
-          score,
-          total_questions: total,
-          percentage: pct,
-          grade: grade,
-          time_spent_seconds: timeSpent,
-        })
-        .eq('id', attemptId);
-
-      if (updateError) throw updateError;
-
-      // Navigate to results
-      navigate(`/results/${attemptId}`);
-    } catch (err: any) {
-      console.error('Test yakunlash xatoligi:', err);
+    if (submitError) {
       toast.error('Natijani saqlashda xatolik. Qayta urinib ko\'ring.');
       setSubmitting(false);
+      return;
     }
+
+    // Navigate to results
+    navigate(`/results/${attemptId}`);
   };
 
   const currentQuestion = questions[currentIndex];
