@@ -32,7 +32,7 @@ class HttpError extends Error {
   }
 }
 
-const MAX_FILE_SIZE = 20 * 1024 * 1024
+const MAX_FILE_SIZE = 800 * 1024 * 1024
 const IMPORT_BUCKET = "pdf-imports"
 const MAX_QUESTIONS = Number.MAX_SAFE_INTEGER
 const AI_TIMEOUT_MS = 110000
