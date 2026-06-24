@@ -21,6 +21,7 @@ import { ImportProgressBar, type ImportStage } from '@/components/admin/ImportPr
 import { ImportPreviewDialog } from '@/components/admin/ImportPreviewDialog';
 import { ManualTestCreator } from '@/components/admin/ManualTestCreator';
 import { BooksAdmin } from '@/components/admin/BooksAdmin';
+import { PDFImportForm } from '@/components/admin/PDFImportForm';
 import { SubjectIcon } from '@/components/SubjectIcon';
 import { 
   Plus, Trash2, Edit, BookOpen, Users, FileQuestion, Loader2, 
@@ -795,7 +796,7 @@ export default function Admin() {
 
           {/* Tabs */}
           <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-6">
-            <TabsList className={cn("grid w-full", isSuperAdmin ? "grid-cols-4" : "grid-cols-3")}>
+            <TabsList className={cn("grid w-full", isSuperAdmin ? "grid-cols-5" : "grid-cols-4")}>
               <TabsTrigger value="dashboard" className="flex items-center gap-2">
                 <BarChart3 className="h-4 w-4" />
                 Statistika
@@ -803,6 +804,10 @@ export default function Admin() {
               <TabsTrigger value="tests" className="flex items-center gap-2">
                 <BookOpen className="h-4 w-4" />
                 Testlar
+              </TabsTrigger>
+              <TabsTrigger value="pdf-import" className="flex items-center gap-2">
+                <Upload className="h-4 w-4" />
+                PDF Import
               </TabsTrigger>
               <TabsTrigger value="books" className="flex items-center gap-2">
                 <FileText className="h-4 w-4" />
