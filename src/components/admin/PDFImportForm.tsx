@@ -69,8 +69,9 @@ export function PDFImportForm() {
       }
 
       try {
+        const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
         const response = await fetch(
-          `https://${new URL(supabase.realtime.url).hostname}/functions/v1/parse-pdf-to-test?job_id=${jobId}`,
+          `${supabaseUrl}/functions/v1/parse-pdf-to-test?job_id=${jobId}`,
           {
             method: 'GET',
             headers: {
@@ -175,8 +176,9 @@ export function PDFImportForm() {
       formData.append('topic_end', topicEnd);
       formData.append('max_questions', maxQuestions);
 
+      const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
       const response = await fetch(
-        `https://${new URL(supabase.realtime.url).hostname}/functions/v1/parse-pdf-to-test`,
+        `${supabaseUrl}/functions/v1/parse-pdf-to-test`,
         {
           method: 'POST',
           headers: {
