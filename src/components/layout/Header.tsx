@@ -13,7 +13,7 @@ import { LogOut, User, LayoutDashboard, ChevronDown, Menu, Home, Info, BarChart2
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 import { ThemeToggle } from '@/components/ThemeToggle';
 import { useState } from 'react';
-import logoImg from '@/assets/logo.png';
+const logoImg = '/718d018f-b9e2-4bc3-8bc2-81520e0f0a7e.png';
 import { cn } from '@/lib/utils';
 export function Header() {
   const { user, profile, isAdmin, signOut } = useAuth();
@@ -60,7 +60,7 @@ export function Header() {
       <div className="container flex h-16 md:h-20 items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-3 group">
-          <img src={logoImg} alt="MockTest Logo" className="h-9 w-9 md:h-11 md:w-11 rounded-md shadow-[0_0_15px_rgba(255,255,255,0.1)] transition-transform duration-300 group-hover:scale-105" />
+          <img src={logoImg} alt="Math Go Logo" className="h-9 w-9 md:h-11 md:w-11 rounded-md shadow-[0_0_15px_rgba(255,255,255,0.1)] transition-transform duration-300 group-hover:scale-105" />
           <div className="flex flex-col">
             <span className="font-serif text-lg md:text-xl font-bold tracking-tight text-white">Math Go</span>
           </div>

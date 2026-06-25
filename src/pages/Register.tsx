@@ -59,7 +59,8 @@ export default function Register() {
       if (signUpError?.message.includes('already registered')) {
         setError('Bu email allaqachon ro\'yxatdan o\'tgan. Parolingizni tekshiring.');
       } else {
-        setError('Hisob yaratildi, lekin kirishda xatolik. Kirish sahifasidan urinib ko\'ring.');
+        toast.success('Hisob yaratildi! Iltimos emailingizni tasdiqlang yoki tizimga kiring.');
+        navigate('/login', { replace: true });
       }
       return;
     }

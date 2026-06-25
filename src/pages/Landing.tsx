@@ -6,7 +6,7 @@ import { PageTransition } from '@/components/PageTransition';
 import { CheckCircle, BookOpen, Trophy, Clock, Users, TrendingUp, Rocket, ArrowRight, Award } from 'lucide-react';
 import { useQuery } from '@tanstack/react-query';
 import { supabase } from '@/integrations/supabase/client';
-import logoImg from '@/assets/logo.png';
+const logoImg = '/718d018f-b9e2-4bc3-8bc2-81520e0f0a7e.png';
 import mathGoBg from '@/assets/math_go_bg.png';
 
 export default function Landing() {
@@ -70,7 +70,7 @@ export default function Landing() {
               
               {/* Description */}
               <p className="text-xl md:text-2xl text-white/80 max-w-2xl mb-12 animate-fade-up leading-relaxed font-medium" style={{ animationDelay: '0.1s' }}>
-                MockTest Pro bilan real imtihon sharoitida o'zingizni sinab ko'ring. 
+                Math Go bilan real imtihon sharoitida o'zingizni sinab ko'ring. 
                 Minglab savollar, tez natijalar, va kosmik tajriba.
               </p>
 
@@ -117,7 +117,7 @@ export default function Landing() {
             <div className="text-center mb-16">
               <p className="text-sm font-medium tracking-widest text-accent uppercase mb-3 animate-fade-up">Imkoniyatlar</p>
               <h2 className="font-serif text-4xl md:text-5xl font-bold mb-6 animate-fade-up delay-100">
-                Nima uchun <span className="text-gradient-gold">MockTest Pro</span>?
+                Nima uchun <span className="text-gradient-gold">Math Go</span>?
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-up delay-200">
                 Eng zamonaviy texnologiyalar bilan qurilgan platforma sizga eng yaxshi natijalarni kafolatlaydi
@@ -173,11 +173,11 @@ export default function Landing() {
         <footer className="py-12 border-t bg-card/50 backdrop-blur-sm">
           <div className="container flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-3 font-serif text-xl font-bold">
-              <img src={logoImg} alt="MockTest Logo" className="h-10 w-10 rounded-xl" />
-              <span>MockTest Pro</span>
+              <img src={logoImg} alt="Math Go Logo" className="h-10 w-10 rounded-xl" />
+              <span>Math Go</span>
             </div>
             <p className="text-muted-foreground">
-              © 2025 MockTest Pro. Barcha huquqlar himoyalangan.
+              © 2025 Math Go. Barcha huquqlar himoyalangan.
             </p>
           </div>
         </footer>
