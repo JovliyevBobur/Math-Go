@@ -176,7 +176,8 @@ export default function TakeTest() {
     });
 
     if (submitError) {
-      toast.error('Natijani saqlashda xatolik. Qayta urinib ko\'ring.');
+      console.error('Test submit error:', submitError);
+      toast.error(submitError.message || 'Natijani saqlashda xatolik. Qayta urinib ko\'ring.');
       setSubmitting(false);
       return;
     }
