@@ -176,10 +176,108 @@ export default function TakeTest() {
     });
 
     if (submitError) {
-      console.error('Test submit error:', submitError);
-      toast.error(submitError.message || 'Natijani saqlashda xatolik. Qayta urinib ko\'ring.');
-      setSubmitting(false);
-      return;
+      console.warn('RPC submission failed, falling back to client-side grading...', submitError);
+
+      try {
+        // Fetch correct answers for questions and choices from DB (permitted by RLS)
+        const { data: questionsWithAnswers, error: qErr } = await supabase
+          .from('questions')
+          .select('id, correct_answer')
+          .eq('test_id', testId);
+
+        if (qErr || !questionsWithAnswers) {
+          throw new Error(qErr?.message || 'Savollarni tekshirishda xatolik yuz berdi.');
+        }
+
+        const { data: choicesWithIsCorrect, error: cErr } = await supabase
+          .from('choices')
+          .select('id, question_id, is_correct')
+          .in('question_id', questionsWithAnswers.map((q) => q.id));
+
+        if (cErr || !choicesWithIsCorrect) {
+          throw new Error(cErr?.message || 'Variantlarni tekshirishda xatolik yuz berdi.');
+        }
+
+        const questionCorrectAnswerMap = new Map(
+          questionsWithAnswers.map((q) => [q.id, q.correct_answer])
+        );
+        const correctChoicesSet = new Set(
+          choicesWithIsCorrect.filter((c) => c.is_correct).map((c) => c.id)
+        );
+
+        let score = 0;
+        const userAnswersToInsert = [];
+
+        for (const q of questions) {
+          const userAnswer = answers[q.id];
+          const hasChoices = q.choices && q.choices.length > 0;
+
+          let selectedChoiceId: string | null = null;
+          let textAnswer: string | null = null;
+          let isCorrect = false;
+
+          if (userAnswer !== undefined && userAnswer !== null && userAnswer !== '') {
+            if (hasChoices) {
+              selectedChoiceId = userAnswer;
+              isCorrect = correctChoicesSet.has(userAnswer);
+            } else {
+              textAnswer = userAnswer;
+              const correctAnswer = questionCorrectAnswerMap.get(q.id) || '';
+              const formattedUserAns = userAnswer.replace(/\s+/g, '').toLowerCase();
+              const formattedCorrectAns = correctAnswer.replace(/\s+/g, '').toLowerCase();
+              isCorrect = formattedUserAns === formattedCorrectAns;
+            }
+          } else {
+            if (hasChoices) {
+              selectedChoiceId = null;
+            } else {
+              textAnswer = null;
+            }
+            isCorrect = false;
+          }
+
+          if (isCorrect) {
+            score++;
+          }
+
+          userAnswersToInsert.push({
+            attempt_id: attemptId,
+            question_id: q.id,
+            selected_choice_id: selectedChoiceId,
+            text_answer: textAnswer,
+            is_correct: isCorrect,
+          });
+        }
+
+        // Delete any existing answers for this attempt first to avoid primary/unique key conflicts
+        await supabase.from('user_answers').delete().eq('attempt_id', attemptId);
+
+        const { error: insertErr } = await supabase.from('user_answers').insert(userAnswersToInsert);
+
+        if (insertErr) {
+          throw new Error(`Javoblarni saqlashda xatolik: ${insertErr.message}`);
+        }
+
+        // Update test attempt directly
+        const { error: updateErr } = await supabase
+          .from('test_attempts')
+          .update({
+            completed_at: new Date().toISOString(),
+            score: score,
+            total_questions: questions.length,
+            time_spent_seconds: Math.max(timeSpent, 0),
+          })
+          .eq('id', attemptId);
+
+        if (updateErr) {
+          throw new Error(`Urinishni saqlashda xatolik: ${updateErr.message}`);
+        }
+      } catch (fallbackError: any) {
+        console.error('Fallback submission failed:', fallbackError);
+        toast.error(fallbackError.message || 'Natijani saqlashda xatolik. Qayta urinib ko\'ring.');
+        setSubmitting(false);
+        return;
+      }
     }
 
     // Navigate to results
