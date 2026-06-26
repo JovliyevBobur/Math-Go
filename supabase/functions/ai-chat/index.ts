@@ -70,7 +70,7 @@ Har bir to'g'ri javob uchun mavzu tegini (topic) va nima uchun to'g'ri ekanini q
 Har bir NOTO'G'RI javob uchun:
 1. **Mavzu:** aniq topic teg (masalan: Trigonometriya, Hosila, Integral, Tenglama, Algebraik ifodalar)
 2. **Ish jarayoni:** oraliq hisoblarni ketma-ket bosqichlarda ko'rsat
-3. **Formula:** matematik formulalarni LaTeX bilan yoz: inline \(...\), alohida formula $$...$$
+3. **Formula:** matematik formulalarni LaTeX bilan yoz: inline \\(...\\), alohida formula $...$
 4. **Xatoning sababi:** foydalanuvchi qayerda xato qilgan bo'lishi mumkinligini tushuntir
 5. **📚 Tavsiya:** Ushbu mavzuni o'rganish uchun darslik/kitob MAVZUSI nomini, taxminiy BETLAR oralig'ini va QAYSI TURDAGI MISOLLARDAN mashq qilish kerakligini ko'rsat. MUHIM: aniq misolning o'zini yozma — faqat mavzu, bet va misol turini umumiy ko'rsat (masalan: "Algebra darsligi, 'Qisqa ko'paytirish formulalari' mavzusi, ~45-52 betlar, shu mavzudagi 3-8 misollarni ishlang").
 
@@ -101,7 +101,7 @@ ANIQLIK QOIDALARI (juda muhim):
 - Trigonometrik ayniyat va qiymatlarni (masalan sin30°=1/2, cos60°=1/2) aniq qo'lla.
 - Aniqmas integralda doimo "+C" yoz.
 - Agar javob noaniq bo'lsa, taxmin qilma — aniq yechimni ko'rsat.
-- Formulalarni chiroyli chiqishi uchun LaTeX formatida yoz: inline \(...\), alohida formula $$...$$.
+- Formulalarni chiroyli chiqishi uchun LaTeX formatida yoz: inline \\(...\\), alohida formula $...$.
 
 JAVOB BERISH USULI:
 1. Faqat O'zbek tilida javob ber

@@ -65,7 +65,7 @@ function parseAnswerKeys(input: string | null): Map<number, string> {
   const map = new Map<number, string>()
   if (!input?.trim()) return map
   const normalized = input.replace(/[，؛]/g, ",")
-  const regex = /(\d{1,3})\s*[\)\].:\-]?\s*([A-Da-d]|[1-4])/g
+  const regex = /(\d{1,3})\s*[)\].:-]?\s*([A-Da-d]|[1-4])/g
   let match: RegExpExecArray | null
   while ((match = regex.exec(normalized)) !== null) {
     const questionNumber = Number(match[1])
@@ -490,7 +490,7 @@ async function processImportJob(params: {
         if (topicRange.length === 0) continue
 
         // Filter questions for this collection
-        let collectionQuestions = parsedQuestions
+        const collectionQuestions = parsedQuestions
           .filter((q) => {
             const order = q.topic_order ?? 0
             return topicRange.includes(order)
