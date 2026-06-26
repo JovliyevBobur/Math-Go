@@ -71,3 +71,29 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+---
+
+## 🛠️ database Troubleshooting & Fix
+
+### Problem
+When users submit their test attempts, they receive the following PostgreSQL error:
+`column "percentage" can only be updated to DEFAULT`
+
+This happens because the database function `submit_test_attempt` (specifically the one on project `ekdkrysarlsbrnsgimsx`) includes `percentage = v_pct` and `grade = v_grade` in the `UPDATE public.test_attempts` statement, which is prohibited since those columns are defined as `GENERATED ALWAYS AS ... STORED`.
+
+### Current Workaround (Client-Side Fallback)
+We modified [TakeTest.tsx](file:///c:/Users/sefsd/Math-Go/src/pages/TakeTest.tsx) so that if calling the RPC `submit_test_attempt` fails, it falls back to a **client-side grading and direct table update** flow:
+1. Fetches correct choices and correct text answers using RLS permissions.
+2. Grades the submission locally.
+3. Inserts answer records directly into `user_answers`.
+4. Directly updates the `test_attempts` table (`completed_at`, `score`, `total_questions`, `time_spent_seconds`) without sending the generated columns `percentage` or `grade` in the payload. PostgreSQL automatically and successfully calculates them on the database side.
+
+### permanent Database Fix (SQL Editor)
+To fix the function in the remote database itself so the client doesn't need to fall back, log in to the Supabase Dashboard for project `ekdkrysarlsbrnsgimsx`, open the **SQL Editor**, and run the SQL query from the [FIX_DATABASE.sql](file:///c:/Users/sefsd/Math-Go/FIX_DATABASE.sql) file:
+1. Re-creates `submit_test_attempt` without updating generated columns.
+2. Adds a unique constraint on `(attempt_id, question_id)` in the `user_answers` table so the `ON CONFLICT` clause does not fail.
+
+### 📦 Database Backup
+A full backup of the tests, questions, and choices has been extracted and saved to [questions_backup.json](file:///c:/Users/sefsd/Math-Go/questions_backup.json).
+

@@ -1,0 +1,3878 @@
+{
+  "tests": [
+    {
+      "id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "title": "Algebra mashqlar to'plami 1",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "title": "Algebra mashqlar to'plami 2",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "title": "Algebra mashqlar to'plami 3",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "title": "Algebra mashqlar to'plami 4",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "title": "Algebra mashqlar to'plami 5",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "title": "Algebra mashqlar to'plami 6",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "title": "Algebra mashqlar to'plami 7",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "title": "Algebra mashqlar to'plami 8",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "title": "Algebra mashqlar to'plami 9",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    },
+    {
+      "id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "title": "Algebra mashqlar to'plami 10",
+      "description": "10 ta chiziqli tenglama: 1-8 variantli, 9-10 javob kiritiladigan. Har bir savol bosqichma-bosqich yechim bilan.",
+      "subject": "math",
+      "duration_minutes": 30,
+      "is_published": true,
+      "access_code": null,
+      "created_by": null,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "updated_at": "2026-06-22T02:33:08.741162+00:00",
+      "is_locked": false
+    }
+  ],
+  "questions": [
+    {
+      "id": "cbd0ecd4-1c39-4403-b43c-7bce18890b8d",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(4x - 2 = -6\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 2 = -6\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -6 + 2 = -4\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-4}{4} = -1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 2 = -6\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -4\\)  (oraliq qiymat: -4)",
+        "Bo'lamiz: \\(x = -4 / 4 = -1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "c1959362-dd74-4a6d-bff3-cae4b4f0ff93",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(5x - 1 = 4\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 1 = 4\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 4 + 1 = 5\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{5}{5} = 1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 1 = 4\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 5\\)  (oraliq qiymat: 5)",
+        "Bo'lamiz: \\(x = 5 / 5 = 1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "53b1ec17-38e5-471d-af26-79cf8b784bc8",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(2x + 0 = 6\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 0 = 6\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 6 - 0 = 6\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{6}{2} = 3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 0 = 6\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 6\\)  (oraliq qiymat: 6)",
+        "Bo'lamiz: \\(x = 6 / 2 = 3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "24dda199-9f94-48f3-be96-6e4e8e43234f",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(3x + 1 = 16\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 1 = 16\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 16 - 1 = 15\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{15}{3} = 5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 1 = 16\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 15\\)  (oraliq qiymat: 15)",
+        "Bo'lamiz: \\(x = 15 / 3 = 5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "017f3666-1c2c-49bf-9fa1-3683c04e5d2e",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(4x + 2 = -22\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 2 = -22\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -22 - 2 = -24\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-24}{4} = -6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 2 = -22\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -24\\)  (oraliq qiymat: -24)",
+        "Bo'lamiz: \\(x = -24 / 4 = -6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "196a2d03-2306-455d-9a37-d17621ab8f29",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(5x + 3 = -17\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 3 = -17\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -17 - 3 = -20\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-20}{5} = -4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 3 = -17\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -20\\)  (oraliq qiymat: -20)",
+        "Bo'lamiz: \\(x = -20 / 5 = -4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "e05526c2-fa30-4224-bca4-63cb7f71cf59",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(2x + 4 = 0\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 4 = 0\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 0 - 4 = -4\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-4}{2} = -2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 4 = 0\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -4\\)  (oraliq qiymat: -4)",
+        "Bo'lamiz: \\(x = -4 / 2 = -2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "eaa648de-acf3-41f5-83c4-5fe62d6ecedd",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(3x + 5 = 5\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 5 = 5\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 5 - 5 = 0\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{0}{3} = 0\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 5 = 5\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 0\\)  (oraliq qiymat: 0)",
+        "Bo'lamiz: \\(x = 0 / 3 = 0\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "678fbad1-82da-498b-8bdb-42aa0432dd37",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(4x - 5 = 3\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 5 = 3\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 3 + 5 = 8\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{8}{4} = 2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 5 = 3\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 8\\)  (oraliq qiymat: 8)",
+        "Bo'lamiz: \\(x = 8 / 4 = 2\\)"
+      ],
+      "correct_answer": "2"
+    },
+    {
+      "id": "68c06081-eab0-48d4-acc2-31a21794a31e",
+      "test_id": "866aaa67-438b-4ef2-9b18-1f6db479bdea",
+      "question_text": "Tenglamani yeching: \\(5x - 4 = 16\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 4 = 16\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 16 + 4 = 20\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{20}{5} = 4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 4 = 16\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 20\\)  (oraliq qiymat: 20)",
+        "Bo'lamiz: \\(x = 20 / 5 = 4\\)"
+      ],
+      "correct_answer": "4"
+    },
+    {
+      "id": "10c38e2f-95cf-4bcf-9a83-4fd4fd0964b5",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(5x + 0 = 10\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 0 = 10\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 10 - 0 = 10\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{10}{5} = 2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 0 = 10\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 10\\)  (oraliq qiymat: 10)",
+        "Bo'lamiz: \\(x = 10 / 5 = 2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "88744623-5243-4628-9903-4bd10839dcfd",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(2x + 1 = 9\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 1 = 9\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 9 - 1 = 8\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{8}{2} = 4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 1 = 9\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 8\\)  (oraliq qiymat: 8)",
+        "Bo'lamiz: \\(x = 8 / 2 = 4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "d9d09005-f528-4edb-9f41-78e56c33539a",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(3x + 2 = 20\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 2 = 20\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 20 - 2 = 18\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{18}{3} = 6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 2 = 20\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 18\\)  (oraliq qiymat: 18)",
+        "Bo'lamiz: \\(x = 18 / 3 = 6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "1880afca-f3e8-4466-b9df-906162cdc698",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(4x + 3 = -17\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 3 = -17\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -17 - 3 = -20\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-20}{4} = -5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 3 = -17\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -20\\)  (oraliq qiymat: -20)",
+        "Bo'lamiz: \\(x = -20 / 4 = -5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "fc05cbbf-3f01-401a-a5fd-f2ed37fe7c8c",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(5x + 4 = -11\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 4 = -11\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -11 - 4 = -15\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-15}{5} = -3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 4 = -11\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -15\\)  (oraliq qiymat: -15)",
+        "Bo'lamiz: \\(x = -15 / 5 = -3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "ce14bcbd-59a2-4262-b372-2c6ea28475c9",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(2x + 5 = 3\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 5 = 3\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 3 - 5 = -2\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-2}{2} = -1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 5 = 3\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -2\\)  (oraliq qiymat: -2)",
+        "Bo'lamiz: \\(x = -2 / 2 = -1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "3c0af96d-f930-4f01-81d5-a2854274f0bf",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(3x - 5 = -2\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 5 = -2\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -2 + 5 = 3\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{3}{3} = 1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 5 = -2\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 3\\)  (oraliq qiymat: 3)",
+        "Bo'lamiz: \\(x = 3 / 3 = 1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "b19b51e7-3072-48b7-8eef-0e93928245fd",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(4x - 4 = 8\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 4 = 8\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 8 + 4 = 12\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{12}{4} = 3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 4 = 8\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 12\\)  (oraliq qiymat: 12)",
+        "Bo'lamiz: \\(x = 12 / 4 = 3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "98473406-9d31-4f78-8584-a4fbb510de9f",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(5x - 3 = 22\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 3 = 22\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 22 + 3 = 25\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{25}{5} = 5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 3 = 22\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 25\\)  (oraliq qiymat: 25)",
+        "Bo'lamiz: \\(x = 25 / 5 = 5\\)"
+      ],
+      "correct_answer": "5"
+    },
+    {
+      "id": "983c6088-4655-4357-8ca3-93c4882a167e",
+      "test_id": "83b2bb59-7f9e-49d0-b7f7-5121abd76814",
+      "question_text": "Tenglamani yeching: \\(2x - 2 = -14\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 2 = -14\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -14 + 2 = -12\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-12}{2} = -6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 2 = -14\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -12\\)  (oraliq qiymat: -12)",
+        "Bo'lamiz: \\(x = -12 / 2 = -6\\)"
+      ],
+      "correct_answer": "-6"
+    },
+    {
+      "id": "dbb0c6cf-edef-45bc-9ffa-da0a3211eb36",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(2x + 2 = 12\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 2 = 12\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 12 - 2 = 10\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{10}{2} = 5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 2 = 12\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 10\\)  (oraliq qiymat: 10)",
+        "Bo'lamiz: \\(x = 10 / 2 = 5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "a455ab8e-5a42-4eaf-a49f-306aef86ddf0",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(3x + 3 = -15\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 3 = -15\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -15 - 3 = -18\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-18}{3} = -6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 3 = -15\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -18\\)  (oraliq qiymat: -18)",
+        "Bo'lamiz: \\(x = -18 / 3 = -6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "1a372a3d-62e4-42cf-b8db-fd0702e8675f",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(4x + 4 = -12\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 4 = -12\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -12 - 4 = -16\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-16}{4} = -4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 4 = -12\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -16\\)  (oraliq qiymat: -16)",
+        "Bo'lamiz: \\(x = -16 / 4 = -4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "97900086-1189-4e87-b604-b26f149a975c",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(5x + 5 = -5\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 5 = -5\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -5 - 5 = -10\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-10}{5} = -2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 5 = -5\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -10\\)  (oraliq qiymat: -10)",
+        "Bo'lamiz: \\(x = -10 / 5 = -2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "02bd00c0-c16e-49f0-bd0f-15b388c556b2",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(2x - 5 = -5\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 5 = -5\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -5 + 5 = 0\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{0}{2} = 0\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 5 = -5\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 0\\)  (oraliq qiymat: 0)",
+        "Bo'lamiz: \\(x = 0 / 2 = 0\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "f7fcd4e8-7c78-4259-b3dd-461c30f64be7",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(3x - 4 = 2\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 4 = 2\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 2 + 4 = 6\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{6}{3} = 2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 4 = 2\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 6\\)  (oraliq qiymat: 6)",
+        "Bo'lamiz: \\(x = 6 / 3 = 2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "2a732092-9dd9-4560-86f8-d5c71b6913d0",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(4x - 3 = 13\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 3 = 13\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 13 + 3 = 16\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{16}{4} = 4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 3 = 13\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 16\\)  (oraliq qiymat: 16)",
+        "Bo'lamiz: \\(x = 16 / 4 = 4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "6c353771-07e9-4867-8419-e99fab40a9d2",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(5x - 2 = 28\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 2 = 28\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 28 + 2 = 30\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{30}{5} = 6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 2 = 28\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 30\\)  (oraliq qiymat: 30)",
+        "Bo'lamiz: \\(x = 30 / 5 = 6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "840fd96d-cccf-4386-9b66-681bc8e8863e",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(2x - 1 = -11\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 1 = -11\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -11 + 1 = -10\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-10}{2} = -5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 1 = -11\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -10\\)  (oraliq qiymat: -10)",
+        "Bo'lamiz: \\(x = -10 / 2 = -5\\)"
+      ],
+      "correct_answer": "-5"
+    },
+    {
+      "id": "4b18a67c-9fe9-4df1-95e3-a1cd8dd77dde",
+      "test_id": "c9b40a59-101b-42b9-af36-4c35de1c0efd",
+      "question_text": "Tenglamani yeching: \\(3x + 0 = -9\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 0 = -9\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -9 - 0 = -9\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-9}{3} = -3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 0 = -9\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -9\\)  (oraliq qiymat: -9)",
+        "Bo'lamiz: \\(x = -9 / 3 = -3\\)"
+      ],
+      "correct_answer": "-3"
+    },
+    {
+      "id": "15beee9c-ea20-46c1-a733-8ce588943383",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(3x + 4 = -11\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 4 = -11\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -11 - 4 = -15\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-15}{3} = -5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 4 = -11\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -15\\)  (oraliq qiymat: -15)",
+        "Bo'lamiz: \\(x = -15 / 3 = -5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "50d37739-d7e8-4771-a4c1-572c3811c279",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(4x + 5 = -7\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 5 = -7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -7 - 5 = -12\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-12}{4} = -3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 5 = -7\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -12\\)  (oraliq qiymat: -12)",
+        "Bo'lamiz: \\(x = -12 / 4 = -3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "63c5c975-3d2f-4f52-b6ab-c5a1217df7cd",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(5x - 5 = -10\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 5 = -10\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -10 + 5 = -5\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-5}{5} = -1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 5 = -10\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -5\\)  (oraliq qiymat: -5)",
+        "Bo'lamiz: \\(x = -5 / 5 = -1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "aa47963f-6ded-4f60-a7c9-3802bf29b921",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(2x - 4 = -2\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 4 = -2\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -2 + 4 = 2\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{2}{2} = 1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 4 = -2\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 2\\)  (oraliq qiymat: 2)",
+        "Bo'lamiz: \\(x = 2 / 2 = 1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "630d5126-3169-43b2-96aa-bad7a3f87675",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(3x - 3 = 6\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 3 = 6\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 6 + 3 = 9\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{9}{3} = 3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 3 = 6\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 9\\)  (oraliq qiymat: 9)",
+        "Bo'lamiz: \\(x = 9 / 3 = 3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "5bd0a395-7512-4da9-95b2-ae62e356ddf4",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(4x - 2 = 18\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 2 = 18\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 18 + 2 = 20\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{20}{4} = 5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 2 = 18\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 20\\)  (oraliq qiymat: 20)",
+        "Bo'lamiz: \\(x = 20 / 4 = 5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "0d265b83-2287-43a4-8eec-a86552134300",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(5x - 1 = -31\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 1 = -31\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -31 + 1 = -30\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-30}{5} = -6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 1 = -31\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -30\\)  (oraliq qiymat: -30)",
+        "Bo'lamiz: \\(x = -30 / 5 = -6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "be4aa67b-a62b-4344-8e44-28d01d00f12f",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(2x + 0 = -8\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 0 = -8\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -8 - 0 = -8\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-8}{2} = -4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 0 = -8\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -8\\)  (oraliq qiymat: -8)",
+        "Bo'lamiz: \\(x = -8 / 2 = -4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "18918717-140f-44af-89a7-9f40c045fc0a",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(3x + 1 = -5\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 1 = -5\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -5 - 1 = -6\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-6}{3} = -2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 1 = -5\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -6\\)  (oraliq qiymat: -6)",
+        "Bo'lamiz: \\(x = -6 / 3 = -2\\)"
+      ],
+      "correct_answer": "-2"
+    },
+    {
+      "id": "34018135-0da4-4743-b29d-15ba1cc5e53b",
+      "test_id": "476da6a5-a5b1-4e88-bb59-4ba1f00bafa0",
+      "question_text": "Tenglamani yeching: \\(4x + 2 = 2\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 2 = 2\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 2 - 2 = 0\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{0}{4} = 0\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 2 = 2\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 0\\)  (oraliq qiymat: 0)",
+        "Bo'lamiz: \\(x = 0 / 4 = 0\\)"
+      ],
+      "correct_answer": "0"
+    },
+    {
+      "id": "5596dfa7-73ec-4471-bd3e-bc77bd5dd5df",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(4x - 5 = -13\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 5 = -13\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -13 + 5 = -8\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-8}{4} = -2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 5 = -13\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -8\\)  (oraliq qiymat: -8)",
+        "Bo'lamiz: \\(x = -8 / 4 = -2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "a0afc91a-842a-4e55-a0a6-6bf5c9f63e3a",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(5x - 4 = -4\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 4 = -4\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -4 + 4 = 0\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{0}{5} = 0\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 4 = -4\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 0\\)  (oraliq qiymat: 0)",
+        "Bo'lamiz: \\(x = 0 / 5 = 0\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "924f5389-a914-4eda-9c56-2ef9709ea264",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(2x - 3 = 1\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 3 = 1\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 1 + 3 = 4\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{4}{2} = 2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 3 = 1\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 4\\)  (oraliq qiymat: 4)",
+        "Bo'lamiz: \\(x = 4 / 2 = 2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "f1f24b87-0a65-408d-a560-7bc19c9a3758",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(3x - 2 = 10\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 2 = 10\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 10 + 2 = 12\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{12}{3} = 4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 2 = 10\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 12\\)  (oraliq qiymat: 12)",
+        "Bo'lamiz: \\(x = 12 / 3 = 4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "980fad34-dcfd-48fd-a5d6-7b76c0e5523b",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(4x - 1 = 23\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 1 = 23\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 23 + 1 = 24\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{24}{4} = 6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 1 = 23\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 24\\)  (oraliq qiymat: 24)",
+        "Bo'lamiz: \\(x = 24 / 4 = 6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "470c65fb-d29b-43b8-b790-2d439c599cfd",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(5x + 0 = -25\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 0 = -25\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -25 - 0 = -25\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-25}{5} = -5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 0 = -25\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -25\\)  (oraliq qiymat: -25)",
+        "Bo'lamiz: \\(x = -25 / 5 = -5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "e32984d3-90dd-4af8-bf15-39b1de185413",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(2x + 1 = -5\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 1 = -5\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -5 - 1 = -6\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-6}{2} = -3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 1 = -5\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -6\\)  (oraliq qiymat: -6)",
+        "Bo'lamiz: \\(x = -6 / 2 = -3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "d173e8ea-efa2-49d4-9334-ff7ac42eb40d",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(3x + 2 = -1\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 2 = -1\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -1 - 2 = -3\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-3}{3} = -1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 2 = -1\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -3\\)  (oraliq qiymat: -3)",
+        "Bo'lamiz: \\(x = -3 / 3 = -1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "64dab438-c591-40af-8a49-8eac92591aa7",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(4x + 3 = 7\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 3 = 7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 7 - 3 = 4\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{4}{4} = 1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 3 = 7\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 4\\)  (oraliq qiymat: 4)",
+        "Bo'lamiz: \\(x = 4 / 4 = 1\\)"
+      ],
+      "correct_answer": "1"
+    },
+    {
+      "id": "5c9819bd-41e4-4dfc-9e2a-1c487bfe1c14",
+      "test_id": "6be14970-0de7-426e-9af0-c4e61d4e7e06",
+      "question_text": "Tenglamani yeching: \\(5x + 4 = 19\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 4 = 19\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 19 - 4 = 15\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{15}{5} = 3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 4 = 19\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 15\\)  (oraliq qiymat: 15)",
+        "Bo'lamiz: \\(x = 15 / 5 = 3\\)"
+      ],
+      "correct_answer": "3"
+    },
+    {
+      "id": "1e060cff-eea4-4aa4-996b-f17bd26540eb",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(5x - 3 = 2\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 3 = 2\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 2 + 3 = 5\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{5}{5} = 1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 3 = 2\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 5\\)  (oraliq qiymat: 5)",
+        "Bo'lamiz: \\(x = 5 / 5 = 1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "f7c34133-46a8-420e-8ab0-a15f212661ee",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(2x - 2 = 4\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 2 = 4\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 4 + 2 = 6\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{6}{2} = 3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 2 = 4\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 6\\)  (oraliq qiymat: 6)",
+        "Bo'lamiz: \\(x = 6 / 2 = 3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "8d4d18bb-5d0b-4484-aa0b-62aeb207af0d",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(3x - 1 = 14\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 1 = 14\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 14 + 1 = 15\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{15}{3} = 5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 1 = 14\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 15\\)  (oraliq qiymat: 15)",
+        "Bo'lamiz: \\(x = 15 / 3 = 5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "607d1bd7-61a5-4029-8376-304dc9be56ed",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(4x + 0 = -24\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 0 = -24\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -24 - 0 = -24\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-24}{4} = -6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 0 = -24\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -24\\)  (oraliq qiymat: -24)",
+        "Bo'lamiz: \\(x = -24 / 4 = -6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "14f690ce-767a-479c-a474-50af69053e71",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(5x + 1 = -19\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 1 = -19\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -19 - 1 = -20\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-20}{5} = -4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 1 = -19\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -20\\)  (oraliq qiymat: -20)",
+        "Bo'lamiz: \\(x = -20 / 5 = -4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "4249f5f3-a2ac-45fd-8890-4577295cd657",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(2x + 2 = -2\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 2 = -2\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -2 - 2 = -4\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-4}{2} = -2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 2 = -2\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -4\\)  (oraliq qiymat: -4)",
+        "Bo'lamiz: \\(x = -4 / 2 = -2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "36be713b-d17c-455f-bb57-a5e5e30d40ac",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(3x + 3 = 3\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 3 = 3\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 3 - 3 = 0\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{0}{3} = 0\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 3 = 3\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 0\\)  (oraliq qiymat: 0)",
+        "Bo'lamiz: \\(x = 0 / 3 = 0\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "3f6914e8-4747-4b1a-a1e5-ff7d440980e0",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(4x + 4 = 12\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 4 = 12\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 12 - 4 = 8\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{8}{4} = 2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 4 = 12\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 8\\)  (oraliq qiymat: 8)",
+        "Bo'lamiz: \\(x = 8 / 4 = 2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "c34630a0-5e32-4450-b234-6809072b4257",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(5x + 5 = 25\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 5 = 25\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 25 - 5 = 20\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{20}{5} = 4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 5 = 25\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 20\\)  (oraliq qiymat: 20)",
+        "Bo'lamiz: \\(x = 20 / 5 = 4\\)"
+      ],
+      "correct_answer": "4"
+    },
+    {
+      "id": "3b08867e-3263-4108-b07a-1fc3a24740ca",
+      "test_id": "8ec2d3ee-d6b5-4df8-9a58-badeb561992f",
+      "question_text": "Tenglamani yeching: \\(2x - 5 = 7\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 5 = 7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 7 + 5 = 12\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{12}{2} = 6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 5 = 7\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 12\\)  (oraliq qiymat: 12)",
+        "Bo'lamiz: \\(x = 12 / 2 = 6\\)"
+      ],
+      "correct_answer": "6"
+    },
+    {
+      "id": "26354a90-5323-4849-a739-32a1c1705f30",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(2x - 1 = 7\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 1 = 7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 7 + 1 = 8\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{8}{2} = 4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 1 = 7\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 8\\)  (oraliq qiymat: 8)",
+        "Bo'lamiz: \\(x = 8 / 2 = 4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "6f3a32a9-247d-4b62-b74d-d3a5dbe0e71c",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(3x + 0 = 18\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 0 = 18\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 18 - 0 = 18\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{18}{3} = 6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 0 = 18\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 18\\)  (oraliq qiymat: 18)",
+        "Bo'lamiz: \\(x = 18 / 3 = 6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "c7618e7f-90b5-457f-8d08-14c52d97b545",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(4x + 1 = -19\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 1 = -19\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -19 - 1 = -20\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-20}{4} = -5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 1 = -19\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -20\\)  (oraliq qiymat: -20)",
+        "Bo'lamiz: \\(x = -20 / 4 = -5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "cc7b04a0-c847-4d5b-8aea-2b398a8e5e3e",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(5x + 2 = -13\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 2 = -13\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -13 - 2 = -15\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-15}{5} = -3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 2 = -13\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -15\\)  (oraliq qiymat: -15)",
+        "Bo'lamiz: \\(x = -15 / 5 = -3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "f7eb703b-b226-4e68-a716-3d37edeb2840",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(2x + 3 = 1\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 3 = 1\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 1 - 3 = -2\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-2}{2} = -1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 3 = 1\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -2\\)  (oraliq qiymat: -2)",
+        "Bo'lamiz: \\(x = -2 / 2 = -1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "9e0cb565-5b80-4c7d-a549-5fd23b69c22e",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(3x + 4 = 7\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 4 = 7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 7 - 4 = 3\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{3}{3} = 1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 4 = 7\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 3\\)  (oraliq qiymat: 3)",
+        "Bo'lamiz: \\(x = 3 / 3 = 1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "4142d894-6a3f-4a2d-a50b-b57ce78cc617",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(4x + 5 = 17\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 5 = 17\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 17 - 5 = 12\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{12}{4} = 3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 5 = 17\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 12\\)  (oraliq qiymat: 12)",
+        "Bo'lamiz: \\(x = 12 / 4 = 3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "55a1893f-c937-40b6-b58e-0b248731aebc",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(5x - 5 = 20\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 5 = 20\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 20 + 5 = 25\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{25}{5} = 5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 5 = 20\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 25\\)  (oraliq qiymat: 25)",
+        "Bo'lamiz: \\(x = 25 / 5 = 5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "c7991d2b-dd13-4eb6-9d18-747d481440c2",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(2x - 4 = -16\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 4 = -16\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -16 + 4 = -12\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-12}{2} = -6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 4 = -16\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -12\\)  (oraliq qiymat: -12)",
+        "Bo'lamiz: \\(x = -12 / 2 = -6\\)"
+      ],
+      "correct_answer": "-6"
+    },
+    {
+      "id": "74f5764b-b596-429b-8d03-62644faf5ae6",
+      "test_id": "aeab216c-7c12-431d-94dd-c62bb4a9946f",
+      "question_text": "Tenglamani yeching: \\(3x - 3 = -15\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 3 = -15\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -15 + 3 = -12\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-12}{3} = -4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 3 = -15\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -12\\)  (oraliq qiymat: -12)",
+        "Bo'lamiz: \\(x = -12 / 3 = -4\\)"
+      ],
+      "correct_answer": "-4"
+    },
+    {
+      "id": "00431e93-98ae-48c3-b45e-e666e7ff6e0f",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(3x + 1 = -17\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 1 = -17\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -17 - 1 = -18\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-18}{3} = -6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 1 = -17\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -18\\)  (oraliq qiymat: -18)",
+        "Bo'lamiz: \\(x = -18 / 3 = -6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "5380f729-ee02-4664-81d9-5aacd9d39647",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(4x + 2 = -14\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 2 = -14\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -14 - 2 = -16\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-16}{4} = -4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 2 = -14\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -16\\)  (oraliq qiymat: -16)",
+        "Bo'lamiz: \\(x = -16 / 4 = -4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "95aa7d5d-23d8-47b5-a047-9352dc20cded",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(5x + 3 = -7\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 3 = -7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -7 - 3 = -10\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-10}{5} = -2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 3 = -7\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -10\\)  (oraliq qiymat: -10)",
+        "Bo'lamiz: \\(x = -10 / 5 = -2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "aa64dda9-93e8-493f-9063-c77f9f23c9c0",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(2x + 4 = 4\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 4 = 4\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 4 - 4 = 0\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{0}{2} = 0\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 4 = 4\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 0\\)  (oraliq qiymat: 0)",
+        "Bo'lamiz: \\(x = 0 / 2 = 0\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "05c8c433-9f96-4152-8933-95f735ca1e1b",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(3x + 5 = 11\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 5 = 11\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 11 - 5 = 6\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{6}{3} = 2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 5 = 11\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 6\\)  (oraliq qiymat: 6)",
+        "Bo'lamiz: \\(x = 6 / 3 = 2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "be4d4f0d-6177-422c-a613-bcd88035a31c",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(4x - 5 = 11\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 5 = 11\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 11 + 5 = 16\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{16}{4} = 4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 5 = 11\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 16\\)  (oraliq qiymat: 16)",
+        "Bo'lamiz: \\(x = 16 / 4 = 4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "08a5e4f4-9b45-4fec-806b-2c95765962b3",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(5x - 4 = 26\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 4 = 26\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 26 + 4 = 30\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{30}{5} = 6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 4 = 26\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 30\\)  (oraliq qiymat: 30)",
+        "Bo'lamiz: \\(x = 30 / 5 = 6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "93b44d2c-8ac2-4d90-bff1-802569d097af",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(2x - 3 = -13\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 3 = -13\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -13 + 3 = -10\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-10}{2} = -5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 3 = -13\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -10\\)  (oraliq qiymat: -10)",
+        "Bo'lamiz: \\(x = -10 / 2 = -5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "3154b422-5cc7-4ef8-a913-5151b58509fb",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(3x - 2 = -11\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 2 = -11\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -11 + 2 = -9\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-9}{3} = -3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 2 = -11\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -9\\)  (oraliq qiymat: -9)",
+        "Bo'lamiz: \\(x = -9 / 3 = -3\\)"
+      ],
+      "correct_answer": "-3"
+    },
+    {
+      "id": "4203bbd7-5cf3-439a-84e9-9c9e31ca7468",
+      "test_id": "02297932-00ae-4be0-937c-60ad7550a018",
+      "question_text": "Tenglamani yeching: \\(4x - 1 = -5\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 1 = -5\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -5 + 1 = -4\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-4}{4} = -1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 1 = -5\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -4\\)  (oraliq qiymat: -4)",
+        "Bo'lamiz: \\(x = -4 / 4 = -1\\)"
+      ],
+      "correct_answer": "-1"
+    },
+    {
+      "id": "ddec9d05-f1cb-4056-845b-8215b41eac26",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(4x + 3 = -9\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 3 = -9\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = -9 - 3 = -12\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{-12}{4} = -3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 3 = -9\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = -12\\)  (oraliq qiymat: -12)",
+        "Bo'lamiz: \\(x = -12 / 4 = -3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "22c032b9-086e-4932-a118-23965f645069",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(5x + 4 = -1\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 4 = -1\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -1 - 4 = -5\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-5}{5} = -1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 4 = -1\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -5\\)  (oraliq qiymat: -5)",
+        "Bo'lamiz: \\(x = -5 / 5 = -1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "cdd5526b-e59b-4d47-9977-c8ada1dfde7f",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(2x + 5 = 7\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 5 = 7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 7 - 5 = 2\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{2}{2} = 1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 5 = 7\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 2\\)  (oraliq qiymat: 2)",
+        "Bo'lamiz: \\(x = 2 / 2 = 1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "d2fb755a-ac8e-40a0-af1e-f685ecc0395f",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(3x - 5 = 4\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 5 = 4\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 4 + 5 = 9\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{9}{3} = 3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 5 = 4\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 9\\)  (oraliq qiymat: 9)",
+        "Bo'lamiz: \\(x = 9 / 3 = 3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "c446c0a9-7917-4af9-b61a-a95eb861d48f",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(4x - 4 = 16\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 4 = 16\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 16 + 4 = 20\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{20}{4} = 5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 4 = 16\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 20\\)  (oraliq qiymat: 20)",
+        "Bo'lamiz: \\(x = 20 / 4 = 5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "74d5841d-cfcd-4758-a7c4-216bba3e63b9",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(5x - 3 = -33\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 3 = -33\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -33 + 3 = -30\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-30}{5} = -6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 3 = -33\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -30\\)  (oraliq qiymat: -30)",
+        "Bo'lamiz: \\(x = -30 / 5 = -6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "3eb6d26e-a7b0-4bf5-8b9d-ad0a77f89c31",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(2x - 2 = -10\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 2 = -10\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -10 + 2 = -8\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-8}{2} = -4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 2 = -10\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -8\\)  (oraliq qiymat: -8)",
+        "Bo'lamiz: \\(x = -8 / 2 = -4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "83fa9a0b-9d30-4e3d-806b-83ccb03b3dd8",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(3x - 1 = -7\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 1 = -7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -7 + 1 = -6\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-6}{3} = -2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 1 = -7\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -6\\)  (oraliq qiymat: -6)",
+        "Bo'lamiz: \\(x = -6 / 3 = -2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "c2f0e359-8342-4166-be3e-1556f04646f7",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(4x + 0 = 0\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 0 = 0\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 0 - 0 = 0\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{0}{4} = 0\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 0 = 0\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 0\\)  (oraliq qiymat: 0)",
+        "Bo'lamiz: \\(x = 0 / 4 = 0\\)"
+      ],
+      "correct_answer": "0"
+    },
+    {
+      "id": "839d7ee8-03ba-4685-90d7-7f37bc8e0350",
+      "test_id": "ecc9c097-cdd2-47d6-800d-678834f414af",
+      "question_text": "Tenglamani yeching: \\(5x + 1 = 11\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 1 = 11\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 11 - 1 = 10\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{10}{5} = 2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 1 = 11\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 10\\)  (oraliq qiymat: 10)",
+        "Bo'lamiz: \\(x = 10 / 5 = 2\\)"
+      ],
+      "correct_answer": "2"
+    },
+    {
+      "id": "f46f56c0-f184-4fa3-bd30-3b25a02c9365",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(5x + 5 = 5\\)",
+      "order_index": 1,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 5 = 5\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 5 - 5 = 0\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{0}{5} = 0\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 5 = 5\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 0\\)  (oraliq qiymat: 0)",
+        "Bo'lamiz: \\(x = 0 / 5 = 0\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "bf6aac59-8fc3-4962-b8de-c7f4f67620a9",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(2x - 5 = -1\\)",
+      "order_index": 2,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 5 = -1\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -1 + 5 = 4\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{4}{2} = 2\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 5 = -1\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 4\\)  (oraliq qiymat: 4)",
+        "Bo'lamiz: \\(x = 4 / 2 = 2\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "530d2378-ba9d-4259-a994-49772fdf0023",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(3x - 4 = 8\\)",
+      "order_index": 3,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x - 4 = 8\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = 8 + 4 = 12\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{12}{3} = 4\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x - 4 = 8\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = 12\\)  (oraliq qiymat: 12)",
+        "Bo'lamiz: \\(x = 12 / 3 = 4\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "753e6cbe-8236-4542-aa9f-cc06b95e1fb1",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(4x - 3 = 21\\)",
+      "order_index": 4,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x - 3 = 21\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 21 + 3 = 24\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{24}{4} = 6\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x - 3 = 21\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 24\\)  (oraliq qiymat: 24)",
+        "Bo'lamiz: \\(x = 24 / 4 = 6\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "587cb1a9-f4df-4a20-8b49-2a8cb3950c60",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(5x - 2 = -27\\)",
+      "order_index": 5,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x - 2 = -27\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = -27 + 2 = -25\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{-25}{5} = -5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x - 2 = -27\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = -25\\)  (oraliq qiymat: -25)",
+        "Bo'lamiz: \\(x = -25 / 5 = -5\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "1ce12023-7e45-491d-ade8-e2f972bb23d4",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(2x - 1 = -7\\)",
+      "order_index": 6,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x - 1 = -7\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = -7 + 1 = -6\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{-6}{2} = -3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x - 1 = -7\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = -6\\)  (oraliq qiymat: -6)",
+        "Bo'lamiz: \\(x = -6 / 2 = -3\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "5b79b179-988f-4ff5-9649-2c1ab3b86578",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(3x + 0 = -3\\)",
+      "order_index": 7,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(3x + 0 = -3\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(3x = -3 - 0 = -3\\). Ikkala tomonni \\(3\\) ga bo'lamiz: \\(x = \\dfrac{-3}{3} = -1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(3x + 0 = -3\\)",
+        "Ozod hadni o'tkazamiz: \\(3x = -3\\)  (oraliq qiymat: -3)",
+        "Bo'lamiz: \\(x = -3 / 3 = -1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "9288e1e7-2096-49c9-9f5c-55dcec1d1556",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(4x + 1 = 5\\)",
+      "order_index": 8,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(4x + 1 = 5\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(4x = 5 - 1 = 4\\). Ikkala tomonni \\(4\\) ga bo'lamiz: \\(x = \\dfrac{4}{4} = 1\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(4x + 1 = 5\\)",
+        "Ozod hadni o'tkazamiz: \\(4x = 4\\)  (oraliq qiymat: 4)",
+        "Bo'lamiz: \\(x = 4 / 4 = 1\\)"
+      ],
+      "correct_answer": null
+    },
+    {
+      "id": "8a2a07e3-e8d2-4a18-9d06-6f9dcd3f9ea1",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(5x + 2 = 17\\)",
+      "order_index": 9,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(5x + 2 = 17\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(5x = 17 - 2 = 15\\). Ikkala tomonni \\(5\\) ga bo'lamiz: \\(x = \\dfrac{15}{5} = 3\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(5x + 2 = 17\\)",
+        "Ozod hadni o'tkazamiz: \\(5x = 15\\)  (oraliq qiymat: 15)",
+        "Bo'lamiz: \\(x = 15 / 5 = 3\\)"
+      ],
+      "correct_answer": "3"
+    },
+    {
+      "id": "132eaf1d-537b-4d51-bfd6-52178684dca8",
+      "test_id": "65ffc031-26b0-4ac1-a6ef-63916d9e2dc0",
+      "question_text": "Tenglamani yeching: \\(2x + 3 = 13\\)",
+      "order_index": 10,
+      "created_at": "2026-06-22T02:33:08.741162+00:00",
+      "topic": "Chiziqli tenglamalar",
+      "solution_text": "Berilgan: \\(2x + 3 = 13\\). Ozod hadni o'ng tomonga o'tkazamiz: \\(2x = 13 - 3 = 10\\). Ikkala tomonni \\(2\\) ga bo'lamiz: \\(x = \\dfrac{10}{2} = 5\\).",
+      "intermediate_steps": [
+        "Tenglama: \\(2x + 3 = 13\\)",
+        "Ozod hadni o'tkazamiz: \\(2x = 10\\)  (oraliq qiymat: 10)",
+        "Bo'lamiz: \\(x = 10 / 2 = 5\\)"
+      ],
+      "correct_answer": "5"
+    }
+  ],
+  "choices": [
+    {
+      "id": "4fda3315-0f8a-49ab-8db7-9d74b5eea5d8",
+      "question_id": "cbd0ecd4-1c39-4403-b43c-7bce18890b8d",
+      "choice_text": "-1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "272615bd-c74a-4bd2-9abf-fb127a04229b",
+      "question_id": "cbd0ecd4-1c39-4403-b43c-7bce18890b8d",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "34546fb7-90de-4d52-b321-6cb6918c6ec1",
+      "question_id": "cbd0ecd4-1c39-4403-b43c-7bce18890b8d",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "e83a040f-bb30-45a7-8378-a67cceebecb3",
+      "question_id": "cbd0ecd4-1c39-4403-b43c-7bce18890b8d",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "8fe0c00f-efd7-4804-8da7-8a322851a233",
+      "question_id": "c1959362-dd74-4a6d-bff3-cae4b4f0ff93",
+      "choice_text": "1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "29dff71a-9cbf-44d9-ab7c-2fa6d42ff722",
+      "question_id": "c1959362-dd74-4a6d-bff3-cae4b4f0ff93",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "726d8484-8dc3-4686-8a82-0350b8d5966f",
+      "question_id": "c1959362-dd74-4a6d-bff3-cae4b4f0ff93",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "79d56002-068e-411f-a71c-b686ec37933c",
+      "question_id": "c1959362-dd74-4a6d-bff3-cae4b4f0ff93",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "55290829-8aa8-45aa-af52-570a8a742011",
+      "question_id": "53b1ec17-38e5-471d-af26-79cf8b784bc8",
+      "choice_text": "3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "9c6909c8-2765-46a1-b042-3049d1859949",
+      "question_id": "53b1ec17-38e5-471d-af26-79cf8b784bc8",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "da132e75-73f1-4445-a7dd-2687ab16e628",
+      "question_id": "53b1ec17-38e5-471d-af26-79cf8b784bc8",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "d5428b37-7b8c-4e2f-b188-8e9eaf191c91",
+      "question_id": "53b1ec17-38e5-471d-af26-79cf8b784bc8",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "f29c8a14-1db7-40f7-b0ba-a71595bbd852",
+      "question_id": "24dda199-9f94-48f3-be96-6e4e8e43234f",
+      "choice_text": "5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "6761681f-9f92-431a-920a-760827ee0197",
+      "question_id": "24dda199-9f94-48f3-be96-6e4e8e43234f",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "f27fecb9-ac2f-4375-a875-86791b2269e9",
+      "question_id": "24dda199-9f94-48f3-be96-6e4e8e43234f",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "b0f96e59-c363-46c0-98cf-ea16a680656d",
+      "question_id": "24dda199-9f94-48f3-be96-6e4e8e43234f",
+      "choice_text": "8",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "ea2a7294-a6f3-47e2-9e89-bfa32e2427e9",
+      "question_id": "017f3666-1c2c-49bf-9fa1-3683c04e5d2e",
+      "choice_text": "-6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "97fc4142-e083-4483-b4fe-dd5036efad89",
+      "question_id": "017f3666-1c2c-49bf-9fa1-3683c04e5d2e",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "735e2e3b-b375-414b-9741-f961d289473e",
+      "question_id": "017f3666-1c2c-49bf-9fa1-3683c04e5d2e",
+      "choice_text": "-8",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "3cd9b228-6c5d-4aef-bc60-7be747e826e6",
+      "question_id": "017f3666-1c2c-49bf-9fa1-3683c04e5d2e",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "a71d66e5-78cc-4a33-ad26-8d5f27df3023",
+      "question_id": "196a2d03-2306-455d-9a37-d17621ab8f29",
+      "choice_text": "-4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "9c257a5d-4b58-4a73-9b3f-e0fc00337e99",
+      "question_id": "196a2d03-2306-455d-9a37-d17621ab8f29",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "c8507b90-d1b4-4d6f-9016-5cccc807efe7",
+      "question_id": "196a2d03-2306-455d-9a37-d17621ab8f29",
+      "choice_text": "-6",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "db965a7c-5bbb-4383-a0ff-dadd236e7ac2",
+      "question_id": "196a2d03-2306-455d-9a37-d17621ab8f29",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "7865fc93-3cb3-4c37-92d1-d0d55d51bda5",
+      "question_id": "e05526c2-fa30-4224-bca4-63cb7f71cf59",
+      "choice_text": "-2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "15cbf065-e9fb-42e1-81ff-d988011b5b62",
+      "question_id": "e05526c2-fa30-4224-bca4-63cb7f71cf59",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "8249708b-97ec-4d90-bf7d-a331956324e8",
+      "question_id": "e05526c2-fa30-4224-bca4-63cb7f71cf59",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "14718bc0-3acb-4e62-bd83-46461c37e24f",
+      "question_id": "e05526c2-fa30-4224-bca4-63cb7f71cf59",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "a76b4c4f-5e8e-4f35-9149-926e89239473",
+      "question_id": "eaa648de-acf3-41f5-83c4-5fe62d6ecedd",
+      "choice_text": "0",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "4a1b1bf7-e7f1-4214-9f56-ba162388de69",
+      "question_id": "eaa648de-acf3-41f5-83c4-5fe62d6ecedd",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "4168b963-0434-42bc-8460-19215a1ab8b2",
+      "question_id": "eaa648de-acf3-41f5-83c4-5fe62d6ecedd",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "52d9bf9c-9e49-4e96-99da-8f005d01e592",
+      "question_id": "eaa648de-acf3-41f5-83c4-5fe62d6ecedd",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "5741a134-e13e-4fb4-a27e-038c3fbc1daa",
+      "question_id": "10c38e2f-95cf-4bcf-9a83-4fd4fd0964b5",
+      "choice_text": "2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "63389e55-8c99-4697-a4ed-6af2b6f5a2ec",
+      "question_id": "10c38e2f-95cf-4bcf-9a83-4fd4fd0964b5",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "5f496b84-5244-4a9c-b77d-acf45f0bffd7",
+      "question_id": "10c38e2f-95cf-4bcf-9a83-4fd4fd0964b5",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "901923d0-a081-4dda-8def-beaa6ac3632e",
+      "question_id": "10c38e2f-95cf-4bcf-9a83-4fd4fd0964b5",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "a70e6e0a-9607-4aa1-9489-56e04356eae2",
+      "question_id": "88744623-5243-4628-9903-4bd10839dcfd",
+      "choice_text": "4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "c20a6f49-958a-4c06-b6ff-840dc06fdb08",
+      "question_id": "88744623-5243-4628-9903-4bd10839dcfd",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "46188c8d-4a53-4172-a0f5-5e24740593fe",
+      "question_id": "88744623-5243-4628-9903-4bd10839dcfd",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "2b079fc8-4d66-4444-9488-5498f2bffe69",
+      "question_id": "88744623-5243-4628-9903-4bd10839dcfd",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "6a78294a-9131-4fe5-95eb-cd5587ed43e4",
+      "question_id": "d9d09005-f528-4edb-9f41-78e56c33539a",
+      "choice_text": "6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "6594c398-6bed-4de2-b9d3-86586907c8d9",
+      "question_id": "d9d09005-f528-4edb-9f41-78e56c33539a",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "14c450c8-0819-4388-a4a3-931343bee5ac",
+      "question_id": "d9d09005-f528-4edb-9f41-78e56c33539a",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "e1d3678e-fdac-4040-b892-13bf763dff97",
+      "question_id": "d9d09005-f528-4edb-9f41-78e56c33539a",
+      "choice_text": "9",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "468d54c1-6088-48f8-966c-08f80d1cf3c9",
+      "question_id": "1880afca-f3e8-4466-b9df-906162cdc698",
+      "choice_text": "-5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "e8215310-7574-4986-a04d-4da8452f6f55",
+      "question_id": "1880afca-f3e8-4466-b9df-906162cdc698",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "eeb155d5-42fb-47ca-9464-6f3b92ceda24",
+      "question_id": "1880afca-f3e8-4466-b9df-906162cdc698",
+      "choice_text": "-7",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "a0fdd646-48ff-4d17-82c8-1d439cbabd48",
+      "question_id": "1880afca-f3e8-4466-b9df-906162cdc698",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "d853fada-1228-4a3f-800c-fcfd78ce0dff",
+      "question_id": "fc05cbbf-3f01-401a-a5fd-f2ed37fe7c8c",
+      "choice_text": "-3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "590871d3-3a2d-4943-8f96-1c743f68e854",
+      "question_id": "fc05cbbf-3f01-401a-a5fd-f2ed37fe7c8c",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "16aab3f4-08e2-428b-88a4-5abd0879fffb",
+      "question_id": "fc05cbbf-3f01-401a-a5fd-f2ed37fe7c8c",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "23a62e57-c641-4fe9-b6e8-e1ea49fab9b3",
+      "question_id": "fc05cbbf-3f01-401a-a5fd-f2ed37fe7c8c",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "2e9d3628-f9e6-4d27-8f73-460c2b094628",
+      "question_id": "ce14bcbd-59a2-4262-b372-2c6ea28475c9",
+      "choice_text": "-1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "1aa143c9-a12d-47e3-b4cb-cb8299be49b2",
+      "question_id": "ce14bcbd-59a2-4262-b372-2c6ea28475c9",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "f7515948-793e-4880-8347-60f10949f782",
+      "question_id": "ce14bcbd-59a2-4262-b372-2c6ea28475c9",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "b03ec4a8-f64e-4263-9634-39387bf24d25",
+      "question_id": "ce14bcbd-59a2-4262-b372-2c6ea28475c9",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "0747063a-5930-4fdf-9880-1aa7bbc6d99b",
+      "question_id": "3c0af96d-f930-4f01-81d5-a2854274f0bf",
+      "choice_text": "1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "8361a7ea-74bc-490b-a08f-779a8f1d862c",
+      "question_id": "3c0af96d-f930-4f01-81d5-a2854274f0bf",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "95f1679f-d325-4c46-9be8-0a0f779fb3ad",
+      "question_id": "3c0af96d-f930-4f01-81d5-a2854274f0bf",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "2b7e34d4-da07-4183-a752-83907e20a38d",
+      "question_id": "3c0af96d-f930-4f01-81d5-a2854274f0bf",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "ce6baea6-4b51-4724-848d-f92c3d9bad5c",
+      "question_id": "b19b51e7-3072-48b7-8eef-0e93928245fd",
+      "choice_text": "3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "21ecd9fb-feef-4a38-b488-964060cb1d8b",
+      "question_id": "b19b51e7-3072-48b7-8eef-0e93928245fd",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "32c31075-5a3b-425a-b0a3-620e04e38859",
+      "question_id": "b19b51e7-3072-48b7-8eef-0e93928245fd",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "db6aafca-a765-4d96-a313-46ca6c93187f",
+      "question_id": "b19b51e7-3072-48b7-8eef-0e93928245fd",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "0433e1dc-504c-4146-846e-e5e42aa875bb",
+      "question_id": "dbb0c6cf-edef-45bc-9ffa-da0a3211eb36",
+      "choice_text": "5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "71b220f5-dee1-45aa-abfd-76ab5484067c",
+      "question_id": "dbb0c6cf-edef-45bc-9ffa-da0a3211eb36",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "a93a4829-d8d1-4e7f-b53e-d03528166046",
+      "question_id": "dbb0c6cf-edef-45bc-9ffa-da0a3211eb36",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "7feb8e6b-d9ef-499d-81ff-2929bcc665a7",
+      "question_id": "dbb0c6cf-edef-45bc-9ffa-da0a3211eb36",
+      "choice_text": "8",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "62109649-0937-49d8-94c5-9b9adebc7efb",
+      "question_id": "a455ab8e-5a42-4eaf-a49f-306aef86ddf0",
+      "choice_text": "-6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "22dd6559-f794-4795-a6dc-a77afeef690a",
+      "question_id": "a455ab8e-5a42-4eaf-a49f-306aef86ddf0",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "39d0a519-cf88-43bd-8e2f-a70dfd66b996",
+      "question_id": "a455ab8e-5a42-4eaf-a49f-306aef86ddf0",
+      "choice_text": "-8",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "ad9d3b61-3e7f-460d-b0d1-d2c34541ca45",
+      "question_id": "a455ab8e-5a42-4eaf-a49f-306aef86ddf0",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "8330655f-dfc6-49eb-89c2-770287fb1f80",
+      "question_id": "1a372a3d-62e4-42cf-b8db-fd0702e8675f",
+      "choice_text": "-4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "e1be6f9d-c3d1-43e9-9730-7a657334428a",
+      "question_id": "1a372a3d-62e4-42cf-b8db-fd0702e8675f",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "a2ffcdd3-55d9-48c9-9f9f-420e5a500d59",
+      "question_id": "1a372a3d-62e4-42cf-b8db-fd0702e8675f",
+      "choice_text": "-6",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "8dd7e6d8-7b66-465d-affd-b2a8b6f45aba",
+      "question_id": "1a372a3d-62e4-42cf-b8db-fd0702e8675f",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "6bf426a7-dac7-43fe-b1d4-38bde1cf446c",
+      "question_id": "97900086-1189-4e87-b604-b26f149a975c",
+      "choice_text": "-2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "60377087-7153-4850-b2d9-d8293f8bc6b1",
+      "question_id": "97900086-1189-4e87-b604-b26f149a975c",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "0be59574-5d07-4528-86f7-7666c97b5e91",
+      "question_id": "97900086-1189-4e87-b604-b26f149a975c",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "6b95ec72-d53d-478f-97f3-03422ff68323",
+      "question_id": "97900086-1189-4e87-b604-b26f149a975c",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "fac9dae5-244a-4847-a423-31086ac2d854",
+      "question_id": "02bd00c0-c16e-49f0-bd0f-15b388c556b2",
+      "choice_text": "0",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "c3cde7b2-f11e-4098-989a-d8b1012b55c4",
+      "question_id": "02bd00c0-c16e-49f0-bd0f-15b388c556b2",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "0757d673-042b-4dd5-b8b4-98f31256821e",
+      "question_id": "02bd00c0-c16e-49f0-bd0f-15b388c556b2",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "44aff710-0d43-463d-bb14-5c6f38cc6545",
+      "question_id": "02bd00c0-c16e-49f0-bd0f-15b388c556b2",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "fa4468ab-203f-4bdd-9143-bbc012c06569",
+      "question_id": "f7fcd4e8-7c78-4259-b3dd-461c30f64be7",
+      "choice_text": "2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "10adcdff-2d30-4905-9f53-bf1711cc9292",
+      "question_id": "f7fcd4e8-7c78-4259-b3dd-461c30f64be7",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "c478fd0e-314a-4440-b1f0-a50e5d71da85",
+      "question_id": "f7fcd4e8-7c78-4259-b3dd-461c30f64be7",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "003f0c26-e994-439c-bf60-a81142f7c540",
+      "question_id": "f7fcd4e8-7c78-4259-b3dd-461c30f64be7",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "15e40ee7-29ba-448b-9cd3-a94b928ecd6c",
+      "question_id": "2a732092-9dd9-4560-86f8-d5c71b6913d0",
+      "choice_text": "4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "8495bca8-258e-41d0-9e28-d1611f63db18",
+      "question_id": "2a732092-9dd9-4560-86f8-d5c71b6913d0",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "24e84210-7f7c-4a96-8cf3-af0e5b85bf36",
+      "question_id": "2a732092-9dd9-4560-86f8-d5c71b6913d0",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "d080ef03-c035-45e9-a16a-789694fdc23f",
+      "question_id": "2a732092-9dd9-4560-86f8-d5c71b6913d0",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "43697dad-80e4-4068-8164-123b66b3b084",
+      "question_id": "6c353771-07e9-4867-8419-e99fab40a9d2",
+      "choice_text": "6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "d924ca23-6d4c-4494-8e0c-5674d442132c",
+      "question_id": "6c353771-07e9-4867-8419-e99fab40a9d2",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "2c1a52ac-a717-4e22-848b-b5522d92add4",
+      "question_id": "6c353771-07e9-4867-8419-e99fab40a9d2",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "a51b1c46-7e4e-4e59-a563-9e3d97452337",
+      "question_id": "6c353771-07e9-4867-8419-e99fab40a9d2",
+      "choice_text": "9",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "bfcdb912-240f-4055-9993-6a04402012ab",
+      "question_id": "15beee9c-ea20-46c1-a733-8ce588943383",
+      "choice_text": "-5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "6d1571d8-08b2-4d4e-b0e7-d0286a960bde",
+      "question_id": "15beee9c-ea20-46c1-a733-8ce588943383",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "05f04e49-9b51-4c3b-b941-f48b8d6ff1f1",
+      "question_id": "15beee9c-ea20-46c1-a733-8ce588943383",
+      "choice_text": "-7",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "0cd048fb-c958-4a48-b32b-d242c5d16ecc",
+      "question_id": "15beee9c-ea20-46c1-a733-8ce588943383",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "b9ae2225-7e4a-4d73-8cfa-eec1d97632fb",
+      "question_id": "50d37739-d7e8-4771-a4c1-572c3811c279",
+      "choice_text": "-3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "c91f941b-8f73-4b00-9e41-d40cf2918355",
+      "question_id": "50d37739-d7e8-4771-a4c1-572c3811c279",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "fbaefb10-7bb1-4671-b398-9e28752e67d1",
+      "question_id": "50d37739-d7e8-4771-a4c1-572c3811c279",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "dd184068-f097-4079-b12f-ea0985e6f901",
+      "question_id": "50d37739-d7e8-4771-a4c1-572c3811c279",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "7cb8e67a-8376-4d63-9f7c-1166adcbdeca",
+      "question_id": "63c5c975-3d2f-4f52-b6ab-c5a1217df7cd",
+      "choice_text": "-1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "f3b835b1-a159-4d50-bc8e-0e5c6fd0b7cf",
+      "question_id": "63c5c975-3d2f-4f52-b6ab-c5a1217df7cd",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "6f2d6886-8d51-444b-8c2f-7d50ca7cfa03",
+      "question_id": "63c5c975-3d2f-4f52-b6ab-c5a1217df7cd",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "296a24a6-db35-4e94-9efc-35a3fd2a616c",
+      "question_id": "63c5c975-3d2f-4f52-b6ab-c5a1217df7cd",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "0a2bc1f4-0c69-4efb-b572-a95dbc29e901",
+      "question_id": "aa47963f-6ded-4f60-a7c9-3802bf29b921",
+      "choice_text": "1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "8148b54f-746a-4076-8f3d-27287a93a917",
+      "question_id": "aa47963f-6ded-4f60-a7c9-3802bf29b921",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "b4d44ca9-6a3e-4928-841d-97b729a05ef7",
+      "question_id": "aa47963f-6ded-4f60-a7c9-3802bf29b921",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "0db74a05-c4b0-4de7-8005-c3cfc4d3e6de",
+      "question_id": "aa47963f-6ded-4f60-a7c9-3802bf29b921",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "6d7f43ce-1b11-4ed6-8835-20ea37853455",
+      "question_id": "630d5126-3169-43b2-96aa-bad7a3f87675",
+      "choice_text": "3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "17be9581-71e2-4802-bcf3-6cd4908950ac",
+      "question_id": "630d5126-3169-43b2-96aa-bad7a3f87675",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "5cbab36b-1822-4a63-9efd-8a541d48f999",
+      "question_id": "630d5126-3169-43b2-96aa-bad7a3f87675",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "5ec16276-7084-466b-a259-88ea4035bc52",
+      "question_id": "630d5126-3169-43b2-96aa-bad7a3f87675",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "3df9f070-3c92-4788-b877-fd99ca23a2c5",
+      "question_id": "5bd0a395-7512-4da9-95b2-ae62e356ddf4",
+      "choice_text": "5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "f73f480f-594d-49dd-b6a6-81de44717dbf",
+      "question_id": "5bd0a395-7512-4da9-95b2-ae62e356ddf4",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "5b0da3b2-6d48-4bcd-a9df-82a660efeba5",
+      "question_id": "5bd0a395-7512-4da9-95b2-ae62e356ddf4",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "83b28183-f38c-4deb-9278-70fa45f1c3d1",
+      "question_id": "5bd0a395-7512-4da9-95b2-ae62e356ddf4",
+      "choice_text": "8",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "70142f09-64af-4460-a12f-2fab364616b0",
+      "question_id": "0d265b83-2287-43a4-8eec-a86552134300",
+      "choice_text": "-6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "4607c9e5-fa8b-4648-a70c-4c1b91a18721",
+      "question_id": "0d265b83-2287-43a4-8eec-a86552134300",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "20e662bb-c5dc-4032-891b-d5771ce49e18",
+      "question_id": "0d265b83-2287-43a4-8eec-a86552134300",
+      "choice_text": "-8",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "74af4763-8951-48e6-876d-3d9fa6f2ae2a",
+      "question_id": "0d265b83-2287-43a4-8eec-a86552134300",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "ff140c41-f4ee-4dda-8320-3c9e7cfb1ad7",
+      "question_id": "be4aa67b-a62b-4344-8e44-28d01d00f12f",
+      "choice_text": "-4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "a7149652-1d33-4ff7-a42c-ebcc3d0032f7",
+      "question_id": "be4aa67b-a62b-4344-8e44-28d01d00f12f",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "806f9fd3-6804-4e34-badc-a0784c37ca9a",
+      "question_id": "be4aa67b-a62b-4344-8e44-28d01d00f12f",
+      "choice_text": "-6",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "a296d107-8ec9-4dae-9775-29070bc96ec3",
+      "question_id": "be4aa67b-a62b-4344-8e44-28d01d00f12f",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "071f0dc7-a431-42d5-9e2c-2772716f914d",
+      "question_id": "5596dfa7-73ec-4471-bd3e-bc77bd5dd5df",
+      "choice_text": "-2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "c20ba20c-1057-4750-b23f-c9b2dd5e13c8",
+      "question_id": "5596dfa7-73ec-4471-bd3e-bc77bd5dd5df",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "96dcd079-545d-4914-b307-391b8a0ea590",
+      "question_id": "5596dfa7-73ec-4471-bd3e-bc77bd5dd5df",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "7f5094d1-bff4-4d1c-9379-d3dc3e81ddef",
+      "question_id": "5596dfa7-73ec-4471-bd3e-bc77bd5dd5df",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "ca926488-9c53-41a4-a154-8f4dc7673d95",
+      "question_id": "a0afc91a-842a-4e55-a0a6-6bf5c9f63e3a",
+      "choice_text": "0",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "3b3e556d-521c-4921-9451-daadbcb995f6",
+      "question_id": "a0afc91a-842a-4e55-a0a6-6bf5c9f63e3a",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "cd01bed7-b2f7-4ca9-ac72-876e0df28256",
+      "question_id": "a0afc91a-842a-4e55-a0a6-6bf5c9f63e3a",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "9db7a986-69c7-44d2-bc6f-cb7f529e9ba4",
+      "question_id": "a0afc91a-842a-4e55-a0a6-6bf5c9f63e3a",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "9408ee4c-5576-4975-ad33-8b412837bb50",
+      "question_id": "924f5389-a914-4eda-9c56-2ef9709ea264",
+      "choice_text": "2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "e803bf82-1dce-428a-884b-8c18d20a26ba",
+      "question_id": "924f5389-a914-4eda-9c56-2ef9709ea264",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "562eb0c4-3320-4731-94e1-5dde10107756",
+      "question_id": "924f5389-a914-4eda-9c56-2ef9709ea264",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "2db562cb-6f9f-4511-b991-f78bff025610",
+      "question_id": "924f5389-a914-4eda-9c56-2ef9709ea264",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "18dfaf9f-91b3-42c1-bcd8-a238da5505c7",
+      "question_id": "f1f24b87-0a65-408d-a560-7bc19c9a3758",
+      "choice_text": "4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "b4681055-92bd-4422-a4ea-663be177c61b",
+      "question_id": "f1f24b87-0a65-408d-a560-7bc19c9a3758",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "e2ddc598-5b42-4794-a4e0-36084bb86e02",
+      "question_id": "f1f24b87-0a65-408d-a560-7bc19c9a3758",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "bc7229b5-e478-4652-b33a-a2808795eb4c",
+      "question_id": "f1f24b87-0a65-408d-a560-7bc19c9a3758",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "68d75eb2-d3a2-4e42-87c0-5d2015b957ba",
+      "question_id": "980fad34-dcfd-48fd-a5d6-7b76c0e5523b",
+      "choice_text": "6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "a7b16110-aceb-4825-b3b1-341cbc977dec",
+      "question_id": "980fad34-dcfd-48fd-a5d6-7b76c0e5523b",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "95eb18d3-e96a-4c4c-898a-f79649e19fd8",
+      "question_id": "980fad34-dcfd-48fd-a5d6-7b76c0e5523b",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "d11c9f35-9f25-4f64-ae43-f88b800a4b0d",
+      "question_id": "980fad34-dcfd-48fd-a5d6-7b76c0e5523b",
+      "choice_text": "9",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "4325ef0e-7ee8-467c-a85a-e46fdd4fbd35",
+      "question_id": "470c65fb-d29b-43b8-b790-2d439c599cfd",
+      "choice_text": "-5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "2f845f1d-4a67-4dc5-8846-0175a5ca9027",
+      "question_id": "470c65fb-d29b-43b8-b790-2d439c599cfd",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "a161cdcf-b683-4e5e-adb5-57457569f284",
+      "question_id": "470c65fb-d29b-43b8-b790-2d439c599cfd",
+      "choice_text": "-7",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "288a2402-228c-470d-8792-7c4b263bc0f5",
+      "question_id": "470c65fb-d29b-43b8-b790-2d439c599cfd",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "af3ed77f-bb16-43db-b18c-4b30a656adf8",
+      "question_id": "e32984d3-90dd-4af8-bf15-39b1de185413",
+      "choice_text": "-3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "5f07efb2-4e40-4c23-920a-ad0e494fb079",
+      "question_id": "e32984d3-90dd-4af8-bf15-39b1de185413",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "6d34ab03-ae6f-40e5-9ff7-8e1a72d4ecc3",
+      "question_id": "e32984d3-90dd-4af8-bf15-39b1de185413",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "6e165b13-6b51-4f77-bc48-ea6b78637851",
+      "question_id": "e32984d3-90dd-4af8-bf15-39b1de185413",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "bbc0adf2-51c3-41f8-9353-e912cf0ed3d8",
+      "question_id": "d173e8ea-efa2-49d4-9334-ff7ac42eb40d",
+      "choice_text": "-1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "4b10008c-4ddd-4467-9f81-2e479a4369be",
+      "question_id": "d173e8ea-efa2-49d4-9334-ff7ac42eb40d",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "c0f16561-8a2e-42b5-b213-41a4ae9b1b09",
+      "question_id": "d173e8ea-efa2-49d4-9334-ff7ac42eb40d",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "87880fdd-388f-4b1f-a905-e2e60afc5e86",
+      "question_id": "d173e8ea-efa2-49d4-9334-ff7ac42eb40d",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "08d821f3-d679-47d5-8ecc-f824ee247e7b",
+      "question_id": "1e060cff-eea4-4aa4-996b-f17bd26540eb",
+      "choice_text": "1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "9f8c653f-7e58-43bf-a313-c401fa2c072e",
+      "question_id": "1e060cff-eea4-4aa4-996b-f17bd26540eb",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "7609e59e-d61f-426f-ae15-88f6e1f81101",
+      "question_id": "1e060cff-eea4-4aa4-996b-f17bd26540eb",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "6829dade-3b9c-4755-a1cc-b416a4688b05",
+      "question_id": "1e060cff-eea4-4aa4-996b-f17bd26540eb",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "08b2d1ec-7268-4c6b-9803-1a8831fb888d",
+      "question_id": "f7c34133-46a8-420e-8ab0-a15f212661ee",
+      "choice_text": "3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "10175c9a-7fdc-409b-9d01-1abb3ee289f2",
+      "question_id": "f7c34133-46a8-420e-8ab0-a15f212661ee",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "b506e85c-940b-48ae-af1b-cfe741296fd0",
+      "question_id": "f7c34133-46a8-420e-8ab0-a15f212661ee",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "7c214123-7490-4492-a54d-96f7ffcf5b05",
+      "question_id": "f7c34133-46a8-420e-8ab0-a15f212661ee",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "039db4b2-4f99-48a4-810b-bdeb7720f4be",
+      "question_id": "8d4d18bb-5d0b-4484-aa0b-62aeb207af0d",
+      "choice_text": "5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "b59448ce-eec2-498b-8577-b61640cc1254",
+      "question_id": "8d4d18bb-5d0b-4484-aa0b-62aeb207af0d",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "2e0a1626-424f-4be1-a1d2-351de0b45cda",
+      "question_id": "8d4d18bb-5d0b-4484-aa0b-62aeb207af0d",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "acd177a4-9cc7-4e68-a058-d0dde17978be",
+      "question_id": "8d4d18bb-5d0b-4484-aa0b-62aeb207af0d",
+      "choice_text": "8",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "33f2e84c-a19b-41ff-9dcf-a15f861c2b10",
+      "question_id": "607d1bd7-61a5-4029-8376-304dc9be56ed",
+      "choice_text": "-6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "de75461e-a1c8-4be0-b520-ccd8c1df0ffe",
+      "question_id": "607d1bd7-61a5-4029-8376-304dc9be56ed",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "5e5c744b-cdd2-44fd-a36d-ecc160868f85",
+      "question_id": "607d1bd7-61a5-4029-8376-304dc9be56ed",
+      "choice_text": "-8",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "4e9e0cc0-3426-479d-91cb-99b4bafe8708",
+      "question_id": "607d1bd7-61a5-4029-8376-304dc9be56ed",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "b8d4a455-6897-42a1-82e9-5fc0872fab92",
+      "question_id": "14f690ce-767a-479c-a474-50af69053e71",
+      "choice_text": "-4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "8836fa83-4785-46d2-8ac5-c00cfffd3d4b",
+      "question_id": "14f690ce-767a-479c-a474-50af69053e71",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "7514e030-2258-4fcd-af53-a24aded7ead1",
+      "question_id": "14f690ce-767a-479c-a474-50af69053e71",
+      "choice_text": "-6",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "82d50dab-889e-4f76-8a30-1d817cddb59a",
+      "question_id": "14f690ce-767a-479c-a474-50af69053e71",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "21051b57-dd19-4a2a-b0b7-e0c43ccba540",
+      "question_id": "4249f5f3-a2ac-45fd-8890-4577295cd657",
+      "choice_text": "-2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "918b9f51-3574-4a37-b8f1-fc8a3480c61e",
+      "question_id": "4249f5f3-a2ac-45fd-8890-4577295cd657",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "d74b07bb-496d-4c48-aa84-5a666b22d056",
+      "question_id": "4249f5f3-a2ac-45fd-8890-4577295cd657",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "c310b792-c604-4091-a49c-dfc55b8eefb9",
+      "question_id": "4249f5f3-a2ac-45fd-8890-4577295cd657",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "aaa7f8e0-2992-4699-89a8-fe4da510fc10",
+      "question_id": "36be713b-d17c-455f-bb57-a5e5e30d40ac",
+      "choice_text": "0",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "814e23cf-37de-47d1-a5b7-c4d85e062b9a",
+      "question_id": "36be713b-d17c-455f-bb57-a5e5e30d40ac",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "1b8c8a7c-f686-4cf8-8cf5-819c50e08b9e",
+      "question_id": "36be713b-d17c-455f-bb57-a5e5e30d40ac",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "67b55b80-84b4-4c59-928e-9259adadd598",
+      "question_id": "36be713b-d17c-455f-bb57-a5e5e30d40ac",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "7870c976-d425-4358-81c3-bddb814d3650",
+      "question_id": "3f6914e8-4747-4b1a-a1e5-ff7d440980e0",
+      "choice_text": "2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "a0b39609-0e52-41ac-b686-864acff7f4b7",
+      "question_id": "3f6914e8-4747-4b1a-a1e5-ff7d440980e0",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "6ff20211-5383-4cd2-b342-49cb356fc75c",
+      "question_id": "3f6914e8-4747-4b1a-a1e5-ff7d440980e0",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "5544cc7a-8b08-4abd-8c44-dca2d966aa4f",
+      "question_id": "3f6914e8-4747-4b1a-a1e5-ff7d440980e0",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "fb8693f7-d69d-443f-97bd-ded0cb683f31",
+      "question_id": "26354a90-5323-4849-a739-32a1c1705f30",
+      "choice_text": "4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "1269c15b-1247-4558-9cc0-f412e88ab110",
+      "question_id": "26354a90-5323-4849-a739-32a1c1705f30",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "b54b00b0-0d89-4d9b-bdd8-b262b7742770",
+      "question_id": "26354a90-5323-4849-a739-32a1c1705f30",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "b878112c-9463-4649-be33-f0ada6badafc",
+      "question_id": "26354a90-5323-4849-a739-32a1c1705f30",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "f941801f-046e-40d1-b788-0ee84fe050dc",
+      "question_id": "6f3a32a9-247d-4b62-b74d-d3a5dbe0e71c",
+      "choice_text": "6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "c7a54da4-2612-4870-aee8-2468e292b64b",
+      "question_id": "6f3a32a9-247d-4b62-b74d-d3a5dbe0e71c",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "62791150-b53c-4a56-938d-b366812fedd7",
+      "question_id": "6f3a32a9-247d-4b62-b74d-d3a5dbe0e71c",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "272db90f-f230-4f0f-956f-b52322a44c78",
+      "question_id": "6f3a32a9-247d-4b62-b74d-d3a5dbe0e71c",
+      "choice_text": "9",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "edbe45bb-6a43-48b0-8401-4c9e4054c61b",
+      "question_id": "c7618e7f-90b5-457f-8d08-14c52d97b545",
+      "choice_text": "-5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "d19735cd-ec99-4d09-8faa-a2e4add04a2e",
+      "question_id": "c7618e7f-90b5-457f-8d08-14c52d97b545",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "6af90fdd-65fe-4f57-908c-d0b332271157",
+      "question_id": "c7618e7f-90b5-457f-8d08-14c52d97b545",
+      "choice_text": "-7",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "e296582f-a94b-459f-aea6-181b2cd4306a",
+      "question_id": "c7618e7f-90b5-457f-8d08-14c52d97b545",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "151265d2-3067-456a-bbe5-1d7ab5f7bccd",
+      "question_id": "cc7b04a0-c847-4d5b-8aea-2b398a8e5e3e",
+      "choice_text": "-3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "22b27db9-bb10-4f74-8659-cdaaeb3d5de2",
+      "question_id": "cc7b04a0-c847-4d5b-8aea-2b398a8e5e3e",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "6c2ff9b8-aa70-4879-8588-22a541547d23",
+      "question_id": "cc7b04a0-c847-4d5b-8aea-2b398a8e5e3e",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "a8ad1ef2-b2c9-42aa-9991-a1ada18c13da",
+      "question_id": "cc7b04a0-c847-4d5b-8aea-2b398a8e5e3e",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "d4a6c6f6-b762-456a-ab78-5de02666c2e0",
+      "question_id": "f7eb703b-b226-4e68-a716-3d37edeb2840",
+      "choice_text": "-1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "5f7b923c-2775-45c8-9072-a065414c6086",
+      "question_id": "f7eb703b-b226-4e68-a716-3d37edeb2840",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "996c1ed2-793f-42c2-b60c-fa5a388e9a64",
+      "question_id": "f7eb703b-b226-4e68-a716-3d37edeb2840",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "5925d686-92b4-4065-8ac1-7aa9c83f74ad",
+      "question_id": "f7eb703b-b226-4e68-a716-3d37edeb2840",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "9f542076-8215-4260-a206-0620e78c7792",
+      "question_id": "9e0cb565-5b80-4c7d-a549-5fd23b69c22e",
+      "choice_text": "1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "efffa21f-7c99-46c3-a1d3-ea8ac8995ba1",
+      "question_id": "9e0cb565-5b80-4c7d-a549-5fd23b69c22e",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "a70f0c6e-0e72-416d-bdc5-73391c034d75",
+      "question_id": "9e0cb565-5b80-4c7d-a549-5fd23b69c22e",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "66ad8f2b-4a03-43a7-8183-5a72e5e27f8e",
+      "question_id": "9e0cb565-5b80-4c7d-a549-5fd23b69c22e",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "f0b9148a-efd2-4000-baec-6ae918ff1d18",
+      "question_id": "4142d894-6a3f-4a2d-a50b-b57ce78cc617",
+      "choice_text": "3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "cfecbb08-a189-4fd9-b703-71fb07168069",
+      "question_id": "4142d894-6a3f-4a2d-a50b-b57ce78cc617",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "2d82af64-3766-475c-8bc6-94f126552740",
+      "question_id": "4142d894-6a3f-4a2d-a50b-b57ce78cc617",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "8b559349-6511-45da-8bae-9888ad76080b",
+      "question_id": "4142d894-6a3f-4a2d-a50b-b57ce78cc617",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "d64fed37-a238-4e9d-aeb6-5cb041fc150f",
+      "question_id": "55a1893f-c937-40b6-b58e-0b248731aebc",
+      "choice_text": "5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "d7d6778c-724b-416b-9598-adc9561f22a6",
+      "question_id": "55a1893f-c937-40b6-b58e-0b248731aebc",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "d51c3a2c-3f26-4162-a03d-d0b877650643",
+      "question_id": "55a1893f-c937-40b6-b58e-0b248731aebc",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "e4496611-7765-475e-bb7f-7f4b827ce9b4",
+      "question_id": "55a1893f-c937-40b6-b58e-0b248731aebc",
+      "choice_text": "8",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "182eb884-5298-48f5-bbaf-0bbd9f39c8a2",
+      "question_id": "00431e93-98ae-48c3-b45e-e666e7ff6e0f",
+      "choice_text": "-6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "31838916-dbe5-4668-90ed-9551043ff9c3",
+      "question_id": "00431e93-98ae-48c3-b45e-e666e7ff6e0f",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "3e55ec77-c8d2-4d8f-a923-fc8d56d81739",
+      "question_id": "00431e93-98ae-48c3-b45e-e666e7ff6e0f",
+      "choice_text": "-8",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "8e31181c-5530-4590-8034-8c4caa7f26e5",
+      "question_id": "00431e93-98ae-48c3-b45e-e666e7ff6e0f",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "334277e9-5bf8-4312-afd8-1c7c857599f7",
+      "question_id": "5380f729-ee02-4664-81d9-5aacd9d39647",
+      "choice_text": "-4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "6e779565-630d-4895-8148-8048cbda7489",
+      "question_id": "5380f729-ee02-4664-81d9-5aacd9d39647",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "e16bdee2-e674-45c8-8bf6-9d473f7b050e",
+      "question_id": "5380f729-ee02-4664-81d9-5aacd9d39647",
+      "choice_text": "-6",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "a13b64e7-967a-4961-817d-1006bc1c604a",
+      "question_id": "5380f729-ee02-4664-81d9-5aacd9d39647",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "13a8782b-b164-45a0-b777-c87f2ec6a538",
+      "question_id": "95aa7d5d-23d8-47b5-a047-9352dc20cded",
+      "choice_text": "-2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "e7921961-d055-461e-a34c-614698e6dadc",
+      "question_id": "95aa7d5d-23d8-47b5-a047-9352dc20cded",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "68894c1d-14b2-4fd5-a119-d523726afab2",
+      "question_id": "95aa7d5d-23d8-47b5-a047-9352dc20cded",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "448f894b-4d03-4cba-9da1-36f11b2fae0c",
+      "question_id": "95aa7d5d-23d8-47b5-a047-9352dc20cded",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "06987fa4-7165-4673-ba8d-16144f4cf5a5",
+      "question_id": "aa64dda9-93e8-493f-9063-c77f9f23c9c0",
+      "choice_text": "0",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "c77b5f31-cc6d-4020-9ac0-b0e3691b0882",
+      "question_id": "aa64dda9-93e8-493f-9063-c77f9f23c9c0",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "737968ca-1e8a-47fc-a1ba-2e5aa7c6c7c4",
+      "question_id": "aa64dda9-93e8-493f-9063-c77f9f23c9c0",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "96a63067-f4fd-4213-979a-f25d6d474ad7",
+      "question_id": "aa64dda9-93e8-493f-9063-c77f9f23c9c0",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "3f667f18-b99b-4d60-96de-ccbefcc253fb",
+      "question_id": "05c8c433-9f96-4152-8933-95f735ca1e1b",
+      "choice_text": "2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "6046dbce-b3f8-4b6b-9b3b-4edc60156af9",
+      "question_id": "05c8c433-9f96-4152-8933-95f735ca1e1b",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "68fe231b-cf92-4bc9-ae33-672e82654136",
+      "question_id": "05c8c433-9f96-4152-8933-95f735ca1e1b",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "43f7525e-63df-43f9-9783-e811986b08aa",
+      "question_id": "05c8c433-9f96-4152-8933-95f735ca1e1b",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "9289c47b-fae2-4f28-a002-ca8508a51058",
+      "question_id": "be4d4f0d-6177-422c-a613-bcd88035a31c",
+      "choice_text": "4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "8c257c80-94d6-40bd-ae12-7b535f8d220a",
+      "question_id": "be4d4f0d-6177-422c-a613-bcd88035a31c",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "801ceacd-f30f-404d-94a5-0e88f6846e7b",
+      "question_id": "be4d4f0d-6177-422c-a613-bcd88035a31c",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "dff870cb-b424-4707-a66a-163b7735020a",
+      "question_id": "be4d4f0d-6177-422c-a613-bcd88035a31c",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "724c2ab9-63f1-4fe8-a66b-faec54270b51",
+      "question_id": "08a5e4f4-9b45-4fec-806b-2c95765962b3",
+      "choice_text": "6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "d1d55ca3-c68f-4c9c-a121-7ef77bd161ed",
+      "question_id": "08a5e4f4-9b45-4fec-806b-2c95765962b3",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "dcf7230c-ff72-447b-9a01-c83f219bbbeb",
+      "question_id": "08a5e4f4-9b45-4fec-806b-2c95765962b3",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "ac7353cb-b184-42e1-8a53-9eb7a3434c3c",
+      "question_id": "08a5e4f4-9b45-4fec-806b-2c95765962b3",
+      "choice_text": "9",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "4111ab9b-ebeb-423a-bbfb-948f39146cf2",
+      "question_id": "93b44d2c-8ac2-4d90-bff1-802569d097af",
+      "choice_text": "-5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "a6cdb2e9-da8c-489f-ab82-5ef16652d778",
+      "question_id": "93b44d2c-8ac2-4d90-bff1-802569d097af",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "e60b5c94-0eb4-44f4-95be-f4f93b53071c",
+      "question_id": "93b44d2c-8ac2-4d90-bff1-802569d097af",
+      "choice_text": "-7",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "0b775542-868f-4395-8fb6-1202695e43f6",
+      "question_id": "93b44d2c-8ac2-4d90-bff1-802569d097af",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "f901e4d3-f627-4175-b965-396f837f84f5",
+      "question_id": "ddec9d05-f1cb-4056-845b-8215b41eac26",
+      "choice_text": "-3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "29dc8b87-2336-4713-9732-7bca2fec3c82",
+      "question_id": "ddec9d05-f1cb-4056-845b-8215b41eac26",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "e57bd9a4-c348-49b9-9f45-14122c4311a4",
+      "question_id": "ddec9d05-f1cb-4056-845b-8215b41eac26",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "8affcd2e-8e50-437a-ae27-28b4ac4098b1",
+      "question_id": "ddec9d05-f1cb-4056-845b-8215b41eac26",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "f685216e-69b2-43dd-9bad-9ca276974b6a",
+      "question_id": "22c032b9-086e-4932-a118-23965f645069",
+      "choice_text": "-1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "57ae9c93-4d1a-45f6-9dd6-07d1617e974c",
+      "question_id": "22c032b9-086e-4932-a118-23965f645069",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "1c53a2d4-ad65-4bf1-82b2-2e8a0a61bf3f",
+      "question_id": "22c032b9-086e-4932-a118-23965f645069",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "4ecd50c1-a772-4f0a-b2ee-81c3dd02b65e",
+      "question_id": "22c032b9-086e-4932-a118-23965f645069",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "4a70cacb-9e45-44d5-b3b0-a515a08c0a39",
+      "question_id": "cdd5526b-e59b-4d47-9977-c8ada1dfde7f",
+      "choice_text": "1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "171bb630-df2d-4ff9-afaa-ea4cc611d701",
+      "question_id": "cdd5526b-e59b-4d47-9977-c8ada1dfde7f",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "3a93e7ca-d158-4546-b10f-26ac66d20ca6",
+      "question_id": "cdd5526b-e59b-4d47-9977-c8ada1dfde7f",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "f84ebe79-eda1-4ce4-b158-a0a9dbf93d99",
+      "question_id": "cdd5526b-e59b-4d47-9977-c8ada1dfde7f",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "a506591b-faee-4f19-b4d4-2b7b88afffa5",
+      "question_id": "d2fb755a-ac8e-40a0-af1e-f685ecc0395f",
+      "choice_text": "3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "67c95633-6738-408f-929e-f56931287c00",
+      "question_id": "d2fb755a-ac8e-40a0-af1e-f685ecc0395f",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "bf87f169-611d-4931-8201-057de8790e51",
+      "question_id": "d2fb755a-ac8e-40a0-af1e-f685ecc0395f",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "488237dd-7acb-471f-862b-f60efdcf1837",
+      "question_id": "d2fb755a-ac8e-40a0-af1e-f685ecc0395f",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "627d860d-be6d-421b-9c8a-2432b27d88c8",
+      "question_id": "c446c0a9-7917-4af9-b61a-a95eb861d48f",
+      "choice_text": "5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "4a832e5a-9c08-4800-bf93-4df0e7ed5334",
+      "question_id": "c446c0a9-7917-4af9-b61a-a95eb861d48f",
+      "choice_text": "6",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "8e6e60a3-6a52-4c06-9781-adfce10bb229",
+      "question_id": "c446c0a9-7917-4af9-b61a-a95eb861d48f",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "1406e64f-d66e-427c-a37e-f175b6a508d7",
+      "question_id": "c446c0a9-7917-4af9-b61a-a95eb861d48f",
+      "choice_text": "8",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "f60ca11a-316f-4e57-b85f-679370cedac8",
+      "question_id": "74d5841d-cfcd-4758-a7c4-216bba3e63b9",
+      "choice_text": "-6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "66978f8e-163a-4c26-b526-362d40b112be",
+      "question_id": "74d5841d-cfcd-4758-a7c4-216bba3e63b9",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "bbd80af5-0eaf-4b6d-aeff-257d7b478a5d",
+      "question_id": "74d5841d-cfcd-4758-a7c4-216bba3e63b9",
+      "choice_text": "-8",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "ddaed763-48de-4a3f-afb0-a4bf8d88690e",
+      "question_id": "74d5841d-cfcd-4758-a7c4-216bba3e63b9",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "cbb4e4fd-eebf-4ab5-94ec-5691596597e8",
+      "question_id": "3eb6d26e-a7b0-4bf5-8b9d-ad0a77f89c31",
+      "choice_text": "-4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "8f468c29-4f81-49ee-8f78-779a2010c25d",
+      "question_id": "3eb6d26e-a7b0-4bf5-8b9d-ad0a77f89c31",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "2faa8872-aa9f-494e-b8ac-3c2fb2b42875",
+      "question_id": "3eb6d26e-a7b0-4bf5-8b9d-ad0a77f89c31",
+      "choice_text": "-6",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "2c8368fc-9f95-4cf2-93dc-a211291c4c69",
+      "question_id": "3eb6d26e-a7b0-4bf5-8b9d-ad0a77f89c31",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "05990480-970a-4031-ad73-e164b277ae59",
+      "question_id": "83fa9a0b-9d30-4e3d-806b-83ccb03b3dd8",
+      "choice_text": "-2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "2f1b159f-32a3-47d9-8d1b-a1e3b7e47b79",
+      "question_id": "83fa9a0b-9d30-4e3d-806b-83ccb03b3dd8",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "24873f6d-5ab9-4ee6-a7e7-ea622411e981",
+      "question_id": "83fa9a0b-9d30-4e3d-806b-83ccb03b3dd8",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "92d4f2ed-5d8f-45a4-927a-8487033bb492",
+      "question_id": "83fa9a0b-9d30-4e3d-806b-83ccb03b3dd8",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "0e509831-3caf-44f3-ab9a-2b4a384cf291",
+      "question_id": "f46f56c0-f184-4fa3-bd30-3b25a02c9365",
+      "choice_text": "0",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "55aab36a-ea36-4eb6-8449-a2d01a22eeb6",
+      "question_id": "f46f56c0-f184-4fa3-bd30-3b25a02c9365",
+      "choice_text": "1",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "03b2fafa-f68a-4650-a0c5-38982f537980",
+      "question_id": "f46f56c0-f184-4fa3-bd30-3b25a02c9365",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "4e4db712-c667-4493-ada0-2c552286b33d",
+      "question_id": "f46f56c0-f184-4fa3-bd30-3b25a02c9365",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "9071b52c-3abe-4f22-bb92-6c0fe32b9b7d",
+      "question_id": "bf6aac59-8fc3-4962-b8de-c7f4f67620a9",
+      "choice_text": "2",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "7d2e0522-63a7-4b78-b157-4705a6ff0562",
+      "question_id": "bf6aac59-8fc3-4962-b8de-c7f4f67620a9",
+      "choice_text": "3",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "0a860e50-4d50-489c-adbb-550a6751c3fb",
+      "question_id": "bf6aac59-8fc3-4962-b8de-c7f4f67620a9",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "ea933505-5a08-4841-ad59-684e13cf5384",
+      "question_id": "bf6aac59-8fc3-4962-b8de-c7f4f67620a9",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "9fe962fe-af6e-47bf-b0b6-42ea1fce7d79",
+      "question_id": "530d2378-ba9d-4259-a994-49772fdf0023",
+      "choice_text": "4",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "c2db5d02-c4cd-46fb-9450-a0d813024718",
+      "question_id": "530d2378-ba9d-4259-a994-49772fdf0023",
+      "choice_text": "5",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "a71c9b86-e02b-46a8-a8ca-12e232a0e6b6",
+      "question_id": "530d2378-ba9d-4259-a994-49772fdf0023",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "83eb53f9-9e71-45b0-84f5-4c3a581f1cd8",
+      "question_id": "530d2378-ba9d-4259-a994-49772fdf0023",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "14aa61ce-5b22-4110-9ea9-8b013663b246",
+      "question_id": "753e6cbe-8236-4542-aa9f-cc06b95e1fb1",
+      "choice_text": "6",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "7f52d5e8-5750-409f-b908-a16b43a740de",
+      "question_id": "753e6cbe-8236-4542-aa9f-cc06b95e1fb1",
+      "choice_text": "7",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "61f854a6-431f-4fc1-99be-859a2365f5a8",
+      "question_id": "753e6cbe-8236-4542-aa9f-cc06b95e1fb1",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "bbe29258-89fb-4674-9510-4cda419349d2",
+      "question_id": "753e6cbe-8236-4542-aa9f-cc06b95e1fb1",
+      "choice_text": "9",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "dbcb9505-6f00-4501-ab52-e54ca5a97cd3",
+      "question_id": "587cb1a9-f4df-4a20-8b49-2a8cb3950c60",
+      "choice_text": "-5",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "e44a1217-c3a7-4b63-8814-1bfb3619c6a0",
+      "question_id": "587cb1a9-f4df-4a20-8b49-2a8cb3950c60",
+      "choice_text": "-4",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "e2e77b12-cf88-4374-82e7-88ecb65b995e",
+      "question_id": "587cb1a9-f4df-4a20-8b49-2a8cb3950c60",
+      "choice_text": "-7",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "f3e6d359-7217-4817-bc62-fccd900030bd",
+      "question_id": "587cb1a9-f4df-4a20-8b49-2a8cb3950c60",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "28d5de7c-3e1d-4217-aef2-e3511d69b7d1",
+      "question_id": "1ce12023-7e45-491d-ade8-e2f972bb23d4",
+      "choice_text": "-3",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "38408dbf-9700-476c-b669-06baffba3c11",
+      "question_id": "1ce12023-7e45-491d-ade8-e2f972bb23d4",
+      "choice_text": "-2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "12e0e222-8ada-4f1b-846a-21a1600c5d7d",
+      "question_id": "1ce12023-7e45-491d-ade8-e2f972bb23d4",
+      "choice_text": "-5",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "fae40ecb-a17d-4691-bc63-71262d3c445b",
+      "question_id": "1ce12023-7e45-491d-ade8-e2f972bb23d4",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "0b6b4aef-26ca-443a-9dc3-75ae91922adb",
+      "question_id": "5b79b179-988f-4ff5-9649-2c1ab3b86578",
+      "choice_text": "-1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "6d7b5a14-d027-46cf-906c-bc23f41a60d6",
+      "question_id": "5b79b179-988f-4ff5-9649-2c1ab3b86578",
+      "choice_text": "0",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "96680eb9-0fc3-4ec0-a120-34875b1d5fb1",
+      "question_id": "5b79b179-988f-4ff5-9649-2c1ab3b86578",
+      "choice_text": "-3",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "ca234416-3c5e-4444-979e-9c5793623d1a",
+      "question_id": "5b79b179-988f-4ff5-9649-2c1ab3b86578",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 3
+    },
+    {
+      "id": "f2734867-d8df-4220-a594-7159e09e6900",
+      "question_id": "9288e1e7-2096-49c9-9f5c-55dcec1d1556",
+      "choice_text": "1",
+      "is_correct": true,
+      "order_index": 0
+    },
+    {
+      "id": "b7fba6e7-5ecc-4755-a05e-a7fcc47e84ef",
+      "question_id": "9288e1e7-2096-49c9-9f5c-55dcec1d1556",
+      "choice_text": "2",
+      "is_correct": false,
+      "order_index": 1
+    },
+    {
+      "id": "bc720a24-1c37-45b6-b5f0-5a3d94132d85",
+      "question_id": "9288e1e7-2096-49c9-9f5c-55dcec1d1556",
+      "choice_text": "-1",
+      "is_correct": false,
+      "order_index": 2
+    },
+    {
+      "id": "5c2e15cd-fd0b-4e89-b0d0-dc7d206f6a3d",
+      "question_id": "9288e1e7-2096-49c9-9f5c-55dcec1d1556",
+      "choice_text": "4",
+      "is_correct": false,
+      "order_index": 3
+    }
+  ]
+}
