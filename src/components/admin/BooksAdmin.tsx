@@ -59,7 +59,7 @@ export function BooksAdmin() {
   const save = async () => {
     if (!title.trim()) return toast.error("Sarlavhani kiriting");
     if (!pdfFile) return toast.error("PDF faylni tanlang");
-    if (pdfFile.size > 100 * 1024 * 1024) return toast.error("PDF 100MB dan kichik bo'lishi kerak");
+    if (pdfFile.size > 500 * 1024 * 1024) return toast.error("PDF 500MB dan kichik bo'lishi kerak");
     if (!user) return;
     setSaving(true);
     try {
@@ -167,7 +167,7 @@ export function BooksAdmin() {
               <Input ref={coverRef} type="file" accept="image/*" onChange={e => setCoverFile(e.target.files?.[0] || null)} />
             </div>
             <div>
-              <Label>PDF fayl * <span className="text-xs text-muted-foreground">(max 100MB)</span></Label>
+              <Label>PDF fayl * <span className="text-xs text-muted-foreground">(max 500MB)</span></Label>
               <Input ref={pdfRef} type="file" accept="application/pdf" onChange={e => setPdfFile(e.target.files?.[0] || null)} />
               {pdfFile && <p className="text-xs text-muted-foreground mt-1">{(pdfFile.size / 1024 / 1024).toFixed(1)} MB</p>}
             </div>
