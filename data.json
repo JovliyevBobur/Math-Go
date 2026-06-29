@@ -1,0 +1,31 @@
+{
+  "kitob": "Abituriyent — Matematika fanidan mavzulashtirilgan testlar to'plami 1-11",
+  "nashriyot": "Spectrum Media Group, 2021",
+  "izoh": "Har bir bob 3 mavzuga bo'lingan. Har bir qismdan 5 variant × 15 savol = 75 savol. Savollar kitobdan olingan.",
+  "ALGEBRA_VA_MATEMATIK_ANALIZ": {
+    "bob_1": {
+      "nomi": "Natural va butun sonlar",
+      "mavzular": [
+        "Mavzu A: Sonlar ustida amallarning xossalari (1-mavzu)",
+        "Mavzu B: Tub, murakkab, qoldiqli bo'lish, taqqoslama (2–6-mavzular)",
+        "Mavzu C: EKUB, EKUK, oxirgi raqam, nollar soni (7–9-mavzular)"
+      ],
+      "variantlar": {
+        "variant_1": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "274·273 − 273·272 + 328·327 − 327·326 ni hisoblang.",
+            "javoblar": {
+              "A": "310",
+              "B": "1200",
+              "C": "600",
+              "D": "450"
+            },
+            "togri": "B"
+          }
+        ]
+      }
+    }
+  }
+}
