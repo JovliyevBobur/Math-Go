@@ -23,6 +23,4327 @@
               "D": "450"
             },
             "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "467·251 + 123·502 − 231·753 ni hisoblang.",
+            "javoblar": {
+              "A": "2510",
+              "B": "5020",
+              "C": "7530",
+              "D": "3765"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "24·13 + 12·13 + 36·12 + 25·51 − 87·24 ni hisoblang.",
+            "javoblar": {
+              "A": "87",
+              "B": "154",
+              "C": "178",
+              "D": "89"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "8^5 + 8^5 + 8^5 + 8^5 yig'indini hisoblang.",
+            "javoblar": {
+              "A": "8^{10}",
+              "B": "4^{10}",
+              "C": "16^4",
+              "D": "2^{17}"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "467·221 + 123·442 − 231·663 ni hisoblang.",
+            "javoblar": {
+              "A": "2210",
+              "B": "4420",
+              "C": "6630",
+              "D": "4670"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "x va y natural sonlar uchun x + y = 13 tenglik o'rinli, x·y ko'paytmaning qabul qilishi mumkin bo'lgan eng katta va eng kichik qiymatlarini yig'indisini toping.",
+            "javoblar": {
+              "A": "42",
+              "B": "54",
+              "C": "72",
+              "D": "55"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "3 ga karrali dastlabki bir necha sonning yig'indisi o'zining oxirgi qo'shiluvchidan 13 marta katta. Yig'inda nechta had qatnashgan?",
+            "javoblar": {
+              "A": "25",
+              "B": "26",
+              "C": "32",
+              "D": "39"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "a, b va c lar raqamni ifodalashga. 400a + 60b + c = 865 bo'lsa, a·b·c ko'paytmani hisoblang.",
+            "javoblar": {
+              "A": "6",
+              "B": "10",
+              "C": "15",
+              "D": "24"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "9562·7565 − 9560·7568 ni hisoblang.",
+            "javoblar": {
+              "A": "−13550",
+              "B": "2",
+              "C": "−2",
+              "D": "15250"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "56 dan 145 gacha bo'lgan sonlarni ketma-ket yozib chiqilganda 4 raqami necha marta takrorlanadi?",
+            "javoblar": {
+              "A": "25",
+              "B": "15",
+              "C": "24",
+              "D": "14"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "Yig'indining oxirgi raqamini toping: 2^{3215} + 9^{326} + 7^{425}",
+            "javoblar": {
+              "A": "0",
+              "B": "4",
+              "C": "6",
+              "D": "1"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "570 va 450 sonlarining tub bo'lmagan umumiy bo'luvchilari nechta?",
+            "javoblar": {
+              "A": "5",
+              "B": "6",
+              "C": "7",
+              "D": "8"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "15·8·50·27·14·125 ko'paytma nechta nol bilan tugaydi?",
+            "javoblar": {
+              "A": "3",
+              "B": "4",
+              "C": "5",
+              "D": "6"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "18 dan 102 gacha bo'lgan sonlar ko'paytmasi nechta nol bilan tugaydi?",
+            "javoblar": {
+              "A": "20",
+              "B": "17",
+              "C": "21",
+              "D": "24"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "2^{200} sonining oxirgi raqamini toping.",
+            "javoblar": {
+              "A": "2",
+              "B": "4",
+              "C": "6",
+              "D": "0"
+            },
+            "togri": "B"
+          }
+        ],
+        "variant_2": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "28·25 − 25·25 + 25·32 − 32·22 − 56·3 ni hisoblang.",
+            "javoblar": {
+              "A": "171",
+              "B": "99",
+              "C": "57",
+              "D": "3"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "Bir necha natural sonlarning yig'indisi 46 ga teng. Agar shu sonlarning har biriga 3 ni qo'shib hisoblansa, yig'indi 73 ga teng bo'ladi. Yig'indida nechta son ishtirok etgan?",
+            "javoblar": {
+              "A": "16",
+              "B": "8",
+              "C": "9",
+              "D": "14"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "2324252627...7172 sonining raqamlari yig'indisini toping.",
+            "javoblar": {
+              "A": "431",
+              "B": "440",
+              "C": "462",
+              "D": "423"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "Ushbu 31323334.......7475 sonning raqamlari yig'indisini toping.",
+            "javoblar": {
+              "A": "420",
+              "B": "325",
+              "C": "340",
+              "D": "414"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "3637383940...8788 sonining raqamlari yig'indisi quyidagilardan qaysi biriga teng?",
+            "javoblar": {
+              "A": "532",
+              "B": "550",
+              "C": "558",
+              "D": "542"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "x va y natural sonlar bo'lib, 7x + 4 juft bo'lsa, quyidagilardan qaysi biri juft?",
+            "javoblar": {
+              "A": "x+2",
+              "B": "x^3+2",
+              "C": "3x+3",
+              "D": "x^3+x"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "n natural son bo'lsa, quyidagilardan qaysi biri doimo juft?",
+            "javoblar": {
+              "A": "2011n+n^2−5",
+              "B": "2012n+n^5+2",
+              "C": "2015n^3+14n^2−n^2",
+              "D": "404n^5+202n^3−n^2"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "abc va ab mos ravishda uch va ikki xonali sonlar. abc + ab = 1073 bo'lsa, a + b + c ning yig'indini hisoblang.",
+            "javoblar": {
+              "A": "16",
+              "B": "22",
+              "C": "21",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "Barcha ikki xonali sonlar ketma-ket yozib chiqilganda necha xonali son hosil bo'ladi?",
+            "javoblar": {
+              "A": "198",
+              "B": "200",
+              "C": "178",
+              "D": "180"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "k, l va m raqamlar. klm + mlk = 746 bo'lsa, (m + k)·l ning qiymatini toping. (klm va mlk uch xonali sonlar)",
+            "javoblar": {
+              "A": "24",
+              "B": "56",
+              "C": "21",
+              "D": "42"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "1 dan 100 gacha yozib chiqilsa 4 raqami necha marta takrorlanadi?",
+            "javoblar": {
+              "A": "10",
+              "B": "11",
+              "C": "20",
+              "D": "19"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "23 dan 92 gacha bo'lgan natural sonlar ko'paytmasi nechta nol bilan tugaydi?",
+            "javoblar": {
+              "A": "22",
+              "B": "17",
+              "C": "19",
+              "D": "15"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "35·12·375·150·28 ko'paytma nechta nol bilan tugaydi?",
+            "javoblar": {
+              "A": "6",
+              "B": "8",
+              "C": "5",
+              "D": "7"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "55000 ning natural bo'luvchilari sonini toping.",
+            "javoblar": {
+              "A": "40",
+              "B": "64",
+              "C": "48",
+              "D": "24"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "3^{200} sonining oxirgi raqamini toping.",
+            "javoblar": {
+              "A": "9",
+              "B": "7",
+              "C": "1",
+              "D": "3"
+            },
+            "togri": "C"
+          }
+        ],
+        "variant_3": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "17·11 + 27·23 − 11·14 − 23·24 ni hisoblang.",
+            "javoblar": {
+              "A": "−66",
+              "B": "78",
+              "C": "96",
+              "D": "102"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "17·15 + 17·18 − 33·34 + 24·18 + 18·9 ni hisoblang.",
+            "javoblar": {
+              "A": "66",
+              "B": "34",
+              "C": "68",
+              "D": "33"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "19·11 + 37·24 − 11·16 − 24·34 ni hisoblang.",
+            "javoblar": {
+              "A": "90",
+              "B": "105",
+              "C": "100",
+              "D": "110"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "37 + 41 + 45 + 49 + ... + 93 yig'indini hisoblang.",
+            "javoblar": {
+              "A": "882",
+              "B": "975",
+              "C": "938",
+              "D": "845"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "262728293031...72 sonining raqamlari yig'indisini toping.",
+            "javoblar": {
+              "A": "415",
+              "B": "420",
+              "C": "422",
+              "D": "430"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "Ikki xonali sonning o'ng va chap tarafiga 1 raqami yozilsa, hosil bo'lgan son dastlabki sondan 23 marta katta bo'ladi. Berilgan ikki xonali sonning raqamlari yig'indisini toping.",
+            "javoblar": {
+              "A": "15",
+              "B": "13",
+              "C": "14",
+              "D": "17"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "9·8^{24}·625^{17} ko'paytma necha xonali son?",
+            "javoblar": {
+              "A": "40",
+              "B": "39",
+              "C": "41",
+              "D": "38"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "Ushbu 33343536...7172 sonning raqamlari yig'indisini toping.",
+            "javoblar": {
+              "A": "480",
+              "B": "412",
+              "C": "360",
+              "D": "372"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "84858687...121122123 sonining raqamlari yig'indisini toping.",
+            "javoblar": {
+              "A": "548",
+              "B": "360",
+              "C": "447",
+              "D": "374"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "122123124125126...256 sonining raqamlari yig'indisini toping.",
+            "javoblar": {
+              "A": "1248",
+              "B": "1375",
+              "C": "1401",
+              "D": "1368"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "108 sonining nechta tub bo'lmagan natural bo'luvchilari mavjud?",
+            "javoblar": {
+              "A": "6",
+              "B": "10",
+              "C": "12",
+              "D": "8"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "12·34·55 ko'paytmaning natural bo'luvchilari soni nechta?",
+            "javoblar": {
+              "A": "8",
+              "B": "32",
+              "C": "64",
+              "D": "16"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "240 sonini murakkab bo'lmagan bo'luvchilar soni nechta?",
+            "javoblar": {
+              "A": "3 ta",
+              "B": "4 ta",
+              "C": "5 ta",
+              "D": "6 ta"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "26100 ning tub bo'luvchilari yig'indisini toping.",
+            "javoblar": {
+              "A": "32",
+              "B": "10",
+              "C": "39",
+              "D": "42"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "10! + 7! nechta nol bilan tugaydi?",
+            "javoblar": {
+              "A": "3",
+              "B": "1",
+              "C": "2",
+              "D": "5"
+            },
+            "togri": "C"
+          }
+        ],
+        "variant_4": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "2345·2347 − 2344·2346 ni hisoblang.",
+            "javoblar": {
+              "A": "4691",
+              "B": "4961",
+              "C": "4945",
+              "D": "4919"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "200002·199998 = ?",
+            "javoblar": {
+              "A": "4·10^{10}−1",
+              "B": "2·10^8−2",
+              "C": "10^{10}−4",
+              "D": "4(10^{10}−1)"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "11 + 192 + 1993 + 19994 + 199995 + 1999996 + 19999997 + 199999998 + 1999999999 ni hisoblang.",
+            "javoblar": {
+              "A": "222220175",
+              "B": "2222222175",
+              "C": "2222222220",
+              "D": "222222222222"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "0,2,3,4 raqamlari yordamida, ularni takrorlamasdan yozilgan eng katta to'rt xonali va eng kichik to'rt xonali sonlar ayirmasini toping.",
+            "javoblar": {
+              "A": "2286",
+              "B": "2236",
+              "C": "3326",
+              "D": "3356"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "9 + 99 + 999 + 9999 + ... + 999...9 (n ta 9) yig'indini hisoblang.",
+            "javoblar": {
+              "A": "\\frac{x^2-7x+5}{2x+y}",
+              "B": "\\frac{10^{n+1}-9n-10}{9}",
+              "C": "\\frac{10^{n+2}-10n-9}{10}\\cdot9-n",
+              "D": "\\frac{10^{n+2}-10n-9}{10}"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "565758596061...212 soni necha xonali?",
+            "javoblar": {
+              "A": "425",
+              "B": "427",
+              "C": "422",
+              "D": "424"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "2017^{2018}·2018^{2017} − 2016^{2018}·2015^{2019} sonlar xonasidagi raqamni toping.",
+            "javoblar": {
+              "A": "2",
+              "B": "0",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "25^{2018} − 16^{2018} − 9^{2018} ning ishorasini aniqlang.",
+            "javoblar": {
+              "A": "0 ga teng",
+              "B": "manfiy",
+              "C": "musbat",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "32^4·125^{13}·8^6 ko'paytma necha xonali son?",
+            "javoblar": {
+              "A": "40",
+              "B": "39",
+              "C": "41",
+              "D": "38"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "Natural sonlar to'g'risida keltirilgan mulohazalardan qaysi biri noto'g'ri?",
+            "javoblar": {
+              "A": "Ikkita ikki xonali sonning yig'indisi uch xonali son bo'la oladi.",
+              "B": "Ikkita ikki xonali sonning ko'paytmasi doimo uch xonali son bo'ladi.",
+              "C": "Ikkita ikki xonali sonning ayirmasi bir xonali son bo'lishi mumkin.",
+              "D": "Ikkita ikki xonali sonning yig'indisi bir xonali son bo'lishi mumkin."
+            },
+            "togri": "D"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "7777^{634} ni 5 ga bo'lganda necha qoldiq qoladi?",
+            "javoblar": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "4"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "6 ga bo'linganda qoldiq 2 chiqadigan dastlabki 20 ta sonning yig'indisini toping.",
+            "javoblar": {
+              "A": "1260",
+              "B": "1300",
+              "C": "1180",
+              "D": "1420"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "7^{32} sonini 9 ga bo'lingandagi qoldiqni toping.",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "4",
+              "D": "6"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "54, 90 va 162 sonlari nechta umumiy natural bo'luvchiga ega?",
+            "javoblar": {
+              "A": "4 ta",
+              "B": "5 ta",
+              "C": "6 ta",
+              "D": "7 ta"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "55000 ning natural bo'luvchilari sonini toping.",
+            "javoblar": {
+              "A": "40",
+              "B": "64",
+              "C": "48",
+              "D": "24"
+            },
+            "togri": "A"
+          }
+        ],
+        "variant_5": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "4717·3408 − 4714·3411 ni hisoblang.",
+            "javoblar": {
+              "A": "−3918",
+              "B": "−1306",
+              "C": "3918",
+              "D": "1306"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "17·22 + 45·18 − 80·30 + 17·23 + 35·35 ni hisoblang.",
+            "javoblar": {
+              "A": "50",
+              "B": "200",
+              "C": "400",
+              "D": "100"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "\\frac{abc}{f} ayirish amali berilgan, a^f + (c+e)^b + d^0 = ?",
+            "javoblar": {
+              "A": "10",
+              "B": "11",
+              "C": "12",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "65986·65982 − 65984·65983 ni hisoblang.",
+            "javoblar": {
+              "A": "131958",
+              "B": "−2",
+              "C": "65976",
+              "D": "65980"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "35843·125010 ko'paytma necha xonali?",
+            "javoblar": {
+              "A": "40",
+              "B": "37",
+              "C": "42",
+              "D": "43"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "n natural son bo'lsa, quyidagilardan qaysi biri doimo juft?",
+            "javoblar": {
+              "A": "4957^n+4959·n",
+              "B": "4957^n+n^{4958}−4955·n",
+              "C": "3236^n+3240n+n^{2010}",
+              "D": "2002^n+n^{3215}−1995n"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "xyx uch xonali son 22 ga bo'linsa, y ning olishi mumkin bo'lgan barcha qiymatlarni yig'indisini toping.",
+            "javoblar": {
+              "A": "18",
+              "B": "16",
+              "C": "15",
+              "D": "12"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "Quyidagilardan qaysilari bo'sh to'plam? 1){x|x∈N, 4≤x³<5}; 2){x|x∈R, x>7, x<5}; 3){x|x∈R, |x|=3}; 4){x|x∈N, |x²−3|=13}",
+            "javoblar": {
+              "A": "3, 4",
+              "B": "2, 3",
+              "C": "1, 4",
+              "D": "1, 2"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "1 idan 1000 gacha yozib chiqilganida, eng ko'p takrorlanadigan raqam qaysi?",
+            "javoblar": {
+              "A": "hammasi teng",
+              "B": "1",
+              "C": "0",
+              "D": "9"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "16 + 19 + 22 + 25 + ... + 9n + 7 yig'indini hisoblang.",
+            "javoblar": {
+              "A": "\\frac{(3n-2)(9n-23)}{2}",
+              "B": "(2n-6)(9n+23)",
+              "C": "\\frac{3(n-3)(5n-21)}{2}",
+              "D": "3(n-1)(9n+23)"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "5148 va 1170 sonlarini qanday bir songa bo'lganda bo'linmalar o'zaro tub sonlar bo'ladi?",
+            "javoblar": {
+              "A": "78",
+              "B": "234",
+              "C": "156",
+              "D": "396"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "560 soni qoldiqsiz bo'linadigan butun sonlar nechta?",
+            "javoblar": {
+              "A": "40",
+              "B": "20",
+              "C": "24",
+              "D": "48"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "a ni b ga bo'lganda 2,5(3) bo'linma hosil bo'ladi. Agar a bo'luvchi va bo'linuvchi natural sonlar bo'lsa, ularning yig'indisini toping.",
+            "javoblar": {
+              "A": "47",
+              "B": "51",
+              "C": "53",
+              "D": "57"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "[1; 1000] kesmada 2 ga, 3 ga va 5 ga bo'linmaydigan natural sonlar nechta?",
+            "javoblar": {
+              "A": "733",
+              "B": "266",
+              "C": "701",
+              "D": "299"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "2·4·6·8·...·100 ko'paytmada nechta 0 bilan tugaydi?",
+            "javoblar": {
+              "A": "12",
+              "B": "11",
+              "C": "10",
+              "D": "14"
+            },
+            "togri": "A"
+          }
+        ]
+      }
+    },
+    "bob_2": {
+      "nomi": "Butun va ratsional sonlar",
+      "mavzular": [
+        "Mavzu A: Butun sonlar ustida amallar, kasrli ifodalar (10–12-mavzular)",
+        "Mavzu B: Darajalar, aralash kasrlar, o'nli kasrlar (13–15-mavzular)",
+        "Mavzu C: Cheksiz davriy o'nli kasrlar, kompleks sonlar (16-mavzu)"
+      ],
+      "variantlar": {
+        "variant_1": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "265² − 361 / 284 + 512 ni hisoblang.",
+            "javoblar": {
+              "A": "274",
+              "B": "312",
+              "C": "246",
+              "D": "512"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "a, b va c ratsional sonlar. abc + cba = 1453 bo'lsa, (a+c)·b ning qiymatini toping. (abc va cba uch xonali sonlar)",
+            "javoblar": {
+              "A": "45",
+              "B": "64",
+              "C": "80",
+              "D": "91"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "275^3 + 1200·275·125 + 125^3 / (275² + 250·275 + 125²) ni hisoblang.",
+            "javoblar": {
+              "A": "400",
+              "B": "1200",
+              "C": "400²",
+              "D": "800"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "(450·316 + 450·684):750 + (240·543 − 240·243):360 ni hisoblang.",
+            "javoblar": {
+              "A": "800",
+              "B": "300",
+              "C": "700",
+              "D": "1000"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "12·15 + 13·15 + 25·14 + 29·36 − 61·27 ni hisoblang.",
+            "javoblar": {
+              "A": "122",
+              "B": "61",
+              "C": "66",
+              "D": "132"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "Sonning natural va butun ko'rsatkichli darajasi xossalarini qo'llab: 12·125^{13}·16^{10} + 27 soni necha xonali?",
+            "javoblar": {
+              "A": "39",
+              "B": "43",
+              "C": "40",
+              "D": "41"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "sin3x + sin2x + sinx = 0 tenglama (0; 2π) oraliqda nechta ildizga ega?",
+            "javoblar": {
+              "A": "3",
+              "B": "5",
+              "C": "7",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "27436² − 27432·27440 / (42529·42541 − 42535²) ni hisoblang.",
+            "javoblar": {
+              "A": "−4/9",
+              "B": "−2/3",
+              "C": "2/3",
+              "D": "4/9"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "a, b va c butun sonlar abc > 0, b > c, ab < ac. Quyidagilardan foydalanib a, b va c ning ishoralarini mos ravishda toping.",
+            "javoblar": {
+              "A": "−, +, −",
+              "B": "−, −, −",
+              "C": "+, −, −",
+              "D": "−, −, +"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "Uch xonali sonning birlar xonasi 5 taga orttirildi, o'nlar xonasi 4 taga va birlar xonasi 3 taga kamaytirildi. Hosil bo'lgan yangi son qanday o'zgaradi?",
+            "javoblar": {
+              "A": "457 ta ortadi",
+              "B": "457 ta kamayadi",
+              "C": "437 ta kamayadi",
+              "D": "437 ta ortadi"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "15599² − 15595·15603 / (9603² − 6·9603·9601 − 9601²) ni hisoblang.",
+            "javoblar": {
+              "A": "0,5",
+              "B": "8",
+              "C": "2",
+              "D": "1"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "x va y raqamlar. xxx va yyy uch xonali sonlar bo'lib, (xxx)² + (yyy)² = 61605 bo'lsa, x² + y² = ?",
+            "javoblar": {
+              "A": "5",
+              "B": "425",
+              "C": "15",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "3·6·9+9+18·27+15·30·45+18·36·54+24·48·72 / (1·2·3+3·6·9+5·10·15+6·12·18+8·16·24) ni hisoblang.",
+            "javoblar": {
+              "A": "27",
+              "B": "9",
+              "C": "3",
+              "D": "54"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "n ning nechta natural qiymatida n²+3n+2 / 3−n ifoda natural son bo'ladi?",
+            "javoblar": {
+              "A": "4",
+              "B": "2",
+              "C": "6",
+              "D": "10"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "n ning nechta butun qiymatida n+4 ta n−3 ifoda natural son bo'ladi?",
+            "javoblar": {
+              "A": "4",
+              "B": "6",
+              "C": "8",
+              "D": "10"
+            },
+            "togri": "B"
+          }
+        ],
+        "variant_2": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "972² − 729 / 999 ni hisoblang.",
+            "javoblar": {
+              "A": "981",
+              "B": "949",
+              "C": "977",
+              "D": "945"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "62·14·22·65 + 25·18·14 yig'indini 8 ga bo'lgandagi qoldiqni toping.",
+            "javoblar": {
+              "A": "0",
+              "B": "2",
+              "C": "6",
+              "D": "4"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "Nechta butun x va y sonlar jufti x² − y² = 17 tenglikni qanoatlantiradi?",
+            "javoblar": {
+              "A": "4",
+              "B": "3",
+              "C": "1",
+              "D": "2"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "62·14·22·65 + 25·16·14 yig'indini 6 ga bo'lgandagi qoldiqni toping.",
+            "javoblar": {
+              "A": "1",
+              "B": "3",
+              "C": "5",
+              "D": "4"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "a·b > 0, b⁴·c³ < 0 va a·c² > 0 bo'lsa, a, b, c larning ishorasi mos ravishda javobda keltirilgan?",
+            "javoblar": {
+              "A": "−, +, −",
+              "B": "−, −, +",
+              "C": "+, −, −",
+              "D": "+, +, −"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "1·7 + 2·14 + 3·21 + ... + 20·140 yig'indida har bir qo'shiluvchining ikkinchi ko'paytuvchisi 3 tadan kamaytirilsa, bu yig'indi qanchaga kamayadi?",
+            "javoblar": {
+              "A": "630",
+              "B": "420",
+              "C": "374",
+              "D": "465"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "n ning nechta butun qiymatida n³ − 26n + 24 / n ifoda butun son bo'ladi?",
+            "javoblar": {
+              "A": "4",
+              "B": "6",
+              "C": "16",
+              "D": "8"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "n ning nechta natural qiymatida n²−10n+18 / n ifoda butun son bo'ladi?",
+            "javoblar": {
+              "A": "4",
+              "B": "2",
+              "C": "6",
+              "D": "10"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "a = 3/4; b = a,b (a va b − raqamlar) bo'lsa, a + b ni toping.",
+            "javoblar": {
+              "A": "7",
+              "B": "9",
+              "C": "5",
+              "D": "11"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "n ning nechta butun qiymatida 54−n⁶+5n⁵ / n³ kasr musbat butun son bo'ladi?",
+            "javoblar": {
+              "A": "2",
+              "B": "3",
+              "C": "4",
+              "D": "5"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "x ning nechta natural qiymatida x²+3x+14 / x+1 ifoda butun qiymatlarni qabul qiladi?",
+            "javoblar": {
+              "A": "5",
+              "B": "6",
+              "C": "12",
+              "D": "10"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "2·1/4 + n soni eng katta uch xonali natural songa teng bo'lsa, n nechaga teng?",
+            "javoblar": {
+              "A": "996,75",
+              "B": "1001,25",
+              "C": "997,25",
+              "D": "1000,75"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "n + 4 ta n − 4 ko'paytmasining n ning qanday natural qiymatlarida n ga bo'linishi mumkin?",
+            "javoblar": {
+              "A": "cheksiz ko'p",
+              "B": "2 ta",
+              "C": "1 ta",
+              "D": "hech qanday qiymatida"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "2n+2n³−4−n⁴ / n−2 ifoda natural son bo'ladi.",
+            "javoblar": {
+              "A": "cheksiz ko'p",
+              "B": "2 ta",
+              "C": "1 ta",
+              "D": "hech qanday qiymatida"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "n/n+3 kasrning qisqartirilmagan holida surat va maxraj yig'indisi.",
+            "javoblar": {
+              "A": "2n+3",
+              "B": "n+3",
+              "C": "2n+6",
+              "D": "n+6"
+            },
+            "togri": "A"
+          }
+        ],
+        "variant_3": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "Hisoblang: 3·6·9+9+18·27 / 1·2·3+3·6+9 yig'indini.",
+            "javoblar": {
+              "A": "27",
+              "B": "9",
+              "C": "3",
+              "D": "18"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "(2009 + 2007) − (2008 + 2005) ni hisoblang.",
+            "javoblar": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "4"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "Uch xonali sonning yuzlar xonasi 5 taga orttirildi, o'nlar xonasi 4 taga va birlar xonasi 1 taga kamaytirildi. Hosil bo'lgan yangi son qanday o'zgaradi?",
+            "javoblar": {
+              "A": "457 ta ortadi",
+              "B": "457 ta kamayadi",
+              "C": "437 ta kamayadi",
+              "D": "437 ta ortadi"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "a, b va c ratsional. b/a = a,b bo'lsa, a + b ni toping.",
+            "javoblar": {
+              "A": "7",
+              "B": "9",
+              "C": "5",
+              "D": "11"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "5n−1 / n+3 ifodaning n ning nechta butun qiymatida butun son bo'lishini aniqlang.",
+            "javoblar": {
+              "A": "8",
+              "B": "3",
+              "C": "8",
+              "D": "3"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "Sonning natural va butun ko'rsatkichli darajasi. 4·27/31+75/41+144/51=a bo'lsa, 4/31+7/41+9/51=?",
+            "javoblar": {
+              "A": "3−a",
+              "B": "6−a",
+              "C": "3+a",
+              "D": "5+a"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "sin3x + sin2x + sinx = 0 tenglama (0; 2π) da nechta ildizga ega?",
+            "javoblar": {
+              "A": "3",
+              "B": "5",
+              "C": "7",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "12·125^{13}·16^{10} + 27 soni necha xonali?",
+            "javoblar": {
+              "A": "39",
+              "B": "43",
+              "C": "40",
+              "D": "41"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "\\overline{abcd} va \\overline{bacd} to'rt xonali sonlar bo'lsa, \\overline{abcd} − \\overline{bacd} ayirma haqidagi fikrlardan qaysi biri noto'g'ri?",
+            "javoblar": {
+              "A": "6 ga qoldiqsiz bo'linadi",
+              "B": "37 ga qoldiqsiz bo'linadi",
+              "C": "33 ga qoldiqsiz bo'linadi",
+              "D": "11 ga qoldiqsiz bo'linadi"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "n+4 ta n−5 ning ko'paytmasining n ning qanday natural qiymatlarida n ga bo'linishi mumkin?",
+            "javoblar": {
+              "A": "cheksiz ko'p",
+              "B": "2 ta",
+              "C": "1 ta",
+              "D": "hech qanday qiymatida"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "[√2]+[√3]+[√4]+...+[√65]+[√66] ni hisoblang. ([a] − a sonning butun qismi)",
+            "javoblar": {
+              "A": "331",
+              "B": "321",
+              "C": "339",
+              "D": "323"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "[1/7]+[4/7]+[9/7]+...+[169/7] ni hisoblang. (bu yerda [a] − a sonning butun qismi)",
+            "javoblar": {
+              "A": "116",
+              "B": "114",
+              "C": "115",
+              "D": "113"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "2017^{2018}·2018^{2017} − 2016^{2018}·2015^{2019} sonlar birlar xonasidagi raqamni toping.",
+            "javoblar": {
+              "A": "2",
+              "B": "0",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "x ∈ {1, 2, 3, ..., 98, 99} ning qanday qiymatida ((√((x+2)/x) − √(1−2/(x+2))) : (√(1+2/x + x/(x+2) − 2)) : (1 + √(x/(x+2)))) ifodaning qiymati 73 ga eng yaqin bo'ladi?",
+            "javoblar": {
+              "A": "5",
+              "B": "72",
+              "C": "3",
+              "D": "−22"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "f(x) = √(6+√(3−x)) + √(6+√(3+x)) funksiya uchun quyidagi fikrlardan qaysi biri o'rinli?",
+            "javoblar": {
+              "A": "x ning barcha qiymatlarida o'rinli",
+              "B": "juft funksiya",
+              "C": "toq ham emas, juft ham emas",
+              "D": "toq funksiya"
+            },
+            "togri": "B"
+          }
+        ],
+        "variant_4": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "(−3)⁴ − (−3⁴) − 3² / ((−2)³ − (−2)³ + 2⁴) ni hisoblang.",
+            "javoblar": {
+              "A": "153/16",
+              "B": "−9/16",
+              "C": "153/32",
+              "D": "−9/32"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "a, b va c raqamlarni ifodalamoqda. abc3 + abc = 5195 bo'lsa, a + b + c ning qiymatini toping.",
+            "javoblar": {
+              "A": "15",
+              "B": "19",
+              "C": "13",
+              "D": "21"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "Agar m va n natural sonlar bo'lib, √3·(n−4) + n² − 6mn + 23, 5m = 0 tenglikni qanoatlantirsa, m + n ni toping.",
+            "javoblar": {
+              "A": "4",
+              "B": "36",
+              "C": "12",
+              "D": "20"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "x² + y² = 5 bo'lsa, sin²2x + 4cos²x ning eng katta qiymati.",
+            "javoblar": {
+              "A": "3",
+              "B": "5",
+              "C": "7",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "Uch xonali sonning birlar xonasi 5 taga orttirildi. Hosil bo'lgan yangi son qanday o'zgaradi?",
+            "javoblar": {
+              "A": "457 ta ortadi",
+              "B": "457 ta kamayadi",
+              "C": "437 ta kamayadi",
+              "D": "437 ta ortadi"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "x va y musbat butun sonlar. −x/y|7/4 Yuqoridagi bo'linmadan x eng ko'pida necha bo'lishi mumkin?",
+            "javoblar": {
+              "A": "32",
+              "B": "35",
+              "C": "34",
+              "D": "36"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "Ikki sonning yig'indisi 242ga, bu sonlardan kattasi kichigiga bo'lganda bo'linma 4 ga, qoldiq esa 22 ga teng. Sonlardan kichigini toping.",
+            "javoblar": {
+              "A": "52",
+              "B": "44",
+              "C": "42",
+              "D": "56"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "12·125^{13}·16^{10} + 27 soni necha xonali?",
+            "javoblar": {
+              "A": "39",
+              "B": "43",
+              "C": "40",
+              "D": "41"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "n ning nechta butun qiymatida 54−n⁶+5n⁵ / n³ kasr musbat butun son bo'ladi?",
+            "javoblar": {
+              "A": "2",
+              "B": "3",
+              "C": "4",
+              "D": "5"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "a sonini 35 ga bo'lganda bo'linma b ga, qoldiq c ga teng bo'ladi. Agar b ni 8 ga va c ni 3 ga bo'lib olganda, bo'lganda a ni qanday ifodalash mumkin?",
+            "javoblar": {
+              "A": "k = mp + c",
+              "B": "m = pk + c",
+              "C": "(m/k) = p + (c/k)",
+              "D": "m = pk − c"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "n ning nechta butun qiymatida n²−10n+18 / n ifoda butun son bo'ladi?",
+            "javoblar": {
+              "A": "4",
+              "B": "2",
+              "C": "6",
+              "D": "10"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "[√2]+[√3]+[√4]+...+[√65]+[√66] ni hisoblang.",
+            "javoblar": {
+              "A": "331",
+              "B": "321",
+              "C": "339",
+              "D": "323"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "Quyidagi kasrlarni qoldiqsiz bo'linadigan eng kichik natural son topish kerak: 1) 121·484; 2) 77·246; 3) 243·22; 4) 55·231; 5) 88·27.",
+            "javoblar": {
+              "A": "2",
+              "B": "3",
+              "C": "4",
+              "D": "5"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "1872368154634528 sonini 2, 4, 5, 9, 10 va 25 larga bo'lgandagi qoldiqlar yig'indisini toping.",
+            "javoblar": {
+              "A": "11",
+              "B": "15",
+              "C": "17",
+              "D": "19"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "Besh xonali 45n8m soni 5 ga bo'lganda 3 qoldiq, 18 ga bo'lganda 0 ga teng. m·n ko'paytmaning qiymatini toping.",
+            "javoblar": {
+              "A": "aniqlab bo'lmaydi",
+              "B": "3",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          }
+        ],
+        "variant_5": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "62·10·20 + 6·10·20 yig'indini 6 ga bo'lgandagi qoldiqni toping.",
+            "javoblar": {
+              "A": "1",
+              "B": "3",
+              "C": "5",
+              "D": "0"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "Nechta butun x va y sonlar jufti x² − y² = 17 tenglikni qanoatlantiradi?",
+            "javoblar": {
+              "A": "4",
+              "B": "3",
+              "C": "1",
+              "D": "2"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "1·2 + 2·3 + ... + n·(n+1) yig'indini hisoblang.",
+            "javoblar": {
+              "A": "n(n+1)(n+2)/3",
+              "B": "n(n+1)/2",
+              "C": "n(n+2)/3",
+              "D": "n(n+1)(n+2)/6"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "sin3x + sin2x + sinx = 0 tenglama (0; 2π) da nechta ildizga ega?",
+            "javoblar": {
+              "A": "3",
+              "B": "5",
+              "C": "7",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "(2009 + 2007) − (2008 + 2005) ni hisoblang.",
+            "javoblar": {
+              "A": "1",
+              "B": "2",
+              "C": "3",
+              "D": "4"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "x ning nechta natural qiymatida x²+3x+14 / x+1 ifoda butun qiymatlarni qabul qiladi?",
+            "javoblar": {
+              "A": "5",
+              "B": "6",
+              "C": "12",
+              "D": "10"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "5n−1 / n+3 ning n ning nechta butun qiymatida butun son bo'ladi?",
+            "javoblar": {
+              "A": "8",
+              "B": "6",
+              "C": "3",
+              "D": "4"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "Uch xonali sonning yuzlar xonasi 5 taga, o'nlar xonasi 4 taga va birlar xonasi 1 taga kamaytirildi. Hosil bo'lgan yangi son qanday o'zgaradi?",
+            "javoblar": {
+              "A": "457 ta ortadi",
+              "B": "457 ta kamayadi",
+              "C": "437 ta kamayadi",
+              "D": "437 ta ortadi"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "n²+3n+2 / 3−n ning n ning nechta natural qiymatida natural son bo'ladi?",
+            "javoblar": {
+              "A": "4",
+              "B": "2",
+              "C": "6",
+              "D": "10"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "(−3)⁴ − (−3⁴) − 3² / ((−2)³ − (−2)³ + 2⁴) ni hisoblang.",
+            "javoblar": {
+              "A": "153/16",
+              "B": "−9/16",
+              "C": "153/32",
+              "D": "−9/32"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "Quyidagi tasdiqlardan qaysi biri noto'g'ri? A) Agar natural sonning oxirgi raqami 2 ga bo'linsa, bu sonning o'zi ham 2 ga bo'linadi. B) Agar natural son 2 ga va 3 ga bo'linsa, bu son 6 ga bo'linadi. C) Agar natural son 2 ga va 9 ga bo'linsa, bu son 18ga ham bo'linadi. D) Agar natural sonning oxirgi raqami 5 ga bo'linsa, bu son 10 ga bo'linadi.",
+            "javoblar": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "D": "D"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "x ∈ {1,2,...,98,99} ning qanday qiymatida ifodaning qiymati 73 ga eng yaqin bo'ladi?",
+            "javoblar": {
+              "A": "5",
+              "B": "72",
+              "C": "3",
+              "D": "−22"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "[1/7]+[4/7]+[9/7]+...+[169/7] ni hisoblang.",
+            "javoblar": {
+              "A": "116",
+              "B": "114",
+              "C": "115",
+              "D": "113"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "2017^{2018}·2018^{2017} − 2016^{2018}·2015^{2019} sonlar birlar xonasidagi raqamni toping.",
+            "javoblar": {
+              "A": "2",
+              "B": "0",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "y = 39·1/16 bo'lgandagi ifodaning qiymatini toping: x^{1/4}·y^{-1/4} − x^{-1/4}·y^{1/4} + 1 / (x^{-1/4} − 1)",
+            "javoblar": {
+              "A": "21/4",
+              "B": "7/4",
+              "C": "5/2",
+              "D": "3/2"
+            },
+            "togri": "A"
+          }
+        ]
+      }
+    },
+    "bob_3": {
+      "nomi": "Algebraik ifodalar",
+      "mavzular": [
+        "Mavzu A: Ko'phadlar, qisqa ko'paytirish formulalari (17–19-mavzular)",
+        "Mavzu B: Algebraik kasrlar, soddalashtirish (20–21-mavzular)",
+        "Mavzu C: Kvadrat ildiz, daraja, soddalashtirish (22–26-mavzular)"
+      ],
+      "variantlar": {
+        "variant_1": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "(a+b)⁴ − 4ab(a+b)² + 2a²b² ni soddalashtiring.",
+            "javoblar": {
+              "A": "a⁴−b⁴",
+              "B": "a⁴+b⁴",
+              "C": "a²−ab+b²",
+              "D": "a²+ab+b²"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "ab + 4a(11b − a) − a(a − 3) − 27b ko'phadni ko'paytuvchilarga ajrating.",
+            "javoblar": {
+              "A": "(3a−5)(9b−a)",
+              "B": "(5a−3)(a−9b)",
+              "C": "(9b−a)(3a−5)",
+              "D": "(5a−3)(9b−a)"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "(x² + 2)·P(x) = x⁷ + x⁴ + 4 bo'lsa, a + b = ?",
+            "javoblar": {
+              "A": "−23",
+              "B": "9",
+              "C": "12",
+              "D": "23"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "P(x) = (x² + 5x − 3)·(7x³ − 6x³ + 5x)(x + 3) ko'phadning koeffitsiyentlari yig'indisini toping.",
+            "javoblar": {
+              "A": "72",
+              "B": "−9",
+              "C": "0",
+              "D": "54"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "2x + 7 / x² − 2x − 3 = A / x − 3 + B / x + 1 bo'lsa, A + B = ?",
+            "javoblar": {
+              "A": "−3",
+              "B": "2",
+              "C": "−1",
+              "D": "0"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "a² − 5ab + 6b² / (a² − 2ab − 8b²) ni soddalashtiring.",
+            "javoblar": {
+              "A": "(a−2b)/(a+3b)",
+              "B": "(a−2b)/(a+2b)",
+              "C": "(a−3b)/(a−4b)",
+              "D": "(a−4b)·(a+3b) / (a−3b)·(a+2b)"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "12ab − 9b² / (9b² − 16a²) ni soddalashtiring.",
+            "javoblar": {
+              "A": "−3/(3b−4a)",
+              "B": "3b/(3b−4a)",
+              "C": "3/(4a+3b)",
+              "D": "−3b/(3b−4a)"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "x² − 1 + 2(xy − 1) − (−y² + 1) / (2 − x − y) ni soddalashtiring.",
+            "javoblar": {
+              "A": "x + y − 2",
+              "B": "x − y + 2",
+              "C": "x − y − 2",
+              "D": "−x − y − 2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "(a³ + b³ / (a + b) − (a − b)³ / (a − b)) : b ni soddalashtiring.",
+            "javoblar": {
+              "A": "3a",
+              "B": "3ab",
+              "C": "ab",
+              "D": "a"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "a⁸ + a⁴ + 1 / (a⁶ − 1) ni soddalashtiring.",
+            "javoblar": {
+              "A": "(a²+1)² / (a−1)(a+1)",
+              "B": "(a⁴+a²+1) / a²+1",
+              "C": "(a²+1)² / (a−1)²",
+              "D": "(a+1)² / (a−1)"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "\\sqrt{3 + 4√(-2 + 4√15 + 6√6)} ni hisoblang.",
+            "javoblar": {
+              "A": "√6+2",
+              "B": "4 + √2",
+              "C": "2(3+2√2)",
+              "D": "√3+2√2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "a = 7 − √40 bo'lsa, 2√a + 2√2 ni toping.",
+            "javoblar": {
+              "A": "√5",
+              "B": "√20",
+              "C": "−√10",
+              "D": "4√2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "\\sqrt{15 − 9√3 + √2 + 4√3 − 2√4 − 2√3} ni hisoblang.",
+            "javoblar": {
+              "A": "2√3−2",
+              "B": "2√3+1",
+              "C": "2√3−1",
+              "D": "2√3+2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "\\sqrt{7 − 3√5,(3)} + \\sqrt{7 + 3√5,(3)} / √2 ni hisoblang.",
+            "javoblar": {
+              "A": "2√3",
+              "B": "√6",
+              "C": "4",
+              "D": "2√2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "\\frac{5\\sqrt[5]{7·\\sqrt[3]{54}} + 15\\sqrt[5]{128}}{3\\sqrt[4]{4·\\sqrt[3]{32}} + 3\\sqrt[9]{4·\\sqrt[3]{162}}} ni hisoblang.",
+            "javoblar": {
+              "A": "2^{5/12}",
+              "B": "1/\\sqrt[4]{2}",
+              "C": "−1",
+              "D": "1"
+            },
+            "togri": "D"
+          }
+        ],
+        "variant_2": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "(x⁴+5x²−3)·(−3x+ay)·(βx−2y) = x²+4xy+2y² ayniyatdagi noma'lum koeffitsiyentlardan biri β ni toping.",
+            "javoblar": {
+              "A": "3",
+              "B": "1",
+              "C": "2",
+              "D": "−1"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "(1−x²)·(x²+x+1)·(x⁵+x⁴+4) ifodani soddalashtiring, nechta haddan keyin bo'ladi?",
+            "javoblar": {
+              "A": "3",
+              "B": "4",
+              "C": "8",
+              "D": "10"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "P(x) = (x²−5x−3)·Q(x − 1) + 3(2x+4) ko'phadni x−1 ga qoldiqsiz bo'linishi uchun Q(x) ko'phadining ozod hadini nechaga teng bo'lishi kerak?",
+            "javoblar": {
+              "A": "2",
+              "B": "−1",
+              "C": "−2",
+              "D": "1"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "7 + 9 + 11 + ... + (2n+1) = an² + bn + c ning a, b + c yig'indisi.",
+            "javoblar": {
+              "A": "0",
+              "B": "4",
+              "C": "−5",
+              "D": "−6"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "(x⁴+5x²+2)·(x⁴+5x²−6) ifodani (x²+2)·P(x) ko'rinishga keltirsak, P(x) ko'phadning koeffitsiyentlari yig'indisi 13 ga teng bo'lsa, Q(x) ko'phadning ozod hadini toping.",
+            "javoblar": {
+              "A": "2",
+              "B": "−1",
+              "C": "−2",
+              "D": "1"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "(2−a)(1+a) / (b+2)(b−4) = (a−2)(a+1) / (−b−2)(4−b) tenglikni soddalashtiring.",
+            "javoblar": {
+              "A": "1, 4",
+              "B": "2, 3",
+              "C": "2, 4",
+              "D": "1, 3"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "x² − 1 + 2(xy − 1) − (−y² + 1) / 2 − x − y ni soddalashtiring.",
+            "javoblar": {
+              "A": "x + y − 2",
+              "B": "x − y + 2",
+              "C": "x − y − 2",
+              "D": "−x − y − 2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "a² − 2ab − 3b² / (a² − b²) − 1 ni soddalashtiring.",
+            "javoblar": {
+              "A": "a/(a−b)",
+              "B": "b/(b−a)",
+              "C": "1/(b−a)",
+              "D": "a/(b−a)"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "(1+x/x−1 − x−1/1+x) : ((1+x/1−x − 1)·(1 − 1/1+x)) ni soddalashtiring.",
+            "javoblar": {
+              "A": "x/2",
+              "B": "−2/x",
+              "C": "2/x",
+              "D": "1/x"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "x³+x⁴+1 / (x⁶−1) : (x⁸+1 / x⁶−1) ni soddalashtiring.",
+            "javoblar": {
+              "A": "x⁴−1",
+              "B": "x²+1",
+              "C": "x²−1",
+              "D": "x⁴+1"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "(a+b/³√a²−³√ab+³√b² + ⁶√a² − ²√(ab) / ⁶√a²−2³√ab+⁶√b²) : (⁶√a − ⁶√b) ni soddalashtiring.",
+            "javoblar": {
+              "A": "³√a² + 1",
+              "B": "·³√a + 1",
+              "C": "(³√a + 1)²",
+              "D": "³√a − 1"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "\\sqrt{0,09} + √0,16 − √0,81 + √2,56 ni hisoblang.",
+            "javoblar": {
+              "A": "1,2",
+              "B": "1,4",
+              "C": "1,6",
+              "D": "0,12"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "1+√7/√4+√7 + 1−√5/√3−√5 ni hisoblang.",
+            "javoblar": {
+              "A": "0",
+              "B": "2√2",
+              "C": "√5−√7",
+              "D": "√5−√2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "2 / (√8 − ⁴√2) ni ratsionallashtirib soddalashtiring.",
+            "javoblar": {
+              "A": "2⁴√2 + √8",
+              "B": "⁴√8 − √2",
+              "C": "2 − √2",
+              "D": "2⁴√8 + 2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "⁴√216x³(5+2√6) · √3·√2x − 2√3x ni soddalashtiring.",
+            "javoblar": {
+              "A": "−x",
+              "B": "⁴√3x",
+              "C": "√2x",
+              "D": "6x"
+            },
+            "togri": "A"
+          }
+        ],
+        "variant_3": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "P(x) = (4x² + 7x − 5)·(9x² − 6x³ + 5x)(x + 3) ko'phadni x + 2 ga bo'lgandagi qoldiqni toping.",
+            "javoblar": {
+              "A": "72",
+              "B": "−9",
+              "C": "0",
+              "D": "54"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "(x−4)⁵ ifodani ochiqlagandan keyin nechta had bo'ladi?",
+            "javoblar": {
+              "A": "3",
+              "B": "4",
+              "C": "8",
+              "D": "6"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "ab + 4a(11b − a) − a(a − 3) − 27b ko'phadni ko'paytuvchilarga ajrating.",
+            "javoblar": {
+              "A": "(3a−5)(9b−a)",
+              "B": "(5a−3)(a−9b)",
+              "C": "(9b−a)(3a−5)",
+              "D": "(5a−3)(9b−a)"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "(x⁴+5x²+2)·(x⁴+5x²−6) ifodani P(x) ko'rinishga keltirsak, P(x) ning ozod hadi nechaga teng?",
+            "javoblar": {
+              "A": "−12",
+              "B": "12",
+              "C": "6",
+              "D": "−6"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "P(x) = (x² − 5x − 3)·Q(x) + 6 bo'lsa, P(x) ko'phadni x − 3 ga bo'lgandagi qoldiqni toping.",
+            "javoblar": {
+              "A": "3x² − 4",
+              "B": "3x² − x + 4",
+              "C": "3x² + x + 4",
+              "D": "3x² + 4"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "4/(a²−2x) = a/(x−2) + b/x tenglik o'rinli bo'lsa, a = ? b = ?",
+            "javoblar": {
+              "A": "a = −2; b = 2",
+              "B": "a = 3; b = 3",
+              "C": "a = 2; b = −2",
+              "D": "a = −2; b = −2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "(a+b/2b+a + 6b²+5ab / a²−4b²) : (4b − 2a) ni soddalashtiring.",
+            "javoblar": {
+              "A": "a/(a−b)",
+              "B": "b/(b−a)",
+              "C": "1/(b−a)",
+              "D": "a/(b−a)"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "x/(x−1) − x/(x+1) : 1/(x − 1/x) = ?",
+            "javoblar": {
+              "A": "1",
+              "B": "2",
+              "C": "17/3",
+              "D": "Hisoblab bo'lmaydi"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "a³ + 27b³ / (a² − 9b²) · (2a − 7b / (a² − 3ab + 9b²)) ni soddalashtiring.",
+            "javoblar": {
+              "A": "a/(a−b)",
+              "B": "b/(b−a)",
+              "C": "3/(a+b)",
+              "D": "a/(b−a)"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "a+√a+1 / √a−⁴√a+1 · (1 − 1/(a−√a)^{1/2} + √a / √a−⁴√a+1) ni soddalashtiring.",
+            "javoblar": {
+              "A": "6√2",
+              "B": "√a − 1",
+              "C": "√a + ⁴√a + 1",
+              "D": "√a + ⁴√a"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "y = 3√5 va z = 5√3 bo'lsa, √z² − 6yz + 9y² + √y² − 2yz + z² ning qiymatini toping.",
+            "javoblar": {
+              "A": "6√5",
+              "B": "10√3",
+              "C": "−6√5",
+              "D": "12√5 − 10√3"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "1 + √2 ga teskari ifodani toping.",
+            "javoblar": {
+              "A": "√2−1",
+              "B": "1−√2",
+              "C": "1/(√2−1)",
+              "D": "√2−1/(√2−1)"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "√32 − p − √p + 16 = 4 bo'lsa, √32 − p − √p + 16 = ?",
+            "javoblar": {
+              "A": "aniqlab bo'lmaydi",
+              "B": "2",
+              "C": "4",
+              "D": "8"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "√3/√3 + 4/4 − √12/√3 ni hisoblang.",
+            "javoblar": {
+              "A": "√3−1",
+              "B": "√3+1",
+              "C": "2√3",
+              "D": "√3"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "Agar −2 < a < 0 bo'lsa, √2−√4−a² + √2+√4−a² ning qiymatini hisoblang.",
+            "javoblar": {
+              "A": "√a−2−√a+2 / √2",
+              "B": "√4+2a",
+              "C": "√a−2+√a+2 / √2",
+              "D": "√4−2a"
+            },
+            "togri": "D"
+          }
+        ],
+        "variant_4": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "P(x) ko'phad: (x² + 5x − 3)·P(x) = x⁷ − 7x + 3 ga bo'lsa, a + b = ?",
+            "javoblar": {
+              "A": "2x+5x",
+              "B": "3x−7",
+              "C": "5+3",
+              "D": "0"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "(x²−x+1)·(x⁴+x²+1)·(x⁶+x³+1) − (x+1)·(x²+x+1) ning koeffitsiyentlari yig'indisi.",
+            "javoblar": {
+              "A": "3",
+              "B": "12",
+              "C": "−3",
+              "D": "6"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "2(2x+3) + 2(3x+4) − (x+2) = an² + bn + c ning a, b, c yig'indisi.",
+            "javoblar": {
+              "A": "0",
+              "B": "4",
+              "C": "−5",
+              "D": "6"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "(x³ − 2x + 3)·(2x³ + ax + 4) ko'phadning koeffitsiyentlari yig'indisini toping.",
+            "javoblar": {
+              "A": "−23",
+              "B": "9",
+              "C": "12",
+              "D": "23"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "(4+5x+2x²) − (x − 7)·5x² − 4x·(x+7) ning x² li hadining koeffitsiyenti.",
+            "javoblar": {
+              "A": "−23",
+              "B": "9",
+              "C": "12",
+              "D": "23"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "(2+a)(1+a) / (b+2)(b−4) = (a+2)(a+1) / (−b−2)(4−b) tenglik qaysi qiymatlarda o'rinli?",
+            "javoblar": {
+              "A": "1, 4",
+              "B": "2, 3",
+              "C": "2, 4",
+              "D": "1, 3"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "x² − y² − z² + 2yz / (x + y − z) ni soddalashtiring.",
+            "javoblar": {
+              "A": "x+y+z",
+              "B": "x−y+z",
+              "C": "x−y−z",
+              "D": "x+y−z"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "a²−2ab−b²−1 / (a²+2ab+b²−1) ni soddalashtiring.",
+            "javoblar": {
+              "A": "(a−b−1)/(a+b+1)",
+              "B": "(a+b−1)/(a+b+1)",
+              "C": "(a−b−1)/(a−b+1)",
+              "D": "(a+b+1)/(a−b+1)"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "a+√a+1 / √a−⁴√a+1 ni soddalashtiring.",
+            "javoblar": {
+              "A": "⁴√a²+1",
+              "B": "√a+1",
+              "C": "a+1",
+              "D": "⁴√a+1"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "x/7 = y/9 = z/12 nisbat o'rinli bo'lsa, x²+y²+z² / xy+yz+xz ning qiymatini toping.",
+            "javoblar": {
+              "A": "274/255",
+              "B": "235/223",
+              "C": "256/247",
+              "D": "247/235"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "√2·∜(3+2√2) + ¹⁶√(3−2√2)·⁸√(3+2√2) ni soddalashtiring.",
+            "javoblar": {
+              "A": "√3+2",
+              "B": "√2+3",
+              "C": "√3+√2",
+              "D": "√3"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "⁴√(216x³(5+2√6)) · √(3·√(2x)−2√(3x)) ni soddalashtiring.",
+            "javoblar": {
+              "A": "−x",
+              "B": "⁴√(3x)",
+              "C": "√(2x)",
+              "D": "6x"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "a = 0,4 va b = −0,2 bo'lganda (a²−2ab−3b²)/(a²+4ab+3b²) · (a−3b)/(a²−b²) ni toping.",
+            "javoblar": {
+              "A": "−0,6",
+              "B": "−0,2",
+              "C": "0,2",
+              "D": "0,6"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "³√200 + √(200 + 8³√343) ni hisoblang.",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "³√(9x⁵−4x) / ³√(3x²−²√(3x)) − 2/x^{−2/3} ni soddalashtiring.",
+            "javoblar": {
+              "A": "³√3",
+              "B": "³√(3x)",
+              "C": "³√(2x²)",
+              "D": "−³√x"
+            },
+            "togri": "B"
+          }
+        ],
+        "variant_5": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "(a + 5)(a³ − 17) bo'lganda a + 5 va a³ − 17 qo'shiluvchilarining yig'indisi.",
+            "javoblar": {
+              "A": "(a+5)(a³−17)",
+              "B": "a⁴+5a³−17a−85",
+              "C": "a⁴−17a+5a³−85",
+              "D": "−85"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "x³ + mx² + 4x + 6 = (x − 1)(x² + px + q) ayniyat bo'lsa, m + p + q ning qiymati.",
+            "javoblar": {
+              "A": "−27",
+              "B": "−13",
+              "C": "−15",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "P(x) ko'phad x − 1 ga bo'linganda qoldiq 6, va x + 1 ga bo'linganda qoldiq 2 ga teng. P(x) ko'phadni x² − 1 ga bo'lingandagi qoldiqni toping.",
+            "javoblar": {
+              "A": "2x+4",
+              "B": "2x−4",
+              "C": "2x+1",
+              "D": "x+4"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "P(x) = 3x⁴ + 3x³ − 2x ko'phad x³ − 7x + 3 ga bo'linganda qoldiq.",
+            "javoblar": {
+              "A": "2x²+5x",
+              "B": "−5x+7",
+              "C": "9",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "x³ + 3x² − 2x + 5 ko'padni (x+1) ga bo'lsa, qoldiqi nechaga teng?",
+            "javoblar": {
+              "A": "5",
+              "B": "7",
+              "C": "9",
+              "D": "3"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "a³+27b³ / (a²−9b²) · (2a−7b)/(a²−3ab+9b²) ni soddalashtiring.",
+            "javoblar": {
+              "A": "a/(a−b)",
+              "B": "3/(a+3b)",
+              "C": "3/(a−3b)",
+              "D": "a/(b−a)"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "1/x · (x−1/x)^{1/2} + 1/(1−1/x) ni soddalashtiring.",
+            "javoblar": {
+              "A": "x/2",
+              "B": "−2/x",
+              "C": "2/x",
+              "D": "1/x"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "(a+b/2b+a + 6b²+5ab/(a²−4b²)) : (4b−2a) ni soddalashtiring.",
+            "javoblar": {
+              "A": "a/(a−b)",
+              "B": "b/(b−a)",
+              "C": "1/(b−a)",
+              "D": "a/(b−a)"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "x+y/z = y+z/x = x+z/y bo'lsa, x+y+z ning qiymati.",
+            "javoblar": {
+              "A": "0 yoki 3",
+              "B": "0 yoki −3",
+              "C": "1 yoki 2",
+              "D": "0 yoki −2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "78·12 − 39·4 / (117·7 − 156·3) ni hisoblang.",
+            "javoblar": {
+              "A": "25/18",
+              "B": "1/2",
+              "C": "3/8",
+              "D": "20/9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "y = 3√5 va z = 5√3 bo'lsa, √z²−6yz+9y² + √y²−2yz+z² ning qiymatini toping.",
+            "javoblar": {
+              "A": "6√5",
+              "B": "10√3",
+              "C": "−6√5",
+              "D": "12√5−10√3"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "√32−p − √p+16 = 4 bo'lsa, √32−p + √p+16 = ?",
+            "javoblar": {
+              "A": "aniqlab bo'lmaydi",
+              "B": "2",
+              "C": "4",
+              "D": "8"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "³√200 + √(200 + 8³√343) ni hisoblang.",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "√(√2 − 1⁴√3 + 2√2) + ³√(x+12)·√x − 6x − 8 / (x − √x − √2 + 1⁵√3 − 2√2) ni soddalashtiring.",
+            "javoblar": {
+              "A": "√x + ³√x",
+              "B": "−(√x−1)/2",
+              "C": "1",
+              "D": "2/⁶√x"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "Maxrajni ratsionallashtirib soddalashtiring: 2a⁴+a³+4a²+a+2 / (2a³−a²+a−2)",
+            "javoblar": {
+              "A": "(a+2)/(a−1)",
+              "B": "(a²+1)/(a−1)",
+              "C": "(a−2)/(a+1)",
+              "D": "(a−1)/(a+1)"
+            },
+            "togri": "D"
+          }
+        ]
+      }
+    },
+    "bob_4": {
+      "nomi": "Haqiqiy sonlar",
+      "mavzular": [
+        "Mavzu A: Arifmetik kvadratildiz, ildizlarning xossalari (22–23-mavzu)",
+        "Mavzu B: Kvadrat ildiz qatnashgan ifodalarni soddalashtirish, ratsional daraja (24–25-mavzu)",
+        "Mavzu C: Daraja qatnashgan ifodalarni soddalashtirish (26-mavzu)"
+      ],
+      "variantlar": {
+        "variant_1": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "4 + 2√2 ga teskari sonni toping.",
+            "javoblar": {
+              "A": "4 − 2√2",
+              "B": "0,5 − 0,25√2",
+              "C": "1/(4−2√2)",
+              "D": "−4 − 2√2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "Quyidagi mulohazalardan qaysi biri to'g'ri? A) Ildiz ko'rsatkichi juft bo'lgan ildiz ostidagi ifoda manfiy qiymatlarni qabul qilmaydi.",
+            "javoblar": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "D": "D"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "4/(√5 + √3 − √2) kasrning maxrajini irratsionallikdan qutqaring.",
+            "javoblar": {
+              "A": "(√30−3√2+2√3)/3",
+              "B": "(2√3+3√2+√30)/3",
+              "C": "(2√2+3√3+√30)/3",
+              "D": "(2√3+3√2+√30)/6"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "√3 + √5 + √7 + ... + √79 = a − 2 bo'lsa, √12 + 3 + √15 + √21 + ... + √237 = ?",
+            "javoblar": {
+              "A": "a + √3",
+              "B": "√3a − 3",
+              "C": "3a",
+              "D": "√3a"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "x⁴ − 7x³ + 8x² + 28x − 48 / (x³ − x² − 10x − 8) ni soddalashtiring.",
+            "javoblar": {
+              "A": "x − 3",
+              "B": "x + 6x+5/(x−1)",
+              "C": "x − 6x−6/(x+1)",
+              "D": "x + 2 − (6−3x)/(x+1)"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "√(5·(1/5)·(1/5)) ni soddalashtiring.",
+            "javoblar": {
+              "A": "√5",
+              "B": "⁴√5",
+              "C": "⁵√5",
+              "D": "⁶√5"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "a = ³√2·√3, b = √2·³√3, c = 6⁶√6, d = √2·√3 sonlarini o'sish tartibida yozing.",
+            "javoblar": {
+              "A": "c < b < a < d",
+              "B": "d < a < b < c",
+              "C": "c < a < b < d",
+              "D": "c < d < b < a"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "a = √2/2, b = √5/3, c = √7/4 bo'lsa, a, b va c ni o'sish tartibida yozing.",
+            "javoblar": {
+              "A": "c < b < a",
+              "B": "c < a < b",
+              "C": "a < b < c",
+              "D": "b < a < c"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "Quyidagilardan qaysi biri ratsional emas? I) 2√3·3√12; II) 3√3 + 2√12; III) 5√2·√32; IV) 4√5 − 3√5.",
+            "javoblar": {
+              "A": "I va III",
+              "B": "I va II",
+              "C": "III va IV",
+              "D": "II va III"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "Quyidagi tengliklardan qaysi biri to'g'ri? A) √(−4)² = −4; B) (√−7)² = √(−7)²; C) ⁴√(−2)³ = ⁸√(−2)⁶; D) ¹⁰√32 = √2",
+            "javoblar": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "D": "D"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "1/2·√8 − 3/4·√32 + 2/3·√18 ni hisoblang.",
+            "javoblar": {
+              "A": "−2√2",
+              "B": "√2",
+              "C": "0",
+              "D": "−√2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "√4500 soni quyidagilardan qaysi biriga teng?",
+            "javoblar": {
+              "A": "18√6",
+              "B": "30√5",
+              "C": "30√6",
+              "D": "9√30"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "8/(3√6) kasrning maxrajini irratsionallikdan qutqaring.",
+            "javoblar": {
+              "A": "2√3/3",
+              "B": "4√6/9",
+              "C": "3√6/4",
+              "D": "2√6/9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "(2√3 − 3)/(4√3) kasrning maxrajini irratsionallikdan qutqaring.",
+            "javoblar": {
+              "A": "(√3−1)/2",
+              "B": "(2√3−2)/3",
+              "C": "(4−3√3)/8",
+              "D": "(2−√3)/4"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "Quyidagi sonlardan qaysi biri irratsional son? A) 2π − 6,28; B) 2√4 − 3√9; C) (3√2·0)·(π + e); D) √45/√5",
+            "javoblar": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "D": "D"
+            },
+            "togri": "A"
+          }
+        ],
+        "variant_2": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "a = √13 − √11 va b = √7 − √5 bo'lsa, quyidagi mulohazalardan qaysi biri to'g'ri?",
+            "javoblar": {
+              "A": "a − b < 0",
+              "B": "0 < a − b < 1",
+              "C": "a − b > 2",
+              "D": "1 < a − b < 2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "√0,09 + √0,16 − √0,81 + √2,56 ni hisoblang.",
+            "javoblar": {
+              "A": "1,2",
+              "B": "1,4",
+              "C": "1,6",
+              "D": "0,12"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "−0,2 + 0,3√6·√12√8 ning 10%ini toping.",
+            "javoblar": {
+              "A": "0,3",
+              "B": "0,2",
+              "C": "7",
+              "D": "0,7"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "√(50/98) ning qiymatiga teng bo'lgan ifodani toping.",
+            "javoblar": {
+              "A": "√2/7",
+              "B": "5/7",
+              "C": "5/(7√2)",
+              "D": "7/(3√5)"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "√70 ning butun qiymatini nimaga teng?",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "9",
+              "D": "10"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "(√(−4))² = ? va (⁴√(−4))² = ? larni hisoblang.",
+            "javoblar": {
+              "A": "−4 va 4",
+              "B": "4 va aniqlab bo'lmaydi",
+              "C": "aniqlab bo'lmaydi va 4",
+              "D": "4 va −4"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "⁵√(5·(1/5)·(1/5)) ni soddalashtiring.",
+            "javoblar": {
+              "A": "√5",
+              "B": "⁴√5",
+              "C": "⁵√5",
+              "D": "⁶√5"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "a = ³√2·√3, b = √2·³√3 bo'lsa, a va b ni solishtiring.",
+            "javoblar": {
+              "A": "a > b",
+              "B": "a < b",
+              "C": "a = b",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "x∈{1,2,...,99} ning qanday qiymatida ifodaning qiymati 73 ga eng yaqin bo'ladi?",
+            "javoblar": {
+              "A": "5",
+              "B": "72",
+              "C": "3",
+              "D": "−22"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "2√3·3√12 ni hisoblang.",
+            "javoblar": {
+              "A": "18",
+              "B": "36",
+              "C": "12",
+              "D": "6"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "√(15−9√3) + √(2+4√3−2√4−2√3) ni hisoblang.",
+            "javoblar": {
+              "A": "2√3−2",
+              "B": "2√3+1",
+              "C": "2√3−1",
+              "D": "2√3+2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "³√200 + √(200 + 8·³√343) ni hisoblang.",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "√(7 − 3√5,(3)) + √(7 + 3√5,(3)) / √2 ni hisoblang.",
+            "javoblar": {
+              "A": "2√3",
+              "B": "√6",
+              "C": "4",
+              "D": "2√2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "(⁵√(7·³√54) + 15·⁵√128) / (3·⁴√(4·³√32) + 3·⁹√(4·³√162)) ni hisoblang.",
+            "javoblar": {
+              "A": "2^{5/12}",
+              "B": "1/⁴√2",
+              "C": "−1",
+              "D": "1"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "⁴√(216x³(5+2√6)) · √(3·√(2x) − 2√(3x)) ni soddalashtiring.",
+            "javoblar": {
+              "A": "−x",
+              "B": "⁴√(3x)",
+              "C": "√(2x)",
+              "D": "6x"
+            },
+            "togri": "A"
+          }
+        ],
+        "variant_3": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "√(3+4√(−2+4√15+6√6)) ni hisoblang.",
+            "javoblar": {
+              "A": "√6+2",
+              "B": "4+√2",
+              "C": "2(3+2√2)",
+              "D": "√3+2√2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "⁴√(216x³(5+2√6))·√(3·√2x−2√3x) ni soddalashtiring.",
+            "javoblar": {
+              "A": "−x",
+              "B": "⁴√3x",
+              "C": "√2x",
+              "D": "6x"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "Agar x ≠ y, x > 0 va y > 0 bo'lsa, ⁴√(x³+⁴√x²y²−⁴√xy⁴−⁴√x⁵) : (⁴√y⁵+⁴√x⁴y−⁴√xy⁴−⁴√x⁵) ni soddalashtiring.",
+            "javoblar": {
+              "A": "⁴√x+⁴√y",
+              "B": "1",
+              "C": "−(⁴√x+⁴√y)",
+              "D": "−(√x+√y)"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "ⁿ√(ⁿ√a^{ⁿ²}) = ?",
+            "javoblar": {
+              "A": "a^{1/n}",
+              "B": "a",
+              "C": "ⁿ√a",
+              "D": "a^n"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "√0,09 + √0,16 − √0,81 + √2,56 ni hisoblang.",
+            "javoblar": {
+              "A": "1,2",
+              "B": "1,4",
+              "C": "1,6",
+              "D": "0,12"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "1/2·√8 − 3/4·√32 + 2/3·√18 ni hisoblang.",
+            "javoblar": {
+              "A": "−2√2",
+              "B": "√2",
+              "C": "0",
+              "D": "−√2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "⁴√(11+2√18)·⁸√9−⁸√80·⁸√9+⁸√80 ni hisoblang.",
+            "javoblar": {
+              "A": "√3+2",
+              "B": "√2+3",
+              "C": "√3+√2",
+              "D": "√3"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "Agar x ≠ y, x > 0 bo'lsa, √x/(⁴√(x³+⁴√(x²y²)−⁴√(xy⁴)−⁴√x⁵)) = ?",
+            "javoblar": {
+              "A": "⁴√x+⁴√y",
+              "B": "1",
+              "C": "−(⁴√x+⁴√y)",
+              "D": "(√x+√y)"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "a = √2/2, b = √5/3, c = √7/4 sonlarini o'sish tartibida yozing.",
+            "javoblar": {
+              "A": "c < b < a",
+              "B": "c < a < b",
+              "C": "a < b < c",
+              "D": "b < a < c"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "Agar −2 < a < 0 bo'lsa, √(2−√(4−a²)) + √(2+√(4−a²)) = ?",
+            "javoblar": {
+              "A": "√(a−2)−√(a+2)/√2",
+              "B": "√(4+2a)",
+              "C": "√(a−2)+√(a+2)/√2",
+              "D": "√(4−2a)"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "√(7−3√(5,(3))) + √(7+3√(5,(3))) / √2 ni hisoblang.",
+            "javoblar": {
+              "A": "2√3",
+              "B": "√6",
+              "C": "4",
+              "D": "2√2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "(³√(9x⁵−4x)) / (³√(3x²)−²√(³√x)) − 2/x^{−2/3} ni soddalashtiring.",
+            "javoblar": {
+              "A": "³√3",
+              "B": "³√(3x)",
+              "C": "³√(2x²)",
+              "D": "−³√x"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "y = 39(1/16) bo'lganda x^{1/4}·y^{−1/4} − x^{−1/4}·y^{1/4} + 1 / (x^{−1/4}−1) ifodaning qiymatini toping.",
+            "javoblar": {
+              "A": "21/4",
+              "B": "7/4",
+              "C": "5/2",
+              "D": "3/2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "⁴√(216x³(5+2√6)) · √(3·√2x−2√3x) ni soddalashtiring.",
+            "javoblar": {
+              "A": "−x",
+              "B": "⁴√(3x)",
+              "C": "√(2x)",
+              "D": "6x"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "³√200 + √(200 + 8·³√343) ni hisoblang.",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          }
+        ],
+        "variant_4": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "4 + 2√2 ga teskari sonni toping.",
+            "javoblar": {
+              "A": "4−2√2",
+              "B": "0,5−0,25√2",
+              "C": "1/(4−2√2)",
+              "D": "−4−2√2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "√70 ning butun qiymatini toping.",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "9",
+              "D": "10"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "2√3·3√12 ni hisoblang.",
+            "javoblar": {
+              "A": "18",
+              "B": "36",
+              "C": "12",
+              "D": "6"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "⁵√(5·(1/5)·(1/5)) ni soddalashtiring.",
+            "javoblar": {
+              "A": "√5",
+              "B": "⁴√5",
+              "C": "⁵√5",
+              "D": "⁶√5"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "√(50/98) ning qiymatini toping.",
+            "javoblar": {
+              "A": "√2/7",
+              "B": "5/7",
+              "C": "5/(7√2)",
+              "D": "7/(3√5)"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "a = ³√2·√3, b = √2·³√3 bo'lsa, a va b ni solishtiring.",
+            "javoblar": {
+              "A": "a > b",
+              "B": "a < b",
+              "C": "a = b",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "1/2·√8 − 3/4·√32 + 2/3·√18 ni hisoblang.",
+            "javoblar": {
+              "A": "−2√2",
+              "B": "√2",
+              "C": "0",
+              "D": "−√2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "Quyidagi tengliklardan qaysi biri to'g'ri?",
+            "javoblar": {
+              "A": "√(−4)²=−4",
+              "B": "(√−7)²=√(−7)²",
+              "C": "⁴√(−2)³=⁸√(−2)⁶",
+              "D": "¹⁰√32=√2"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "√4500 qaysi ifodaga teng?",
+            "javoblar": {
+              "A": "18√6",
+              "B": "30√5",
+              "C": "30√6",
+              "D": "9√30"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "8/(3√6) kasrning maxrajini irratsionallikdan qutqaring.",
+            "javoblar": {
+              "A": "2√3/3",
+              "B": "4√6/9",
+              "C": "3√6/4",
+              "D": "2√6/9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "(2√3−3)/(4√3) kasrning maxrajini irratsionallikdan qutqaring.",
+            "javoblar": {
+              "A": "(√3−1)/2",
+              "B": "(2√3−2)/3",
+              "C": "(4−3√3)/8",
+              "D": "(2−√3)/4"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "³√(9x⁵−4x)/³√(3x²)−²√(³√x)) − 2/x^{−2/3} ni soddalashtiring.",
+            "javoblar": {
+              "A": "³√3",
+              "B": "³√(3x)",
+              "C": "³√(2x²)",
+              "D": "−³√x"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "⁴√(11+2√18)·⁸√9−⁸√80·⁸√9+⁸√80 ni hisoblang.",
+            "javoblar": {
+              "A": "√3+2",
+              "B": "√2+3",
+              "C": "√3+√2",
+              "D": "√3"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "(5·⁵√(7·³√54)+15·⁵√128) / (3·⁴√(4·³√32)+3·⁹√(4·³√162)) ni hisoblang.",
+            "javoblar": {
+              "A": "2^{5/12}",
+              "B": "1/⁴√2",
+              "C": "−1",
+              "D": "1"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "√(15−9√3+√2+4√3−2√4−2√3) ni hisoblang.",
+            "javoblar": {
+              "A": "2√3−2",
+              "B": "2√3+1",
+              "C": "2√3−1",
+              "D": "2√3+2"
+            },
+            "togri": "C"
+          }
+        ],
+        "variant_5": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "√0,09 + √0,16 − √0,81 + √2,56 ni hisoblang.",
+            "javoblar": {
+              "A": "1,2",
+              "B": "1,4",
+              "C": "1,6",
+              "D": "0,12"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "a = √13−√11 va b = √7−√5 bo'lsa, quyidagi mulohazalardan qaysi biri to'g'ri?",
+            "javoblar": {
+              "A": "a−b < 0",
+              "B": "0 < a−b < 1",
+              "C": "a−b > 2",
+              "D": "1 < a−b < 2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "−0,2 + 0,3√6·√12√8 ning 10%ini toping.",
+            "javoblar": {
+              "A": "0,3",
+              "B": "0,2",
+              "C": "7",
+              "D": "0,7"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "2√3·3√12 ni hisoblang.",
+            "javoblar": {
+              "A": "18",
+              "B": "36",
+              "C": "12",
+              "D": "6"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "√70 ning butun qiymatini toping.",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "9",
+              "D": "10"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "1/2·√8 − 3/4·√32 + 2/3·√18 ni hisoblang.",
+            "javoblar": {
+              "A": "−2√2",
+              "B": "√2",
+              "C": "0",
+              "D": "−√2"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "√4500 qaysi ifodaga teng?",
+            "javoblar": {
+              "A": "18√6",
+              "B": "30√5",
+              "C": "30√6",
+              "D": "9√30"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "a = ³√2·√3, b = √2·³√3, c = 6⁶√6, d = √2·√3 sonlarini o'sish tartibida yozing.",
+            "javoblar": {
+              "A": "c<b<a<d",
+              "B": "d<a<b<c",
+              "C": "c<a<b<d",
+              "D": "c<d<b<a"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "8/(3√6) ni ratsionallashtirib soddalashtiring.",
+            "javoblar": {
+              "A": "2√3/3",
+              "B": "4√6/9",
+              "C": "3√6/4",
+              "D": "2√6/9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "Quyidagilardan qaysi biri irratsional son? A)2π−6,28; B)2√4−3√9; C)(3√2·0)·(π+e); D)√45/√5",
+            "javoblar": {
+              "A": "A",
+              "B": "B",
+              "C": "C",
+              "D": "D"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "³√200 + √(200+8·³√343) ni hisoblang.",
+            "javoblar": {
+              "A": "7",
+              "B": "8",
+              "C": "6",
+              "D": "9"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "√(7−3√5,(3)) + √(7+3√5,(3)) / √2 ni hisoblang.",
+            "javoblar": {
+              "A": "2√3",
+              "B": "√6",
+              "C": "4",
+              "D": "2√2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "(5·⁵√(7·³√54)+15·⁵√128) / (3·⁴√(4·³√32)+3·⁹√(4·³√162)) ni hisoblang.",
+            "javoblar": {
+              "A": "2^{5/12}",
+              "B": "1/⁴√2",
+              "C": "−1",
+              "D": "1"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "⁴√(216x³(5+2√6))·√(3√2x−2√3x) ni soddalashtiring.",
+            "javoblar": {
+              "A": "−x",
+              "B": "⁴√3x",
+              "C": "√2x",
+              "D": "6x"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "⁴√(11+2√18)·⁸√9−⁸√80·⁸√9+⁸√80 ni hisoblang.",
+            "javoblar": {
+              "A": "√3+2",
+              "B": "√2+3",
+              "C": "√3+√2",
+              "D": "√3"
+            },
+            "togri": "A"
+          }
+        ]
+      }
+    },
+    "bob_5": {
+      "nomi": "Tenglama",
+      "mavzular": [
+        "Mavzu A: Chiziqli tenglama, ayniyat, proporsiya (27–28-mavzu)",
+        "Mavzu B: Kvadrat tenglama, Viet teoremasi, bikvadrat (29–31-mavzu)",
+        "Mavzu C: Ratsional tenglama, parametrli tenglamalar (32–34-mavzu)"
+      ],
+      "variantlar": {
+        "variant_1": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "4(3²+1)(3⁴+1)...(3^{256}+1)·x = 1 − 3^{512} tenglamani yeching.",
+            "javoblar": {
+              "A": "3",
+              "B": "−2",
+              "C": "1/2",
+              "D": "−1/3"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "x − (5x − (2·(−(1+3x)+x)+3)) = 8 − x tenglamani yeching.",
+            "javoblar": {
+              "A": "−2",
+              "B": "3",
+              "C": "−4",
+              "D": "−3"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "3(4+1)(2⁴+1)...(2^{512}+1)·x = 1 − 2^{1024} tenglamani yeching.",
+            "javoblar": {
+              "A": "1",
+              "B": "−1",
+              "C": "1/3",
+              "D": "−1/3"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "3x+1/2 − 2x+3 = x+2/7 tenglamani yeching.",
+            "javoblar": {
+              "A": "4",
+              "B": "5",
+              "C": "6",
+              "D": "7"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "378:(50−115:x) = 14 tenglamani yeching.",
+            "javoblar": {
+              "A": "4",
+              "B": "5",
+              "C": "6",
+              "D": "7"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "x² − 12x + q = 0 tenglamaning ildizlaridan biri ikkinchisidan 2 marta katta. Bu tenglamaning koeffitsiyentlari yig'indisini toping.",
+            "javoblar": {
+              "A": "21",
+              "B": "32",
+              "C": "44",
+              "D": "45"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "8x² − 9x + 2 = 0 tenglamaning ildizlari o'rta arifmetigining o'rta geometrigiga nisbatini toping.",
+            "javoblar": {
+              "A": "1 1/8",
+              "B": "7/8",
+              "C": "9/16",
+              "D": "16/9"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "x² − 9x + a + b = 0 tenglamaning ildizlari a va b ga teng bo'lsa, bu tenglamaning diskriminantini toping.",
+            "javoblar": {
+              "A": "81",
+              "B": "49",
+              "C": "33",
+              "D": "45"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "x₁ va x₂ x² − 6x + 3 = 0 tenglamaning ildizlari bo'lsa, ildizlari 2x₁+1 va 2x₂+1 bo'lgan tenglamani toping.",
+            "javoblar": {
+              "A": "x²−10x+25=0",
+              "B": "x²−14x+25=0",
+              "C": "x²+12x+14=0",
+              "D": "x²−14x+16=0"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "x₁ va x₂ x² − 5x + 3 = 0 tenglamaning ildizlari. (2/x₁ + 2x₂)(1/x₂ + 2x₁) ifodaning qiymatini toping.",
+            "javoblar": {
+              "A": "11,(6)",
+              "B": "14",
+              "C": "5",
+              "D": "8,(6)"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "7/(x−4)(x+1)(x+3) = A/(x²−x−12) + B/(x²−3x−4) bo'lsa, B ning qiymatini toping.",
+            "javoblar": {
+              "A": "15",
+              "B": "7,5",
+              "C": "0",
+              "D": "−7,5"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "7/(x−4)(x+1)(x+3) = A/x²−x−12 + B/x²−3x−4 ifoda ayniyat bo'lsa, B ning qiymatini toping.",
+            "javoblar": {
+              "A": "2,5",
+              "B": "−3,5",
+              "C": "−1",
+              "D": "1"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "x + 2/(x−2)(x+3) + x/(x+3)(x−1) = 2/(x−2)(x−1) tenglamani yeching.",
+            "javoblar": {
+              "A": "0",
+              "B": "1",
+              "C": "2",
+              "D": "4"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "x/2 − 1/( 2/2 + 1) = 5 tenglamani yeching.",
+            "javoblar": {
+              "A": "18",
+              "B": "26",
+              "C": "38",
+              "D": "54"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "2x−1/6 − x−2/3 = 1/2 tenglamani yeching.",
+            "javoblar": {
+              "A": "0,5",
+              "B": "Ø",
+              "C": "(−∞;∞)",
+              "D": "0,(6)"
+            },
+            "togri": "C"
+          }
+        ],
+        "variant_2": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "2x+y/2y−x = 3/2 proporsiya berilgan. y/x ni toping.",
+            "javoblar": {
+              "A": "1/3",
+              "B": "3",
+              "C": "2",
+              "D": "1/2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "a−b; 2; a+2b va 3 sonlari proporsiyaning ketma-ket hadlari bo'lsa, a²+3b²/(a²−23b²) ni hisoblang.",
+            "javoblar": {
+              "A": "1/3",
+              "B": "3",
+              "C": "2",
+              "D": "1/2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "120:(90 − 800:x) = 3 tenglamani yeching.",
+            "javoblar": {
+              "A": "10",
+              "B": "25",
+              "C": "8",
+              "D": "16"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "5(1/5):4(1/3) = 2(1/4):x ni yeching.",
+            "javoblar": {
+              "A": "1 7/8",
+              "B": "8/15",
+              "C": "1 5/12",
+              "D": "2 3/20"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "1/2 − 1/3 : (1/x − 1/4) = 1/6 tenglamani yeching.",
+            "javoblar": {
+              "A": "4",
+              "B": "1",
+              "C": "0,5",
+              "D": "0,25"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "x² − 5x − 24 = 0 tenglamaning kichik ildizidan katta ildizi ayirmasini toping.",
+            "javoblar": {
+              "A": "−11",
+              "B": "11",
+              "C": "5",
+              "D": "−5"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "8x² = 3 − 2x tenglamaning ildizlari ko'paytmasi va yig'indisining ko'paytmasini toping.",
+            "javoblar": {
+              "A": "−3/32",
+              "B": "3/4",
+              "C": "−3/16",
+              "D": "3/32"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "x² + bx + c = 0 kvadrat tenglamaning diskriminanti Δ bo'lsa, quyidagilarning noto'g'risini toping.",
+            "javoblar": {
+              "A": "1,5",
+              "B": "2,3",
+              "C": "2,4",
+              "D": "3,4,5"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "x² + 2x + 1/x² + 2·(x + 1/x) − 6 = 0 tenglamaning ildizlari yig'indisini toping.",
+            "javoblar": {
+              "A": "−3",
+              "B": "−4",
+              "C": "1",
+              "D": "−2"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "x₁ va x₂ x² − 5x + 3 = 0 ildizlari. √x₁ + √x₂ ning qiymatini toping.",
+            "javoblar": {
+              "A": "√13",
+              "B": "2√13",
+              "C": "√15",
+              "D": "√17"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "3x+1/2−(3x+4)/(−4(2x+3)+3(2x−4)) = 4/3 tenglamani yeching.",
+            "javoblar": {
+              "A": "4",
+              "B": "−3 15/44",
+              "C": "−2",
+              "D": "147/44"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "x/(2−1) / (2/2+1 − 1) = 5 tenglamani yeching.",
+            "javoblar": {
+              "A": "18",
+              "B": "26",
+              "C": "38",
+              "D": "54"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "3(2x+3)+2(3x+4) / (−4(2x+3)+3(2x−4)) = 4/3 tenglamani yeching.",
+            "javoblar": {
+              "A": "4",
+              "B": "−3 15/44",
+              "C": "−2",
+              "D": "147/44"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "2x−1/6 − x−2/3 = 1/2 tenglamani yeching.",
+            "javoblar": {
+              "A": "0,5",
+              "B": "Ø",
+              "C": "(−∞;∞)",
+              "D": "0,(6)"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "3x²/7x−2 + 7x−2/x² = 4 tenglamaning ildizlari ko'paytmasini toping.",
+            "javoblar": {
+              "A": "0,(6)",
+              "B": "2",
+              "C": "7",
+              "D": "1,(3)"
+            },
+            "togri": "A"
+          }
+        ],
+        "variant_3": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "3·4+1·(2⁴+1)...(2^{512}+1)·x = 1−2^{1024} tenglamani yeching.",
+            "javoblar": {
+              "A": "1",
+              "B": "−1",
+              "C": "1/3",
+              "D": "−1/3"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "x − (5x − (2·(−(1+3x)+x)+3)) = 8−x tenglamani yeching.",
+            "javoblar": {
+              "A": "−2",
+              "B": "3",
+              "C": "−4",
+              "D": "−3"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "a/b = b/c = c/a bo'lsa, a, b va c haqida qanday xulosa chiqarish mumkin?",
+            "javoblar": {
+              "A": "a=b=c",
+              "B": "a<b<c",
+              "C": "a>b>c",
+              "D": "aniqlab bo'lmaydi"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "5(1/5):4(1/3) = 2(1/4):x tenglamani yeching.",
+            "javoblar": {
+              "A": "1 7/8",
+              "B": "8/15",
+              "C": "1 5/12",
+              "D": "2 3/20"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "240:(120−360:x) = 5 tenglamani yeching.",
+            "javoblar": {
+              "A": "6",
+              "B": "5",
+              "C": "12",
+              "D": "15"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "x₁ va x₂ x²−30x+81 = 0 ildizlari bo'lsa, √x₁+√x₂ ning qiymatini toping.",
+            "javoblar": {
+              "A": "√30",
+              "B": "9",
+              "C": "4√3",
+              "D": "5√2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "ax² + bx + c = 0 tenglamaning ildizlari o'zero teskari sonlar bo'lsa, quyidagi mulohazalardan qaysi biri to'g'ri?",
+            "javoblar": {
+              "A": "a=c; b=0; 3)|b|>|2c|; 4)|b|<|2a|.",
+              "B": "2 va 3",
+              "C": "1 va 3",
+              "D": "2 va 4"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "x² − 5x + 3 = 0 ildizlari x₁ va x₂. √x₁ + √x₂ = ?",
+            "javoblar": {
+              "A": "√13",
+              "B": "2√13",
+              "C": "√15",
+              "D": "√17"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "a² + 6ab − 7b² = 0 bo'lsa, (2a−5b)/(6b−7a) ning eng kichik qiymatini hisoblang.",
+            "javoblar": {
+              "A": "−19/55",
+              "B": "3",
+              "C": "19/42",
+              "D": "19/55"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 10,
+            "mavzu": "B",
+            "savol": "x² − 7x + 1 = 0 bo'lsa, x⁴ + 4x² + 4 / 2x² ni hisoblang.",
+            "javoblar": {
+              "A": "12,5",
+              "B": "0,5",
+              "C": "5,5",
+              "D": "8,6"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 11,
+            "mavzu": "C",
+            "savol": "3x+1/2 − 5 − 12/(2−5) = (x−2)/5 tenglamani yeching.",
+            "javoblar": {
+              "A": "4",
+              "B": "5",
+              "C": "6",
+              "D": "7"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 12,
+            "mavzu": "C",
+            "savol": "x+1/3 − 1 / (3/3 − 1) = 1 tenglamani yeching.",
+            "javoblar": {
+              "A": "17",
+              "B": "26",
+              "C": "38",
+              "D": "54"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 13,
+            "mavzu": "C",
+            "savol": "3x²/(7x−2) + (7x−2)/x² = 4 tenglamaning ildizlari ko'paytmasini toping.",
+            "javoblar": {
+              "A": "0,(6)",
+              "B": "2",
+              "C": "7",
+              "D": "1,(3)"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 14,
+            "mavzu": "C",
+            "savol": "x/(x−1) − x/(x+1) : 1/(x − 1/x) tenglamani yeching.",
+            "javoblar": {
+              "A": "aniqlab bo'lmaydi",
+              "B": "2",
+              "C": "0",
+              "D": "∞"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 15,
+            "mavzu": "C",
+            "savol": "2x−4/(x−2) > x − 8 tengsizlikni yeching.",
+            "javoblar": {
+              "A": "(−∞;2)∪(10;∞)",
+              "B": "(−∞;2)∪(2;10)",
+              "C": "(2;10)",
+              "D": "(−∞;10)"
+            },
+            "togri": "A"
+          }
+        ],
+        "variant_4": [
+          {
+            "id": 1,
+            "mavzu": "A",
+            "savol": "4(3²+1)(3⁴+1)...(3^{256}+1)x = 1−3^{512} tenglamani yeching.",
+            "javoblar": {
+              "A": "3",
+              "B": "−2",
+              "C": "1/2",
+              "D": "−1/3"
+            },
+            "togri": "D"
+          },
+          {
+            "id": 2,
+            "mavzu": "A",
+            "savol": "378:(50−115:x) = 14 tenglamani yeching.",
+            "javoblar": {
+              "A": "4",
+              "B": "5",
+              "C": "6",
+              "D": "7"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 3,
+            "mavzu": "A",
+            "savol": "2x+y/(2y−x) = 3/2 proporsiyada y/x ni toping.",
+            "javoblar": {
+              "A": "1/3",
+              "B": "3",
+              "C": "2",
+              "D": "1/2"
+            },
+            "togri": "B"
+          },
+          {
+            "id": 4,
+            "mavzu": "A",
+            "savol": "1001² − 999² = 4p bo'lsa, p = ?",
+            "javoblar": {
+              "A": "1000",
+              "B": "500",
+              "C": "100",
+              "D": "50"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 5,
+            "mavzu": "A",
+            "savol": "a/7 = b/4 = c/5 va a−3b/c·k = 8 bo'lsa, k = ?",
+            "javoblar": {
+              "A": "−1/10",
+              "B": "−1/8",
+              "C": "−1/8",
+              "D": "−1/2"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 6,
+            "mavzu": "B",
+            "savol": "x²−12x+q = 0 tenglamaning ildizlaridan biri ikkinchisidan 2 marta katta. Koeffitsiyentlar yig'indisini toping.",
+            "javoblar": {
+              "A": "21",
+              "B": "32",
+              "C": "44",
+              "D": "45"
+            },
+            "togri": "C"
+          },
+          {
+            "id": 7,
+            "mavzu": "B",
+            "savol": "x²−9x+a+b = 0 tenglamaning ildizlari a va b. Diskriminantni toping.",
+            "javoblar": {
+              "A": "81",
+              "B": "49",
+              "C": "33",
+              "D": "45"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 8,
+            "mavzu": "B",
+            "savol": "x²−11x+4 = 0 tenglamaning ildizlari x₁ va x₂. (2/x₁+2x₂)·(1/x₂+2x₁) = ?",
+            "javoblar": {
+              "A": "11,(6)",
+              "B": "14",
+              "C": "5",
+              "D": "8,(6)"
+            },
+            "togri": "A"
+          },
+          {
+            "id": 9,
+            "mavzu": "B",
+            "savol": "x²+2x+1/x² + 2·(x+1/x) − 6 = 0 ildizlari yig'indisini toping.",
+            "javoblar": {
+              "A": "−3",
+              "B": "−4",
+              "C": "1",
+              "D": "−2"
+            }
           }
         ]
       }
